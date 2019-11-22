@@ -1,0 +1,3557 @@
+(A*B)* 3
+      children:{'(AB)*'}
+      parents:{'(D*A*B)*', '(A*B*)*', '(A*D*B)*', '(A*BC*)*', '(A*BD*)*', '(A*C*B)*', '(C*A*B)*'}
+(A*B*)* 2
+      children:{'(B*A)*', '(BA*)*', 'B*A*', 'A*B*', '(A*B)*', '(AB*)*'}
+      parents:{'(A*B*D*)*', '(A*B*C*)*'}
+(A*B*C)* 2
+      children:{'(A*BC)*', '(A*C)*', '(AB*C)*', '(B*C)*'}
+      parents:{'(D*A*B*C)*', '(A*D*B*C)*', '(A*B*C*)*', '(A*B*CD*)*', '(A*B*D*C)*'}
+(A*B*C*)* 1
+      children:{'(C*BA*)*', '(A*CB*)*', '(B*A*C)*', '(BA*C*)*', '(B*CA*)*', 'A*C*B*', '(BC*A*)*', '(B*C*)*', '(A*B*C)*', '(B*AC*)*', '(A*C*)*', '(CB*A*)*', '(C*B*A)*', 'A*B*C*', 'B*C*A*', '(AB*C*)*', '(A*B*)*', '(CA*B*)*', '(A*BC*)*', '(B*C*A)*', '(A*C*B)*', 'C*B*A*', '(C*AB*)*', '(C*A*B)*', 'C*A*B*', 'B*A*C*', '(AC*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*B*C*D)* 1
+      children:{'(A*B*CD)*', '(A*C*D)*', '(AB*C*D)*', '(A*BC*D)*', '(A*B*D)*', '(B*C*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*B*C*D*)* 0
+      children:{'(D*C*BA*)*', 'D*A*C*B*', '(B*AD*C*)*', 'A*B*D*C*', 'B*D*A*C*', '(DC*B*A*)*', '(B*AC*D*)*', '(DA*B*C*)*', '(D*AC*B*)*', '(AD*B*C*)*', '(CB*D*A*)*', '(C*A*D*B)*', '(CA*B*D*)*', '(DB*A*C*)*', 'B*A*C*D*', '(C*D*A*B)*', '(C*A*DB*)*', '(AB*D*C*)*', '(C*A*BD*)*', '(D*A*BC*)*', 'C*B*A*D*', 'B*D*C*A*', '(A*B*CD*)*', '(D*BC*A*)*', '(D*CB*A*)*', '(BA*D*C*)*', '(C*AB*D*)*', 'C*B*D*A*', '(B*A*D*C)*', '(A*C*BD*)*', '(C*DB*A*)*', 'B*A*D*C*', '(D*AB*C*)*', '(B*DA*C*)*', 'B*C*A*D*', 'A*C*B*D*', 'C*D*B*A*', '(A*B*C*D)*', 'D*C*A*B*', '(AC*D*B*)*', 'C*A*D*B*', '(B*D*CA*)*', 'A*B*C*D*', 'C*D*A*B*', '(A*CD*B*)*', '(D*A*B*C)*', '(C*BD*A*)*', '(AC*B*D*)*', 'A*D*C*B*', '(BC*D*A*)*', '(B*C*D*)*', '(B*DC*A*)*', '(C*B*D*A)*', '(C*B*A*D)*', '(B*D*C*A)*', '(DB*C*A*)*', '(B*A*CD*)*', '(A*C*D*B)*', 'D*B*C*A*', '(D*B*CA*)*', '(C*D*AB*)*', '(A*C*DB*)*', '(A*D*C*B)*', '(A*C*B*D)*', '(C*BA*D*)*', '(B*CD*A*)*', '(DA*C*B*)*', '(D*CA*B*)*', '(B*C*D*A)*', '(A*C*D*)*', '(BC*A*D*)*', 'C*A*B*D*', '(D*C*AB*)*', '(A*BD*C*)*', '(D*C*B*A)*', '(C*B*DA*)*', '(D*C*A*B)*', '(A*B*D*C)*', '(B*A*C*D)*', '(AB*C*D*)*', '(BA*C*D*)*', '(C*A*B*D)*', 'A*C*D*B*', 'A*D*B*C*', 'D*C*B*A*', '(BD*C*A*)*', '(A*CB*D*)*', '(CD*B*A*)*', '(A*B*DC*)*', '(B*C*A*D)*', 'B*C*D*A*', 'D*B*A*C*', '(A*D*B*C)*', '(B*D*A*C)*', '(B*A*DC*)*', '(C*D*BA*)*', '(A*DB*C*)*', '(A*D*CB*)*', '(B*C*AD*)*', 'D*A*B*C*', '(A*B*D*)*', '(AD*C*B*)*', '(D*A*C*B)*', '(C*B*AD*)*', '(D*A*CB*)*', '(C*AD*B*)*', '(D*B*AC*)*', '(A*DC*B*)*', '(C*DA*B*)*', '(B*D*AC*)*', '(A*BC*D*)*', '(BD*A*C*)*', '(D*B*A*C)*', '(B*C*DA*)*', '(B*CA*D*)*', '(CA*D*B*)*', '(D*BA*C*)*', '(DC*A*B*)*', '(C*D*B*A)*', '(CB*A*D*)*', '(D*B*C*A)*', '(A*D*BC*)*', '(A*B*C*)*', '(CD*A*B*)*'}
+(A*B*CD)* 2
+      children:{'(A*CD)*', '(A*BCD)*', '(B*CD)*', '(AB*CD)*'}
+      parents:{'(A*B*C*D)*', '(A*B*CD*)*'}
+(A*B*CD*)* 1
+      children:{'(A*B*CD)*', '(A*BCD*)*', '(AB*CD*)*', '(A*CD*)*', '(A*B*C)*', '(B*CD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*B*D)* 2
+      children:{'(B*D)*', '(A*D)*', '(AB*D)*', '(A*BD)*'}
+      parents:{'(A*B*D*)*', '(A*C*B*D)*', '(C*A*B*D)*', '(A*B*C*D)*', '(A*B*DC*)*'}
+(A*B*D*)* 1
+      children:{'(B*D*A)*', 'A*D*B*', '(BD*A*)*', '(D*AB*)*', 'D*A*B*', '(BA*D*)*', '(D*B*A)*', '(A*BD*)*', '(B*D*)*', '(A*D*)*', '(A*B*)*', 'A*B*D*', '(A*D*B)*', '(A*B*D)*', '(AD*B*)*', '(B*A*D)*', 'B*A*D*', '(A*DB*)*', '(DB*A*)*', '(D*A*B)*', '(AB*D*)*', '(D*BA*)*', '(B*DA*)*', 'D*B*A*', 'B*D*A*', '(DA*B*)*', '(B*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*B*D*C)* 1
+      children:{'(A*B*C)*', '(A*BD*C)*', '(B*D*C)*', '(A*B*DC)*', '(A*D*C)*', '(AB*D*C)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*B*DC)* 2
+      children:{'(AB*DC)*', '(A*DC)*', '(B*DC)*', '(A*BDC)*'}
+      parents:{'(A*B*DC*)*', '(A*B*D*C)*'}
+(A*B*DC*)* 1
+      children:{'(A*B*D)*', '(A*B*DC)*', '(A*BDC*)*', '(B*DC*)*', '(AB*DC*)*', '(A*DC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*BC)* 3
+      children:{'(ABC)*', '(BC)*'}
+      parents:{'(A*BCD*)*', '(A*BC*)*', '(A*B*C)*', '(A*BD*C)*', '(A*D*BC)*', '(D*A*BC)*'}
+(A*BC*)* 2
+      children:{'(A*BC)*', '(A*B)*', '(ABC*)*', '(BC*)*'}
+      parents:{'(D*A*BC*)*', '(A*B*C*)*', '(A*D*BC*)*', '(A*BC*D*)*', '(A*BD*C*)*'}
+(A*BC*D)* 2
+      children:{'(BC*D)*', '(ABC*D)*', '(A*BCD)*', '(A*BD)*'}
+      parents:{'(A*B*C*D)*', '(A*BC*D*)*'}
+(A*BC*D*)* 1
+      children:{'(BC*D*)*', '(A*BCD*)*', '(A*BC*)*', '(A*BC*D)*', '(A*BD*)*', '(ABC*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*BCD)* 3
+      children:{'(ABCD)*', '(BCD)*'}
+      parents:{'(A*BC*D)*', '(A*B*CD)*', '(A*BCD*)*'}
+(A*BCD*)* 2
+      children:{'(A*BC)*', '(A*BCD)*', '(BCD*)*', '(ABCD*)*'}
+      parents:{'(A*BC*D*)*', '(A*B*CD*)*'}
+(A*BD)* 3
+      children:{'(BD)*', '(ABD)*'}
+      parents:{'(A*C*BD)*', '(A*BC*D)*', '(C*A*BD)*', '(A*BD*)*', '(A*B*D)*', '(A*BDC*)*'}
+(A*BD*)* 2
+      children:{'(BD*)*', '(ABD*)*', '(A*B)*', '(A*BD)*'}
+      parents:{'(C*A*BD*)*', '(A*B*D*)*', '(A*C*BD*)*', '(A*BC*D*)*', '(A*BD*C*)*'}
+(A*BD*C)* 2
+      children:{'(ABD*C)*', '(BD*C)*', '(A*BC)*', '(A*BDC)*'}
+      parents:{'(A*BD*C*)*', '(A*B*D*C)*'}
+(A*BD*C*)* 1
+      children:{'(A*BC*)*', '(A*BD*C)*', '(A*BD*)*', '(A*BDC*)*', '(BD*C*)*', '(ABD*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*BDC)* 3
+      children:{'(ABDC)*', '(BDC)*'}
+      parents:{'(A*BD*C)*', '(A*B*DC)*', '(A*BDC*)*'}
+(A*BDC*)* 2
+      children:{'(A*BDC)*', '(ABDC*)*', '(BDC*)*', '(A*BD)*'}
+      parents:{'(A*BD*C*)*', '(A*B*DC*)*'}
+(A*C)* 3
+      children:{'(AC)*'}
+      parents:{'(A*CB*)*', '(A*CD*)*', '(B*A*C)*', '(A*B*C)*', '(A*C*)*', '(D*A*C)*', '(A*D*C)*'}
+(A*C*)* 2
+      children:{'A*C*', '(C*A)*', '(A*C)*', 'C*A*', '(CA*)*', '(AC*)*'}
+      parents:{'(A*C*D*)*', '(A*B*C*)*'}
+(A*C*B)* 2
+      children:{'(AC*B)*', '(C*B)*', '(A*B)*', '(A*CB)*'}
+      parents:{'(A*B*C*)*', '(A*D*C*B)*', '(A*C*BD*)*', '(D*A*C*B)*', '(A*C*D*B)*'}
+(A*C*B*D)* 1
+      children:{'(A*C*D)*', '(A*CB*D)*', '(C*B*D)*', '(A*C*BD)*', '(A*B*D)*', '(AC*B*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*C*BD)* 2
+      children:{'(A*BD)*', '(C*BD)*', '(AC*BD)*', '(A*CBD)*'}
+      parents:{'(A*C*B*D)*', '(A*C*BD*)*'}
+(A*C*BD*)* 1
+      children:{'(A*C*BD)*', '(A*CBD*)*', '(C*BD*)*', '(A*BD*)*', '(A*C*B)*', '(AC*BD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*C*D)* 2
+      children:{'(A*CD)*', '(C*D)*', '(A*D)*', '(AC*D)*'}
+      parents:{'(A*C*D*)*', '(A*C*DB*)*', '(B*A*C*D)*', '(A*C*B*D)*', '(A*B*C*D)*'}
+(A*C*D*)* 1
+      children:{'C*D*A*', '(CD*A*)*', '(C*DA*)*', '(D*C*A)*', 'C*A*D*', '(AD*C*)*', 'D*A*C*', '(C*AD*)*', 'A*C*D*', '(C*A*D)*', '(AC*D*)*', '(A*CD*)*', '(DA*C*)*', '(A*C*)*', '(CA*D*)*', '(D*A*C)*', 'A*D*C*', '(DC*A*)*', '(C*D*A)*', '(D*CA*)*', '(A*D*)*', '(A*D*C)*', '(A*DC*)*', '(A*C*D)*', '(D*AC*)*', '(C*D*)*', 'D*C*A*'}
+      parents:{'(A*B*C*D*)*'}
+(A*C*D*B)* 1
+      children:{'(AC*D*B)*', '(C*D*B)*', '(A*D*B)*', '(A*CD*B)*', '(A*C*B)*', '(A*C*DB)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*C*DB)* 2
+      children:{'(C*DB)*', '(A*DB)*', '(AC*DB)*', '(A*CDB)*'}
+      parents:{'(A*C*DB*)*', '(A*C*D*B)*'}
+(A*C*DB*)* 1
+      children:{'(A*DB*)*', '(A*C*D)*', '(C*DB*)*', '(A*C*DB)*', '(A*CDB*)*', '(AC*DB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*CB)* 3
+      children:{'(ACB)*', '(CB)*'}
+      parents:{'(A*CB*)*', '(D*A*CB)*', '(A*CD*B)*', '(A*CBD*)*', '(A*D*CB)*', '(A*C*B)*'}
+(A*CB*)* 2
+      children:{'(ACB*)*', '(CB*)*', '(A*C)*', '(A*CB)*'}
+      parents:{'(D*A*CB*)*', '(A*CB*D*)*', '(A*B*C*)*', '(A*D*CB*)*', '(A*CD*B*)*'}
+(A*CB*D)* 2
+      children:{'(A*CD)*', '(CB*D)*', '(ACB*D)*', '(A*CBD)*'}
+      parents:{'(A*CB*D*)*', '(A*C*B*D)*'}
+(A*CB*D*)* 1
+      children:{'(A*CB*)*', '(A*CB*D)*', '(A*CD*)*', '(CB*D*)*', '(A*CBD*)*', '(ACB*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*CBD)* 3
+      children:{'(CBD)*', '(ACBD)*'}
+      parents:{'(A*CBD*)*', '(A*CB*D)*', '(A*C*BD)*'}
+(A*CBD*)* 2
+      children:{'(A*CB)*', '(CBD*)*', '(ACBD*)*', '(A*CBD)*'}
+      parents:{'(A*CB*D*)*', '(A*C*BD*)*'}
+(A*CD)* 3
+      children:{'(ACD)*', '(CD)*'}
+      parents:{'(A*B*CD)*', '(A*C*D)*', '(A*CB*D)*', '(A*CD*)*', '(B*A*CD)*', '(A*CDB*)*'}
+(A*CD*)* 2
+      children:{'(A*CD)*', '(CD*)*', '(A*C)*', '(ACD*)*'}
+      parents:{'(A*C*D*)*', '(A*CB*D*)*', '(B*A*CD*)*', '(A*B*CD*)*', '(A*CD*B*)*'}
+(A*CD*B)* 2
+      children:{'(ACD*B)*', '(A*CB)*', '(CD*B)*', '(A*CDB)*'}
+      parents:{'(A*CD*B*)*', '(A*C*D*B)*'}
+(A*CD*B*)* 1
+      children:{'(A*CB*)*', '(A*CD*)*', '(A*CD*B)*', '(ACD*B*)*', '(A*CDB*)*', '(CD*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*CDB)* 3
+      children:{'(ACDB)*', '(CDB)*'}
+      parents:{'(A*CD*B)*', '(A*CDB*)*', '(A*C*DB)*'}
+(A*CDB*)* 2
+      children:{'(A*CD)*', '(ACDB*)*', '(A*CDB)*', '(CDB*)*'}
+      parents:{'(A*C*DB*)*', '(A*CD*B*)*'}
+(A*D)* 3
+      children:{'(AD)*'}
+      parents:{'(A*DB*)*', '(A*C*D)*', '(A*D*)*', '(A*B*D)*', '(C*A*D)*', '(B*A*D)*', '(A*DC*)*'}
+(A*D*)* 2
+      children:{'(DA*)*', 'D*A*', '(D*A)*', '(AD*)*', 'A*D*', '(A*D)*'}
+      parents:{'(A*C*D*)*', '(A*B*D*)*'}
+(A*D*B)* 2
+      children:{'(AD*B)*', '(A*DB)*', '(A*B)*', '(D*B)*'}
+      parents:{'(A*B*D*)*', '(A*D*C*B)*', '(A*D*BC*)*', '(C*A*D*B)*', '(A*C*D*B)*'}
+(A*D*B*C)* 1
+      children:{'(D*B*C)*', '(A*DB*C)*', '(AD*B*C)*', '(A*B*C)*', '(A*D*BC)*', '(A*D*C)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*D*BC)* 2
+      children:{'(D*BC)*', '(AD*BC)*', '(A*BC)*', '(A*DBC)*'}
+      parents:{'(A*D*B*C)*', '(A*D*BC*)*'}
+(A*D*BC*)* 1
+      children:{'(D*BC*)*', '(A*D*B)*', '(A*BC*)*', '(A*D*BC)*', '(AD*BC*)*', '(A*DBC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*D*C)* 2
+      children:{'(AD*C)*', '(A*DC)*', '(A*C)*', '(D*C)*'}
+      parents:{'(A*C*D*)*', '(A*D*B*C)*', '(B*A*D*C)*', '(A*D*CB*)*', '(A*B*D*C)*'}
+(A*D*C*B)* 1
+      children:{'(A*DC*B)*', '(A*D*B)*', '(A*D*CB)*', '(D*C*B)*', '(A*C*B)*', '(AD*C*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*D*CB)* 2
+      children:{'(AD*CB)*', '(D*CB)*', '(A*CB)*', '(A*DCB)*'}
+      parents:{'(A*D*C*B)*', '(A*D*CB*)*'}
+(A*D*CB*)* 1
+      children:{'(AD*CB*)*', '(A*CB*)*', '(A*DCB*)*', '(A*D*CB)*', '(A*D*C)*', '(D*CB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*DB)* 3
+      children:{'(DB)*', '(ADB)*'}
+      parents:{'(A*DB*)*', '(A*DC*B)*', '(A*D*B)*', '(C*A*DB)*', '(A*C*DB)*', '(A*DBC*)*'}
+(A*DB*)* 2
+      children:{'(ADB*)*', '(DB*)*', '(A*D)*', '(A*DB)*'}
+      parents:{'(C*A*DB*)*', '(A*DC*B*)*', '(A*C*DB*)*', '(A*DB*C*)*', '(A*B*D*)*'}
+(A*DB*C)* 2
+      children:{'(ADB*C)*', '(A*DC)*', '(DB*C)*', '(A*DBC)*'}
+      parents:{'(A*D*B*C)*', '(A*DB*C*)*'}
+(A*DB*C*)* 1
+      children:{'(A*DB*)*', '(A*DB*C)*', '(ADB*C*)*', '(DB*C*)*', '(A*DBC*)*', '(A*DC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*DBC)* 3
+      children:{'(DBC)*', '(ADBC)*'}
+      parents:{'(A*DB*C)*', '(A*D*BC)*', '(A*DBC*)*'}
+(A*DBC*)* 2
+      children:{'(DBC*)*', '(A*DB)*', '(ADBC*)*', '(A*DBC)*'}
+      parents:{'(A*D*BC*)*', '(A*DB*C*)*'}
+(A*DC)* 3
+      children:{'(ADC)*', '(DC)*'}
+      parents:{'(A*DB*C)*', '(A*DCB*)*', '(B*A*DC)*', '(A*B*DC)*', '(A*D*C)*', '(A*DC*)*'}
+(A*DC*)* 2
+      children:{'(DC*)*', '(A*D)*', '(A*DC)*', '(ADC*)*'}
+      parents:{'(A*C*D*)*', '(B*A*DC*)*', '(A*DC*B*)*', '(A*DB*C*)*', '(A*B*DC*)*'}
+(A*DC*B)* 2
+      children:{'(ADC*B)*', '(A*DB)*', '(DC*B)*', '(A*DCB)*'}
+      parents:{'(A*DC*B*)*', '(A*D*C*B)*'}
+(A*DC*B*)* 1
+      children:{'(A*DC*)*', '(A*DB*)*', '(A*DCB*)*', '(A*DC*B)*', '(ADC*B*)*', '(DC*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(A*DCB)* 3
+      children:{'(ADCB)*', '(DCB)*'}
+      parents:{'(A*DCB*)*', '(A*DC*B)*', '(A*D*CB)*'}
+(A*DCB*)* 2
+      children:{'(A*DC)*', '(ADCB*)*', '(DCB*)*', '(A*DCB)*'}
+      parents:{'(A*DC*B*)*', '(A*D*CB*)*'}
+(AB)* 4
+      children:{'AB'}
+      parents:{'(ABD*)*', '(C*AB)*', '(ABC*)*', '(D*AB)*', '(AD*B)*', '(A*B)*', '(AC*B)*', '(AB*)*'}
+(AB*)* 3
+      children:{'(AB)*'}
+      parents:{'(AB*C*)*', '(A*B*)*', '(AB*D*)*', '(AC*B*)*', '(AD*B*)*', '(C*AB*)*', '(D*AB*)*'}
+(AB*C)* 3
+      children:{'(ABC)*', '(AC)*'}
+      parents:{'(AB*CD*)*', '(AB*C*)*', '(AD*B*C)*', '(A*B*C)*', '(D*AB*C)*', '(AB*D*C)*'}
+(AB*C*)* 2
+      children:{'(AC*)*', '(AB*C)*', '(AB*)*', '(ABC*)*'}
+      parents:{'(AD*B*C*)*', '(A*B*C*)*', '(D*AB*C*)*', '(AB*C*D*)*', '(AB*D*C*)*'}
+(AB*C*D)* 2
+      children:{'(ABC*D)*', '(AC*D)*', '(AB*CD)*', '(AB*D)*'}
+      parents:{'(A*B*C*D)*', '(AB*C*D*)*'}
+(AB*C*D*)* 1
+      children:{'(AB*CD*)*', '(AB*C*D)*', '(AB*C*)*', '(AB*D*)*', '(ABC*D*)*', '(AC*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(AB*CD)* 3
+      children:{'(ABCD)*', '(ACD)*'}
+      parents:{'(A*B*CD)*', '(AB*CD*)*', '(AB*C*D)*'}
+(AB*CD*)* 2
+      children:{'(ABCD*)*', '(AB*C)*', '(AB*CD)*', '(ACD*)*'}
+      parents:{'(AB*C*D*)*', '(A*B*CD*)*'}
+(AB*D)* 3
+      children:{'(AD)*', '(ABD)*'}
+      parents:{'(AB*C*D)*', '(AB*D*)*', '(A*B*D)*', '(C*AB*D)*', '(AC*B*D)*', '(AB*DC*)*'}
+(AB*D*)* 2
+      children:{'(ABD*)*', '(AD*)*', '(AB*)*', '(AB*D)*'}
+      parents:{'(AB*C*D*)*', '(AB*D*C*)*', '(A*B*D*)*', '(AC*B*D*)*', '(C*AB*D*)*'}
+(AB*D*C)* 2
+      children:{'(AB*DC)*', '(ABD*C)*', '(AD*C)*', '(AB*C)*'}
+      parents:{'(AB*D*C*)*', '(A*B*D*C)*'}
+(AB*D*C*)* 1
+      children:{'(AB*C*)*', '(AB*D*)*', '(AD*C*)*', '(ABD*C*)*', '(AB*DC*)*', '(AB*D*C)*'}
+      parents:{'(A*B*C*D*)*'}
+(AB*DC)* 3
+      children:{'(ADC)*', '(ABDC)*'}
+      parents:{'(AB*DC*)*', '(AB*D*C)*', '(A*B*DC)*'}
+(AB*DC*)* 2
+      children:{'(ADC*)*', '(AB*DC)*', '(AB*D)*', '(ABDC*)*'}
+      parents:{'(A*B*DC*)*', '(AB*D*C*)*'}
+(ABC)* 4
+      children:{'ABC'}
+      parents:{'(ABD*C)*', '(A*BC)*', '(AB*C)*', '(AD*BC)*', '(ABC*)*', '(ABCD*)*', '(D*ABC)*'}
+(ABC*)* 3
+      children:{'(ABC)*', '(AB)*'}
+      parents:{'(AB*C*)*', '(A*BC*)*', '(D*ABC*)*', '(ABD*C*)*', '(ABC*D*)*', '(AD*BC*)*'}
+(ABC*D)* 3
+      children:{'(ABCD)*', '(ABD)*'}
+      parents:{'(A*BC*D)*', '(ABC*D*)*', '(AB*C*D)*'}
+(ABC*D*)* 2
+      children:{'(ABD*)*', '(ABC*D)*', '(ABC*)*', '(ABCD*)*'}
+      parents:{'(A*BC*D*)*', '(AB*C*D*)*'}
+(ABCD)* 4
+      children:{'ABCD'}
+      parents:{'(ABC*D)*', '(A*BCD)*', '(AB*CD)*', '(ABCD*)*'}
+(ABCD*)* 3
+      children:{'(ABCD)*', '(ABC)*'}
+      parents:{'(ABC*D*)*', '(AB*CD*)*', '(A*BCD*)*'}
+(ABD)* 4
+      children:{'ABD'}
+      parents:{'(ABDC*)*', '(ABD*)*', '(C*ABD)*', '(ABC*D)*', '(AC*BD)*', '(AB*D)*', '(A*BD)*'}
+(ABD*)* 3
+      children:{'(ABD)*', '(AB)*'}
+      parents:{'(C*ABD*)*', '(AB*D*)*', '(A*BD*)*', '(AC*BD*)*', '(ABD*C*)*', '(ABC*D*)*'}
+(ABD*C)* 3
+      children:{'(ABC)*', '(ABDC)*'}
+      parents:{'(A*BD*C)*', '(ABD*C*)*', '(AB*D*C)*'}
+(ABD*C*)* 2
+      children:{'(ABD*C)*', '(ABD*)*', '(ABC*)*', '(ABDC*)*'}
+      parents:{'(A*BD*C*)*', '(AB*D*C*)*'}
+(ABDC)* 4
+      children:{'ABDC'}
+      parents:{'(A*BDC)*', '(AB*DC)*', '(ABD*C)*', '(ABDC*)*'}
+(ABDC*)* 3
+      children:{'(ABDC)*', '(ABD)*'}
+      parents:{'(ABD*C*)*', '(AB*DC*)*', '(A*BDC*)*'}
+(AC)* 4
+      children:{'AC'}
+      parents:{'(A*C)*', '(AB*C)*', '(ACD*)*', '(AC*)*', '(D*AC)*', '(ACB*)*', '(AD*C)*', '(B*AC)*'}
+(AC*)* 3
+      children:{'(AC)*'}
+      parents:{'(D*AC*)*', '(AB*C*)*', '(B*AC*)*', '(A*C*)*', '(AD*C*)*', '(AC*B*)*', '(AC*D*)*'}
+(AC*B)* 3
+      children:{'(ACB)*', '(AB)*'}
+      parents:{'(AC*D*B)*', '(D*AC*B)*', '(AC*BD*)*', '(A*C*B)*', '(AC*B*)*', '(AD*C*B)*'}
+(AC*B*)* 2
+      children:{'(ACB*)*', '(AC*B)*', '(AB*)*', '(AC*)*'}
+      parents:{'(D*AC*B*)*', '(A*B*C*)*', '(AD*C*B*)*', '(AC*D*B*)*', '(AC*B*D*)*'}
+(AC*B*D)* 2
+      children:{'(AC*D)*', '(AC*BD)*', '(ACB*D)*', '(AB*D)*'}
+      parents:{'(A*C*B*D)*', '(AC*B*D*)*'}
+(AC*B*D*)* 1
+      children:{'(AB*D*)*', '(ACB*D*)*', '(AC*BD*)*', '(AC*B*)*', '(AC*B*D)*', '(AC*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(AC*BD)* 3
+      children:{'(ACBD)*', '(ABD)*'}
+      parents:{'(AC*B*D)*', '(AC*BD*)*', '(A*C*BD)*'}
+(AC*BD*)* 2
+      children:{'(AC*B)*', '(ABD*)*', '(AC*BD)*', '(ACBD*)*'}
+      parents:{'(A*C*BD*)*', '(AC*B*D*)*'}
+(AC*D)* 3
+      children:{'(AD)*', '(ACD)*'}
+      parents:{'(A*C*D)*', '(AB*C*D)*', '(B*AC*D)*', '(AC*B*D)*', '(AC*D*)*', '(AC*DB*)*'}
+(AC*D*)* 2
+      children:{'(AC*)*', '(AC*D)*', '(AD*)*', '(ACD*)*'}
+      parents:{'(A*C*D*)*', '(AC*D*B*)*', '(B*AC*D*)*', '(AC*B*D*)*', '(AB*C*D*)*'}
+(AC*D*B)* 2
+      children:{'(AD*B)*', '(AC*B)*', '(AC*DB)*', '(ACD*B)*'}
+      parents:{'(AC*D*B*)*', '(A*C*D*B)*'}
+(AC*D*B*)* 1
+      children:{'(AC*D*B)*', '(ACD*B*)*', '(AD*B*)*', '(AC*B*)*', '(AC*D*)*', '(AC*DB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(AC*DB)* 3
+      children:{'(ACDB)*', '(ADB)*'}
+      parents:{'(AC*D*B)*', '(A*C*DB)*', '(AC*DB*)*'}
+(AC*DB*)* 2
+      children:{'(ADB*)*', '(ACDB*)*', '(AC*D)*', '(AC*DB)*'}
+      parents:{'(A*C*DB*)*', '(AC*D*B*)*'}
+(ACB)* 4
+      children:{'ACB'}
+      parents:{'(AD*CB)*', '(D*ACB)*', '(ACD*B)*', '(A*CB)*', '(ACB*)*', '(AC*B)*', '(ACBD*)*'}
+(ACB*)* 3
+      children:{'(ACB)*', '(AC)*'}
+      parents:{'(AD*CB*)*', '(A*CB*)*', '(D*ACB*)*', '(ACB*D*)*', '(ACD*B*)*', '(AC*B*)*'}
+(ACB*D)* 3
+      children:{'(ACBD)*', '(ACD)*'}
+      parents:{'(AC*B*D)*', '(ACB*D*)*', '(A*CB*D)*'}
+(ACB*D*)* 2
+      children:{'(ACBD*)*', '(ACB*)*', '(ACB*D)*', '(ACD*)*'}
+      parents:{'(A*CB*D*)*', '(AC*B*D*)*'}
+(ACBD)* 4
+      children:{'ACBD'}
+      parents:{'(ACBD*)*', '(AC*BD)*', '(ACB*D)*', '(A*CBD)*'}
+(ACBD*)* 3
+      children:{'(ACB)*', '(ACBD)*'}
+      parents:{'(A*CBD*)*', '(ACB*D*)*', '(AC*BD*)*'}
+(ACD)* 4
+      children:{'ACD'}
+      parents:{'(ACDB*)*', '(B*ACD)*', '(AC*D)*', '(ACD*)*', '(A*CD)*', '(ACB*D)*', '(AB*CD)*'}
+(ACD*)* 3
+      children:{'(AC)*', '(ACD)*'}
+      parents:{'(AB*CD*)*', '(A*CD*)*', '(B*ACD*)*', '(ACB*D*)*', '(ACD*B*)*', '(AC*D*)*'}
+(ACD*B)* 3
+      children:{'(ACDB)*', '(ACB)*'}
+      parents:{'(A*CD*B)*', '(ACD*B*)*', '(AC*D*B)*'}
+(ACD*B*)* 2
+      children:{'(ACB*)*', '(ACDB*)*', '(ACD*B)*', '(ACD*)*'}
+      parents:{'(AC*D*B*)*', '(A*CD*B*)*'}
+(ACDB)* 4
+      children:{'ACDB'}
+      parents:{'(ACDB*)*', '(ACD*B)*', '(AC*DB)*', '(A*CDB)*'}
+(ACDB*)* 3
+      children:{'(ACDB)*', '(ACD)*'}
+      parents:{'(A*CDB*)*', '(ACD*B*)*', '(AC*DB*)*'}
+(AD)* 4
+      children:{'AD'}
+      parents:{'(AC*D)*', '(AD*)*', '(ADC*)*', '(ADB*)*', '(B*AD)*', '(A*D)*', '(C*AD)*', '(AB*D)*'}
+(AD*)* 3
+      children:{'(AD)*'}
+      parents:{'(A*D*)*', '(AB*D*)*', '(AD*C*)*', '(AD*B*)*', '(C*AD*)*', '(AC*D*)*', '(B*AD*)*'}
+(AD*B)* 3
+      children:{'(ADB)*', '(AB)*'}
+      parents:{'(AD*C*B)*', '(AC*D*B)*', '(A*D*B)*', '(AD*B*)*', '(AD*BC*)*', '(C*AD*B)*'}
+(AD*B*)* 2
+      children:{'(ADB*)*', '(AD*B)*', '(AD*)*', '(AB*)*'}
+      parents:{'(AD*B*C*)*', '(C*AD*B*)*', '(A*B*D*)*', '(AC*D*B*)*', '(AD*C*B*)*'}
+(AD*B*C)* 2
+      children:{'(ADB*C)*', '(AD*C)*', '(AD*BC)*', '(AB*C)*'}
+      parents:{'(AD*B*C*)*', '(A*D*B*C)*'}
+(AD*B*C*)* 1
+      children:{'(AB*C*)*', '(AD*B*C)*', '(ADB*C*)*', '(AD*C*)*', '(AD*B*)*', '(AD*BC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(AD*BC)* 3
+      children:{'(ABC)*', '(ADBC)*'}
+      parents:{'(A*D*BC)*', '(AD*BC*)*', '(AD*B*C)*'}
+(AD*BC*)* 2
+      children:{'(AD*B)*', '(AD*BC)*', '(ADBC*)*', '(ABC*)*'}
+      parents:{'(AD*B*C*)*', '(A*D*BC*)*'}
+(AD*C)* 3
+      children:{'(ADC)*', '(AC)*'}
+      parents:{'(AD*CB*)*', '(AD*B*C)*', '(AD*C*)*', '(B*AD*C)*', '(A*D*C)*', '(AB*D*C)*'}
+(AD*C*)* 2
+      children:{'(AC*)*', '(AD*C)*', '(AD*)*', '(ADC*)*'}
+      parents:{'(A*C*D*)*', '(AD*B*C*)*', '(AD*C*B*)*', '(B*AD*C*)*', '(AB*D*C*)*'}
+(AD*C*B)* 2
+      children:{'(AD*CB)*', '(AD*B)*', '(AC*B)*', '(ADC*B)*'}
+      parents:{'(A*D*C*B)*', '(AD*C*B*)*'}
+(AD*C*B*)* 1
+      children:{'(AD*CB*)*', '(ADC*B*)*', '(AD*C*)*', '(AD*B*)*', '(AC*B*)*', '(AD*C*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(AD*CB)* 3
+      children:{'(ACB)*', '(ADCB)*'}
+      parents:{'(A*D*CB)*', '(AD*CB*)*', '(AD*C*B)*'}
+(AD*CB*)* 2
+      children:{'(AD*CB)*', '(ACB*)*', '(AD*C)*', '(ADCB*)*'}
+      parents:{'(AD*C*B*)*', '(A*D*CB*)*'}
+(ADB)* 4
+      children:{'ADB'}
+      parents:{'(ADBC*)*', '(ADB*)*', '(AD*B)*', '(A*DB)*', '(ADC*B)*', '(C*ADB)*', '(AC*DB)*'}
+(ADB*)* 3
+      children:{'(AD)*', '(ADB)*'}
+      parents:{'(A*DB*)*', '(C*ADB*)*', '(ADC*B*)*', '(ADB*C*)*', '(AD*B*)*', '(AC*DB*)*'}
+(ADB*C)* 3
+      children:{'(ADC)*', '(ADBC)*'}
+      parents:{'(A*DB*C)*', '(AD*B*C)*', '(ADB*C*)*'}
+(ADB*C*)* 2
+      children:{'(ADB*)*', '(ADB*C)*', '(ADBC*)*', '(ADC*)*'}
+      parents:{'(AD*B*C*)*', '(A*DB*C*)*'}
+(ADBC)* 4
+      children:{'ADBC'}
+      parents:{'(ADB*C)*', '(AD*BC)*', '(ADBC*)*', '(A*DBC)*'}
+(ADBC*)* 3
+      children:{'(ADB)*', '(ADBC)*'}
+      parents:{'(AD*BC*)*', '(ADB*C*)*', '(A*DBC*)*'}
+(ADC)* 4
+      children:{'ADC'}
+      parents:{'(ADB*C)*', '(ADC*)*', '(AB*DC)*', '(AD*C)*', '(A*DC)*', '(ADCB*)*', '(B*ADC)*'}
+(ADC*)* 3
+      children:{'(AD)*', '(ADC)*'}
+      parents:{'(B*ADC*)*', '(ADC*B*)*', '(ADB*C*)*', '(AD*C*)*', '(AB*DC*)*', '(A*DC*)*'}
+(ADC*B)* 3
+      children:{'(ADCB)*', '(ADB)*'}
+      parents:{'(A*DC*B)*', '(ADC*B*)*', '(AD*C*B)*'}
+(ADC*B*)* 2
+      children:{'(ADB*)*', '(ADC*)*', '(ADCB*)*', '(ADC*B)*'}
+      parents:{'(A*DC*B*)*', '(AD*C*B*)*'}
+(ADCB)* 4
+      children:{'ADCB'}
+      parents:{'(ADC*B)*', '(AD*CB)*', '(ADCB*)*', '(A*DCB)*'}
+(ADCB*)* 3
+      children:{'(ADC)*', '(ADCB)*'}
+      parents:{'(A*DCB*)*', '(AD*CB*)*', '(ADC*B*)*'}
+(B*A)* 3
+      children:{'(BA)*'}
+      parents:{'(C*B*A)*', '(B*D*A)*', '(A*B*)*', '(D*B*A)*', '(B*C*A)*', '(B*AC*)*', '(B*AD*)*'}
+(B*A*C)* 2
+      children:{'(BA*C)*', '(A*C)*', '(B*C)*', '(B*AC)*'}
+      parents:{'(A*B*C*)*', '(B*A*D*C)*', '(B*D*A*C)*', '(B*A*CD*)*', '(D*B*A*C)*'}
+(B*A*C*D)* 1
+      children:{'(A*C*D)*', '(B*AC*D)*', '(BA*C*D)*', '(B*C*D)*', '(B*A*CD)*', '(B*A*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*A*CD)* 2
+      children:{'(A*CD)*', '(BA*CD)*', '(B*ACD)*', '(B*CD)*'}
+      parents:{'(B*A*C*D)*', '(B*A*CD*)*'}
+(B*A*CD*)* 1
+      children:{'(A*CD*)*', '(B*ACD*)*', '(B*A*C)*', '(BA*CD*)*', '(B*CD*)*', '(B*A*CD)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*A*D)* 2
+      children:{'(B*D)*', '(A*D)*', '(B*AD)*', '(BA*D)*'}
+      parents:{'(B*A*C*D)*', '(A*B*D*)*', '(B*A*DC*)*', '(B*C*A*D)*', '(C*B*A*D)*'}
+(B*A*D*C)* 1
+      children:{'(B*A*C)*', '(B*A*DC)*', '(BA*D*C)*', '(B*D*C)*', '(B*AD*C)*', '(A*D*C)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*A*DC)* 2
+      children:{'(A*DC)*', '(B*DC)*', '(B*ADC)*', '(BA*DC)*'}
+      parents:{'(B*A*D*C)*', '(B*A*DC*)*'}
+(B*A*DC*)* 1
+      children:{'(BA*DC*)*', '(B*ADC*)*', '(B*A*DC)*', '(B*DC*)*', '(B*A*D)*', '(A*DC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*AC)* 3
+      children:{'(AC)*', '(BAC)*'}
+      parents:{'(B*ACD*)*', '(B*A*C)*', '(B*D*AC)*', '(B*AC*)*', '(B*AD*C)*', '(D*B*AC)*'}
+(B*AC*)* 2
+      children:{'(BAC*)*', '(B*A)*', '(B*AC)*', '(AC*)*'}
+      parents:{'(B*D*AC*)*', '(A*B*C*)*', '(D*B*AC*)*', '(B*AD*C*)*', '(B*AC*D*)*'}
+(B*AC*D)* 2
+      children:{'(B*ACD)*', '(AC*D)*', '(B*AD)*', '(BAC*D)*'}
+      parents:{'(B*A*C*D)*', '(B*AC*D*)*'}
+(B*AC*D*)* 1
+      children:{'(B*ACD*)*', '(B*AC*D)*', '(B*AC*)*', '(BAC*D*)*', '(B*AD*)*', '(AC*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*ACD)* 3
+      children:{'(BACD)*', '(ACD)*'}
+      parents:{'(B*AC*D)*', '(B*ACD*)*', '(B*A*CD)*'}
+(B*ACD*)* 2
+      children:{'(BACD*)*', '(B*ACD)*', '(B*AC)*', '(ACD*)*'}
+      parents:{'(B*A*CD*)*', '(B*AC*D*)*'}
+(B*AD)* 3
+      children:{'(AD)*', '(BAD)*'}
+      parents:{'(B*A*D)*', '(B*ADC*)*', '(B*AC*D)*', '(B*C*AD)*', '(B*AD*)*', '(C*B*AD)*'}
+(B*AD*)* 2
+      children:{'(BAD*)*', '(B*A)*', '(B*AD)*', '(AD*)*'}
+      parents:{'(B*C*AD*)*', '(A*B*D*)*', '(B*AD*C*)*', '(C*B*AD*)*', '(B*AC*D*)*'}
+(B*AD*C)* 2
+      children:{'(BAD*C)*', '(AD*C)*', '(B*AC)*', '(B*ADC)*'}
+      parents:{'(B*A*D*C)*', '(B*AD*C*)*'}
+(B*AD*C*)* 1
+      children:{'(B*ADC*)*', '(BAD*C*)*', '(B*AC*)*', '(AD*C*)*', '(B*AD*C)*', '(B*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*ADC)* 3
+      children:{'(ADC)*', '(BADC)*'}
+      parents:{'(B*ADC*)*', '(B*A*DC)*', '(B*AD*C)*'}
+(B*ADC*)* 2
+      children:{'(BADC*)*', '(B*AD)*', '(B*ADC)*', '(ADC*)*'}
+      parents:{'(B*A*DC*)*', '(B*AD*C*)*'}
+(B*C)* 3
+      children:{'(BC)*'}
+      parents:{'(D*B*C)*', '(B*A*C)*', '(B*C*)*', '(A*B*C)*', '(B*D*C)*', '(B*CD*)*', '(B*CA*)*'}
+(B*C*)* 2
+      children:{'C*B*', '(C*B)*', '(BC*)*', 'B*C*', '(B*C)*', '(CB*)*'}
+      parents:{'(A*B*C*)*', '(B*C*D*)*'}
+(B*C*A)* 2
+      children:{'(BC*A)*', '(B*A)*', '(B*CA)*', '(C*A)*'}
+      parents:{'(B*C*AD*)*', '(A*B*C*)*', '(B*D*C*A)*', '(D*B*C*A)*', '(B*C*D*A)*'}
+(B*C*A*D)* 1
+      children:{'(B*CA*D)*', '(BC*A*D)*', '(B*C*D)*', '(B*A*D)*', '(B*C*AD)*', '(C*A*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*C*AD)* 2
+      children:{'(BC*AD)*', '(B*AD)*', '(B*CAD)*', '(C*AD)*'}
+      parents:{'(B*C*AD*)*', '(B*C*A*D)*'}
+(B*C*AD*)* 1
+      children:{'(B*CAD*)*', '(B*C*A)*', '(BC*AD*)*', '(C*AD*)*', '(B*C*AD)*', '(B*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*C*D)* 2
+      children:{'(C*D)*', '(B*D)*', '(BC*D)*', '(B*CD)*'}
+      parents:{'(B*A*C*D)*', '(B*C*DA*)*', '(B*C*A*D)*', '(B*C*D*)*', '(A*B*C*D)*'}
+(B*C*D*)* 1
+      children:{'(BC*D*)*', 'D*C*B*', '(D*BC*)*', '(B*CD*)*', '(D*C*B)*', '(DC*B*)*', '(C*B*D)*', 'D*B*C*', '(B*C*)*', '(C*BD*)*', '(B*C*D)*', '(D*CB*)*', '(B*DC*)*', '(B*D*)*', '(D*B*C)*', 'C*B*D*', '(CB*D*)*', '(DB*C*)*', 'C*D*B*', '(BD*C*)*', 'B*D*C*', 'B*C*D*', '(C*D*)*', '(C*D*B)*', '(B*D*C)*', '(C*DB*)*', '(CD*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*C*D*A)* 1
+      children:{'(B*CD*A)*', '(B*D*A)*', '(C*D*A)*', '(B*C*A)*', '(B*C*DA)*', '(BC*D*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*C*DA)* 2
+      children:{'(BC*DA)*', '(C*DA)*', '(B*DA)*', '(B*CDA)*'}
+      parents:{'(B*C*DA*)*', '(B*C*D*A)*'}
+(B*C*DA*)* 1
+      children:{'(C*DA*)*', '(BC*DA*)*', '(B*C*D)*', '(B*DA*)*', '(B*CDA*)*', '(B*C*DA)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*CA)* 3
+      children:{'(BCA)*', '(CA)*'}
+      parents:{'(B*CD*A)*', '(B*CAD*)*', '(D*B*CA)*', '(B*C*A)*', '(B*D*CA)*', '(B*CA*)*'}
+(B*CA*)* 2
+      children:{'(B*CA)*', '(BCA*)*', '(B*C)*', '(CA*)*'}
+      parents:{'(B*CD*A*)*', '(D*B*CA*)*', '(A*B*C*)*', '(B*CA*D*)*', '(B*D*CA*)*'}
+(B*CA*D)* 2
+      children:{'(BCA*D)*', '(B*CAD)*', '(B*CD)*', '(CA*D)*'}
+      parents:{'(B*CA*D*)*', '(B*C*A*D)*'}
+(B*CA*D*)* 1
+      children:{'(B*CA*D)*', '(BCA*D*)*', '(B*CAD*)*', '(B*CD*)*', '(CA*D*)*', '(B*CA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*CAD)* 3
+      children:{'(BCAD)*', '(CAD)*'}
+      parents:{'(B*C*AD)*', '(B*CA*D)*', '(B*CAD*)*'}
+(B*CAD*)* 2
+      children:{'(B*CA)*', '(B*CAD)*', '(BCAD*)*', '(CAD*)*'}
+      parents:{'(B*C*AD*)*', '(B*CA*D*)*'}
+(B*CD)* 3
+      children:{'(BCD)*', '(CD)*'}
+      parents:{'(A*B*CD)*', '(B*CA*D)*', '(B*CD*)*', '(B*C*D)*', '(B*CDA*)*', '(B*A*CD)*'}
+(B*CD*)* 2
+      children:{'(B*C)*', '(CD*)*', '(B*CD)*', '(BCD*)*'}
+      parents:{'(B*CD*A*)*', '(B*CA*D*)*', '(B*C*D*)*', '(B*A*CD*)*', '(A*B*CD*)*'}
+(B*CD*A)* 2
+      children:{'(CD*A)*', '(B*CA)*', '(BCD*A)*', '(B*CDA)*'}
+      parents:{'(B*CD*A*)*', '(B*C*D*A)*'}
+(B*CD*A*)* 1
+      children:{'(B*CD*A)*', '(BCD*A*)*', '(CD*A*)*', '(B*CD*)*', '(B*CDA*)*', '(B*CA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*CDA)* 3
+      children:{'(BCDA)*', '(CDA)*'}
+      parents:{'(B*CDA*)*', '(B*CD*A)*', '(B*C*DA)*'}
+(B*CDA*)* 2
+      children:{'(CDA*)*', '(BCDA*)*', '(B*CD)*', '(B*CDA)*'}
+      parents:{'(B*CD*A*)*', '(B*C*DA*)*'}
+(B*D)* 3
+      children:{'(BD)*'}
+      parents:{'(C*B*D)*', '(A*B*D)*', '(B*DA*)*', '(B*C*D)*', '(B*DC*)*', '(B*A*D)*', '(B*D*)*'}
+(B*D*)* 2
+      children:{'(BD*)*', 'D*B*', 'B*D*', '(DB*)*', '(B*D)*', '(D*B)*'}
+      parents:{'(A*B*D*)*', '(B*C*D*)*'}
+(B*D*A)* 2
+      children:{'(D*A)*', '(BD*A)*', '(B*A)*', '(B*DA)*'}
+      parents:{'(C*B*D*A)*', '(A*B*D*)*', '(B*D*C*A)*', '(B*D*AC*)*', '(B*C*D*A)*'}
+(B*D*A*C)* 1
+      children:{'(BD*A*C)*', '(B*A*C)*', '(B*DA*C)*', '(B*D*AC)*', '(B*D*C)*', '(D*A*C)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*D*AC)* 2
+      children:{'(B*DAC)*', '(BD*AC)*', '(D*AC)*', '(B*AC)*'}
+      parents:{'(B*D*AC*)*', '(B*D*A*C)*'}
+(B*D*AC*)* 1
+      children:{'(B*DAC*)*', '(B*D*A)*', '(D*AC*)*', '(B*D*AC)*', '(B*AC*)*', '(BD*AC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*D*C)* 2
+      children:{'(BD*C)*', '(D*C)*', '(B*DC)*', '(B*C)*'}
+      parents:{'(B*A*D*C)*', '(B*D*CA*)*', '(B*C*D*)*', '(B*D*A*C)*', '(A*B*D*C)*'}
+(B*D*C*A)* 1
+      children:{'(B*DC*A)*', '(B*D*A)*', '(D*C*A)*', '(B*C*A)*', '(B*D*CA)*', '(BD*C*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*D*CA)* 2
+      children:{'(D*CA)*', '(B*CA)*', '(BD*CA)*', '(B*DCA)*'}
+      parents:{'(B*D*C*A)*', '(B*D*CA*)*'}
+(B*D*CA*)* 1
+      children:{'(BD*CA*)*', '(D*CA*)*', '(B*DCA*)*', '(B*D*C)*', '(B*D*CA)*', '(B*CA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*DA)* 3
+      children:{'(BDA)*', '(DA)*'}
+      parents:{'(B*DAC*)*', '(B*DC*A)*', '(B*D*A)*', '(C*B*DA)*', '(B*DA*)*', '(B*C*DA)*'}
+(B*DA*)* 2
+      children:{'(BDA*)*', '(DA*)*', '(B*D)*', '(B*DA)*'}
+      parents:{'(B*C*DA*)*', '(C*B*DA*)*', '(A*B*D*)*', '(B*DA*C*)*', '(B*DC*A*)*'}
+(B*DA*C)* 2
+      children:{'(B*DAC)*', '(B*DC)*', '(BDA*C)*', '(DA*C)*'}
+      parents:{'(B*D*A*C)*', '(B*DA*C*)*'}
+(B*DA*C*)* 1
+      children:{'(BDA*C*)*', '(B*DAC*)*', '(B*DA*C)*', '(DA*C*)*', '(B*DA*)*', '(B*DC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*DAC)* 3
+      children:{'(BDAC)*', '(DAC)*'}
+      parents:{'(B*DA*C)*', '(B*D*AC)*', '(B*DAC*)*'}
+(B*DAC*)* 2
+      children:{'(B*DAC)*', '(DAC*)*', '(B*DA)*', '(BDAC*)*'}
+      parents:{'(B*D*AC*)*', '(B*DA*C*)*'}
+(B*DC)* 3
+      children:{'(DC)*', '(BDC)*'}
+      parents:{'(B*A*DC)*', '(B*DCA*)*', '(B*DA*C)*', '(B*D*C)*', '(A*B*DC)*', '(B*DC*)*'}
+(B*DC*)* 2
+      children:{'(BDC*)*', '(B*D)*', '(DC*)*', '(B*DC)*'}
+      parents:{'(B*A*DC*)*', '(B*C*D*)*', '(B*DA*C*)*', '(A*B*DC*)*', '(B*DC*A*)*'}
+(B*DC*A)* 2
+      children:{'(DC*A)*', '(BDC*A)*', '(B*DCA)*', '(B*DA)*'}
+      parents:{'(B*D*C*A)*', '(B*DC*A*)*'}
+(B*DC*A*)* 1
+      children:{'(BDC*A*)*', '(B*DC*A)*', '(DC*A*)*', '(B*DCA*)*', '(B*DA*)*', '(B*DC*)*'}
+      parents:{'(A*B*C*D*)*'}
+(B*DCA)* 3
+      children:{'(BDCA)*', '(DCA)*'}
+      parents:{'(B*D*CA)*', '(B*DCA*)*', '(B*DC*A)*'}
+(B*DCA*)* 2
+      children:{'(B*DCA)*', '(DCA*)*', '(B*DC)*', '(BDCA*)*'}
+      parents:{'(B*D*CA*)*', '(B*DC*A*)*'}
+(BA)* 4
+      children:{'BA'}
+      parents:{'(B*A)*', '(BA*)*', '(BAC*)*', '(C*BA)*', '(BC*A)*', '(D*BA)*', '(BD*A)*', '(BAD*)*'}
+(BA*)* 3
+      children:{'(BA)*'}
+      parents:{'(C*BA*)*', '(BA*D*)*', '(A*B*)*', '(BC*A*)*', '(D*BA*)*', '(BD*A*)*', '(BA*C*)*'}
+(BA*C)* 3
+      children:{'(BC)*', '(BAC)*'}
+      parents:{'(BD*A*C)*', '(B*A*C)*', '(BA*CD*)*', '(BA*D*C)*', '(D*BA*C)*', '(BA*C*)*'}
+(BA*C*)* 2
+      children:{'(BC*)*', '(BAC*)*', '(BA*C)*', '(BA*)*'}
+      parents:{'(BA*C*D*)*', '(BD*A*C*)*', '(A*B*C*)*', '(BA*D*C*)*', '(D*BA*C*)*'}
+(BA*C*D)* 2
+      children:{'(BC*D)*', '(BA*CD)*', '(BAC*D)*', '(BA*D)*'}
+      parents:{'(BA*C*D*)*', '(B*A*C*D)*'}
+(BA*C*D*)* 1
+      children:{'(BC*D*)*', '(BA*D*)*', '(BA*CD*)*', '(BA*C*D)*', '(BAC*D*)*', '(BA*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(BA*CD)* 3
+      children:{'(BACD)*', '(BCD)*'}
+      parents:{'(B*A*CD)*', '(BA*C*D)*', '(BA*CD*)*'}
+(BA*CD*)* 2
+      children:{'(BA*CD)*', '(BACD*)*', '(BA*C)*', '(BCD*)*'}
+      parents:{'(BA*C*D*)*', '(B*A*CD*)*'}
+(BA*D)* 3
+      children:{'(BD)*', '(BAD)*'}
+      parents:{'(BA*DC*)*', '(BA*D*)*', '(BC*A*D)*', '(BA*C*D)*', '(C*BA*D)*', '(B*A*D)*'}
+(BA*D*)* 2
+      children:{'(BAD*)*', '(BD*)*', '(BA*D)*', '(BA*)*'}
+      parents:{'(BA*C*D*)*', '(BC*A*D*)*', '(A*B*D*)*', '(BA*D*C*)*', '(C*BA*D*)*'}
+(BA*D*C)* 2
+      children:{'(BAD*C)*', '(BD*C)*', '(BA*C)*', '(BA*DC)*'}
+      parents:{'(B*A*D*C)*', '(BA*D*C*)*'}
+(BA*D*C*)* 1
+      children:{'(BA*DC*)*', '(BA*D*)*', '(BAD*C*)*', '(BA*D*C)*', '(BD*C*)*', '(BA*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(BA*DC)* 3
+      children:{'(BADC)*', '(BDC)*'}
+      parents:{'(BA*D*C)*', '(B*A*DC)*', '(BA*DC*)*'}
+(BA*DC*)* 2
+      children:{'(BDC*)*', '(BADC*)*', '(BA*D)*', '(BA*DC)*'}
+      parents:{'(B*A*DC*)*', '(BA*D*C*)*'}
+(BAC)* 4
+      children:{'BAC'}
+      parents:{'(BAC*)*', '(BD*AC)*', '(BA*C)*', '(BACD*)*', '(BAD*C)*', '(D*BAC)*', '(B*AC)*'}
+(BAC*)* 3
+      children:{'(BA)*', '(BAC)*'}
+      parents:{'(BAD*C*)*', '(D*BAC*)*', '(B*AC*)*', '(BD*AC*)*', '(BAC*D*)*', '(BA*C*)*'}
+(BAC*D)* 3
+      children:{'(BACD)*', '(BAD)*'}
+      parents:{'(B*AC*D)*', '(BAC*D*)*', '(BA*C*D)*'}
+(BAC*D*)* 2
+      children:{'(BAC*)*', '(BAD*)*', '(BACD*)*', '(BAC*D)*'}
+      parents:{'(BA*C*D*)*', '(B*AC*D*)*'}
+(BACD)* 4
+      children:{'BACD'}
+      parents:{'(BA*CD)*', '(BACD*)*', '(B*ACD)*', '(BAC*D)*'}
+(BACD*)* 3
+      children:{'(BACD)*', '(BAC)*'}
+      parents:{'(B*ACD*)*', '(BAC*D*)*', '(BA*CD*)*'}
+(BAD)* 4
+      children:{'BAD'}
+      parents:{'(BADC*)*', '(BAC*D)*', '(BA*D)*', '(B*AD)*', '(C*BAD)*', '(BAD*)*', '(BC*AD)*'}
+(BAD*)* 3
+      children:{'(BA)*', '(BAD)*'}
+      parents:{'(BA*D*)*', '(BAD*C*)*', '(C*BAD*)*', '(BC*AD*)*', '(BAC*D*)*', '(B*AD*)*'}
+(BAD*C)* 3
+      children:{'(BADC)*', '(BAC)*'}
+      parents:{'(BA*D*C)*', '(BAD*C*)*', '(B*AD*C)*'}
+(BAD*C*)* 2
+      children:{'(BAC*)*', '(BAD*)*', '(BAD*C)*', '(BADC*)*'}
+      parents:{'(B*AD*C*)*', '(BA*D*C*)*'}
+(BADC)* 4
+      children:{'BADC'}
+      parents:{'(BAD*C)*', '(BADC*)*', '(B*ADC)*', '(BA*DC)*'}
+(BADC*)* 3
+      children:{'(BADC)*', '(BAD)*'}
+      parents:{'(B*ADC*)*', '(BA*DC*)*', '(BAD*C*)*'}
+(BC)* 4
+      children:{'BC'}
+      parents:{'(BD*C)*', '(A*BC)*', '(BCD*)*', '(D*BC)*', '(BA*C)*', '(BC*)*', '(B*C)*', '(BCA*)*'}
+(BC*)* 3
+      children:{'(BC)*'}
+      parents:{'(BC*D*)*', '(D*BC*)*', '(BC*A*)*', '(A*BC*)*', '(B*C*)*', '(BD*C*)*', '(BA*C*)*'}
+(BC*A)* 3
+      children:{'(BCA)*', '(BA)*'}
+      parents:{'(D*BC*A)*', '(BC*A*)*', '(B*C*A)*', '(BC*AD*)*', '(BD*C*A)*', '(BC*D*A)*'}
+(BC*A*)* 2
+      children:{'(BC*)*', '(BC*A)*', '(BCA*)*', '(BA*)*'}
+      parents:{'(BC*A*D*)*', '(A*B*C*)*', '(BC*D*A*)*', '(D*BC*A*)*', '(BD*C*A*)*'}
+(BC*A*D)* 2
+      children:{'(BC*D)*', '(BCA*D)*', '(BC*AD)*', '(BA*D)*'}
+      parents:{'(BC*A*D*)*', '(B*C*A*D)*'}
+(BC*A*D*)* 1
+      children:{'(BC*D*)*', '(BA*D*)*', '(BCA*D*)*', '(BC*A*D)*', '(BC*A*)*', '(BC*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(BC*AD)* 3
+      children:{'(BCAD)*', '(BAD)*'}
+      parents:{'(BC*AD*)*', '(BC*A*D)*', '(B*C*AD)*'}
+(BC*AD*)* 2
+      children:{'(BC*A)*', '(BC*AD)*', '(BAD*)*', '(BCAD*)*'}
+      parents:{'(B*C*AD*)*', '(BC*A*D*)*'}
+(BC*D)* 3
+      children:{'(BD)*', '(BCD)*'}
+      parents:{'(BC*D*)*', '(BC*A*D)*', '(BC*DA*)*', '(A*BC*D)*', '(BA*C*D)*', '(B*C*D)*'}
+(BC*D*)* 2
+      children:{'(BC*D)*', '(BD*)*', '(BCD*)*', '(BC*)*'}
+      parents:{'(BA*C*D*)*', '(BC*A*D*)*', '(BC*D*A*)*', '(B*C*D*)*', '(A*BC*D*)*'}
+(BC*D*A)* 2
+      children:{'(BD*A)*', '(BC*A)*', '(BC*DA)*', '(BCD*A)*'}
+      parents:{'(BC*D*A*)*', '(B*C*D*A)*'}
+(BC*D*A*)* 1
+      children:{'(BC*D*)*', '(BCD*A*)*', '(BC*A*)*', '(BC*DA*)*', '(BD*A*)*', '(BC*D*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(BC*DA)* 3
+      children:{'(BCDA)*', '(BDA)*'}
+      parents:{'(BC*DA*)*', '(B*C*DA)*', '(BC*D*A)*'}
+(BC*DA*)* 2
+      children:{'(BDA*)*', '(BCDA*)*', '(BC*D)*', '(BC*DA)*'}
+      parents:{'(B*C*DA*)*', '(BC*D*A*)*'}
+(BCA)* 4
+      children:{'BCA'}
+      parents:{'(B*CA)*', '(BCD*A)*', '(BC*A)*', '(BCA*)*', '(BD*CA)*', '(D*BCA)*', '(BCAD*)*'}
+(BCA*)* 3
+      children:{'(BCA)*', '(BC)*'}
+      parents:{'(BD*CA*)*', '(BCD*A*)*', '(D*BCA*)*', '(BCA*D*)*', '(BC*A*)*', '(B*CA*)*'}
+(BCA*D)* 3
+      children:{'(BCAD)*', '(BCD)*'}
+      parents:{'(BCA*D*)*', '(BC*A*D)*', '(B*CA*D)*'}
+(BCA*D*)* 2
+      children:{'(BCA*D)*', '(BCA*)*', '(BCD*)*', '(BCAD*)*'}
+      parents:{'(BC*A*D*)*', '(B*CA*D*)*'}
+(BCAD)* 4
+      children:{'BCAD'}
+      parents:{'(BCA*D)*', '(BC*AD)*', '(B*CAD)*', '(BCAD*)*'}
+(BCAD*)* 3
+      children:{'(BCAD)*', '(BCA)*'}
+      parents:{'(BC*AD*)*', '(BCA*D*)*', '(B*CAD*)*'}
+(BCD)* 4
+      children:{'BCD'}
+      parents:{'(B*CD)*', '(BCD*)*', '(BCDA*)*', '(BCA*D)*', '(A*BCD)*', '(BA*CD)*', '(BC*D)*'}
+(BCD*)* 3
+      children:{'(BC)*', '(BCD)*'}
+      parents:{'(BC*D*)*', '(A*BCD*)*', '(BCD*A*)*', '(BCA*D*)*', '(BA*CD*)*', '(B*CD*)*'}
+(BCD*A)* 3
+      children:{'(BCDA)*', '(BCA)*'}
+      parents:{'(B*CD*A)*', '(BCD*A*)*', '(BC*D*A)*'}
+(BCD*A*)* 2
+      children:{'(BCDA*)*', '(BCA*)*', '(BCD*A)*', '(BCD*)*'}
+      parents:{'(B*CD*A*)*', '(BC*D*A*)*'}
+(BCDA)* 4
+      children:{'BCDA'}
+      parents:{'(BCDA*)*', '(BC*DA)*', '(BCD*A)*', '(B*CDA)*'}
+(BCDA*)* 3
+      children:{'(BCDA)*', '(BCD)*'}
+      parents:{'(BC*DA*)*', '(B*CDA*)*', '(BCD*A*)*'}
+(BD)* 4
+      children:{'BD'}
+      parents:{'(BDC*)*', '(BD*)*', '(BA*D)*', '(BDA*)*', '(BC*D)*', '(B*D)*', '(C*BD)*', '(A*BD)*'}
+(BD*)* 3
+      children:{'(BD)*'}
+      parents:{'(BC*D*)*', '(BA*D*)*', '(C*BD*)*', '(BD*A*)*', '(A*BD*)*', '(BD*C*)*', '(B*D*)*'}
+(BD*A)* 3
+      children:{'(BDA)*', '(BA)*'}
+      parents:{'(B*D*A)*', '(C*BD*A)*', '(BD*A*)*', '(BD*AC*)*', '(BD*C*A)*', '(BC*D*A)*'}
+(BD*A*)* 2
+      children:{'(BD*A)*', '(BDA*)*', '(BD*)*', '(BA*)*'}
+      parents:{'(C*BD*A*)*', '(BD*A*C*)*', '(BC*D*A*)*', '(A*B*D*)*', '(BD*C*A*)*'}
+(BD*A*C)* 2
+      children:{'(BD*AC)*', '(BD*C)*', '(BA*C)*', '(BDA*C)*'}
+      parents:{'(BD*A*C*)*', '(B*D*A*C)*'}
+(BD*A*C*)* 1
+      children:{'(BDA*C*)*', '(BD*A*C)*', '(BD*A*)*', '(BD*AC*)*', '(BD*C*)*', '(BA*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(BD*AC)* 3
+      children:{'(BDAC)*', '(BAC)*'}
+      parents:{'(BD*A*C)*', '(BD*AC*)*', '(B*D*AC)*'}
+(BD*AC*)* 2
+      children:{'(BD*A)*', '(BAC*)*', '(BD*AC)*', '(BDAC*)*'}
+      parents:{'(BD*A*C*)*', '(B*D*AC*)*'}
+(BD*C)* 3
+      children:{'(BC)*', '(BDC)*'}
+      parents:{'(BD*CA*)*', '(BD*A*C)*', '(BA*D*C)*', '(A*BD*C)*', '(B*D*C)*', '(BD*C*)*'}
+(BD*C*)* 2
+      children:{'(BDC*)*', '(BD*C)*', '(BD*)*', '(BC*)*'}
+      parents:{'(BD*A*C*)*', '(B*C*D*)*', '(BA*D*C*)*', '(A*BD*C*)*', '(BD*C*A*)*'}
+(BD*C*A)* 2
+      children:{'(BD*A)*', '(BC*A)*', '(BDC*A)*', '(BD*CA)*'}
+      parents:{'(B*D*C*A)*', '(BD*C*A*)*'}
+(BD*C*A*)* 1
+      children:{'(BDC*A*)*', '(BD*CA*)*', '(BC*A*)*', '(BD*A*)*', '(BD*C*)*', '(BD*C*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(BD*CA)* 3
+      children:{'(BDCA)*', '(BCA)*'}
+      parents:{'(B*D*CA)*', '(BD*C*A)*', '(BD*CA*)*'}
+(BD*CA*)* 2
+      children:{'(BD*C)*', '(BD*CA)*', '(BCA*)*', '(BDCA*)*'}
+      parents:{'(B*D*CA*)*', '(BD*C*A*)*'}
+(BDA)* 4
+      children:{'BDA'}
+      parents:{'(BDC*A)*', '(BDAC*)*', '(C*BDA)*', '(BC*DA)*', '(BDA*)*', '(BD*A)*', '(B*DA)*'}
+(BDA*)* 3
+      children:{'(BDA)*', '(BD)*'}
+      parents:{'(C*BDA*)*', '(BDA*C*)*', '(BDC*A*)*', '(BC*DA*)*', '(BD*A*)*', '(B*DA*)*'}
+(BDA*C)* 3
+      children:{'(BDAC)*', '(BDC)*'}
+      parents:{'(BD*A*C)*', '(B*DA*C)*', '(BDA*C*)*'}
+(BDA*C*)* 2
+      children:{'(BDA*)*', '(BDC*)*', '(BDA*C)*', '(BDAC*)*'}
+      parents:{'(BD*A*C*)*', '(B*DA*C*)*'}
+(BDAC)* 4
+      children:{'BDAC'}
+      parents:{'(B*DAC)*', '(BD*AC)*', '(BDA*C)*', '(BDAC*)*'}
+(BDAC*)* 3
+      children:{'(BDA)*', '(BDAC)*'}
+      parents:{'(BD*AC*)*', '(BDA*C*)*', '(B*DAC*)*'}
+(BDC)* 4
+      children:{'BDC'}
+      parents:{'(BDC*)*', '(A*BDC)*', '(BD*C)*', '(BDCA*)*', '(B*DC)*', '(BA*DC)*', '(BDA*C)*'}
+(BDC*)* 3
+      children:{'(BD)*', '(BDC)*'}
+      parents:{'(BA*DC*)*', '(BDC*A*)*', '(BDA*C*)*', '(A*BDC*)*', '(BD*C*)*', '(B*DC*)*'}
+(BDC*A)* 3
+      children:{'(BDCA)*', '(BDA)*'}
+      parents:{'(BD*C*A)*', '(BDC*A*)*', '(B*DC*A)*'}
+(BDC*A*)* 2
+      children:{'(BDA*)*', '(BDC*)*', '(BDC*A)*', '(BDCA*)*'}
+      parents:{'(BD*C*A*)*', '(B*DC*A*)*'}
+(BDCA)* 4
+      children:{'BDCA'}
+      parents:{'(BDC*A)*', '(B*DCA)*', '(BD*CA)*', '(BDCA*)*'}
+(BDCA*)* 3
+      children:{'(BDCA)*', '(BDC)*'}
+      parents:{'(BD*CA*)*', '(B*DCA*)*', '(BDC*A*)*'}
+(C*A)* 3
+      children:{'(CA)*'}
+      parents:{'(C*B*A)*', '(C*D*A)*', '(D*C*A)*', '(B*C*A)*', '(A*C*)*', '(C*AD*)*', '(C*AB*)*'}
+(C*A*B)* 2
+      children:{'(C*B)*', '(A*B)*', '(CA*B)*', '(C*AB)*'}
+      parents:{'(C*A*BD*)*', '(C*D*A*B)*', '(A*B*C*)*', '(D*C*A*B)*', '(C*A*D*B)*'}
+(C*A*B*D)* 1
+      children:{'(C*B*D)*', '(CA*B*D)*', '(C*A*BD)*', '(A*B*D)*', '(C*AB*D)*', '(C*A*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*A*BD)* 2
+      children:{'(C*BD)*', '(CA*BD)*', '(C*ABD)*', '(A*BD)*'}
+      parents:{'(C*A*BD*)*', '(C*A*B*D)*'}
+(C*A*BD*)* 1
+      children:{'(C*ABD*)*', '(C*BD*)*', '(A*BD*)*', '(C*A*BD)*', '(C*A*B)*', '(CA*BD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*A*D)* 2
+      children:{'(C*D)*', '(A*D)*', '(C*AD)*', '(CA*D)*'}
+      parents:{'(A*C*D*)*', '(C*A*DB*)*', '(B*C*A*D)*', '(C*A*B*D)*', '(C*B*A*D)*'}
+(C*A*D*B)* 1
+      children:{'(C*D*B)*', '(A*D*B)*', '(CA*D*B)*', '(C*A*DB)*', '(C*A*B)*', '(C*AD*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*A*DB)* 2
+      children:{'(CA*DB)*', '(C*ADB)*', '(C*DB)*', '(A*DB)*'}
+      parents:{'(C*A*DB*)*', '(C*A*D*B)*'}
+(C*A*DB*)* 1
+      children:{'(A*DB*)*', '(CA*DB*)*', '(C*ADB*)*', '(C*A*DB)*', '(C*DB*)*', '(C*A*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*AB)* 3
+      children:{'(CAB)*', '(AB)*'}
+      parents:{'(C*ABD*)*', '(D*C*AB)*', '(C*A*B)*', '(C*D*AB)*', '(C*AB*)*', '(C*AD*B)*'}
+(C*AB*)* 2
+      children:{'(CAB*)*', '(C*A)*', '(AB*)*', '(C*AB)*'}
+      parents:{'(A*B*C*)*', '(C*AD*B*)*', '(D*C*AB*)*', '(C*D*AB*)*', '(C*AB*D*)*'}
+(C*AB*D)* 2
+      children:{'(CAB*D)*', '(C*AD)*', '(C*ABD)*', '(AB*D)*'}
+      parents:{'(C*A*B*D)*', '(C*AB*D*)*'}
+(C*AB*D*)* 1
+      children:{'(C*ABD*)*', '(AB*D*)*', '(CAB*D*)*', '(C*AD*)*', '(C*AB*D)*', '(C*AB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*ABD)* 3
+      children:{'(CABD)*', '(ABD)*'}
+      parents:{'(C*AB*D)*', '(C*ABD*)*', '(C*A*BD)*'}
+(C*ABD*)* 2
+      children:{'(ABD*)*', '(C*ABD)*', '(C*AB)*', '(CABD*)*'}
+      parents:{'(C*A*BD*)*', '(C*AB*D*)*'}
+(C*AD)* 3
+      children:{'(AD)*', '(CAD)*'}
+      parents:{'(C*ADB*)*', '(C*AD*)*', '(C*AB*D)*', '(B*C*AD)*', '(C*A*D)*', '(C*B*AD)*'}
+(C*AD*)* 2
+      children:{'(C*A)*', '(C*AD)*', '(CAD*)*', '(AD*)*'}
+      parents:{'(A*C*D*)*', '(B*C*AD*)*', '(C*AD*B*)*', '(C*B*AD*)*', '(C*AB*D*)*'}
+(C*AD*B)* 2
+      children:{'(AD*B)*', '(C*ADB)*', '(C*AB)*', '(CAD*B)*'}
+      parents:{'(C*AD*B*)*', '(C*A*D*B)*'}
+(C*AD*B*)* 1
+      children:{'(C*ADB*)*', '(CAD*B*)*', '(AD*B*)*', '(C*AD*)*', '(C*AB*)*', '(C*AD*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*ADB)* 3
+      children:{'(ADB)*', '(CADB)*'}
+      parents:{'(C*ADB*)*', '(C*A*DB)*', '(C*AD*B)*'}
+(C*ADB*)* 2
+      children:{'(ADB*)*', '(C*ADB)*', '(C*AD)*', '(CADB*)*'}
+      parents:{'(C*A*DB*)*', '(C*AD*B*)*'}
+(C*B)* 3
+      children:{'(CB)*'}
+      parents:{'(C*BA*)*', '(C*D*B)*', '(B*C*)*', '(C*BD*)*', '(D*C*B)*', '(A*C*B)*', '(C*A*B)*'}
+(C*B*A)* 2
+      children:{'(B*A)*', '(CB*A)*', '(C*A)*', '(C*BA)*'}
+      parents:{'(D*C*B*A)*', '(A*B*C*)*', '(C*B*D*A)*', '(C*D*B*A)*', '(C*B*AD*)*'}
+(C*B*A*D)* 1
+      children:{'(C*B*D)*', '(CB*A*D)*', '(C*BA*D)*', '(C*A*D)*', '(C*B*AD)*', '(B*A*D)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*B*AD)* 2
+      children:{'(C*BAD)*', '(CB*AD)*', '(B*AD)*', '(C*AD)*'}
+      parents:{'(C*B*A*D)*', '(C*B*AD*)*'}
+(C*B*AD*)* 1
+      children:{'(C*B*A)*', '(C*BAD*)*', '(C*AD*)*', '(CB*AD*)*', '(C*B*AD)*', '(B*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*B*D)* 2
+      children:{'(C*D)*', '(CB*D)*', '(B*D)*', '(C*BD)*'}
+      parents:{'(A*C*B*D)*', '(C*B*DA*)*', '(B*C*D*)*', '(C*B*A*D)*', '(C*A*B*D)*'}
+(C*B*D*A)* 1
+      children:{'(C*B*A)*', '(CB*D*A)*', '(C*B*DA)*', '(B*D*A)*', '(C*D*A)*', '(C*BD*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*B*DA)* 2
+      children:{'(C*BDA)*', '(CB*DA)*', '(C*DA)*', '(B*DA)*'}
+      parents:{'(C*B*D*A)*', '(C*B*DA*)*'}
+(C*B*DA*)* 1
+      children:{'(C*BDA*)*', '(C*B*DA)*', '(C*B*D)*', '(C*DA*)*', '(B*DA*)*', '(CB*DA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*BA)* 3
+      children:{'(BA)*', '(CBA)*'}
+      parents:{'(C*B*A)*', '(D*C*BA)*', '(C*BA*)*', '(C*BAD*)*', '(C*BD*A)*', '(C*D*BA)*'}
+(C*BA*)* 2
+      children:{'(BA*)*', '(C*B)*', '(CBA*)*', '(C*BA)*'}
+      parents:{'(C*BD*A*)*', '(A*B*C*)*', '(C*D*BA*)*', '(D*C*BA*)*', '(C*BA*D*)*'}
+(C*BA*D)* 2
+      children:{'(C*BAD)*', '(C*BD)*', '(CBA*D)*', '(BA*D)*'}
+      parents:{'(C*B*A*D)*', '(C*BA*D*)*'}
+(C*BA*D*)* 1
+      children:{'(C*BA*)*', '(BA*D*)*', '(C*BAD*)*', '(C*BD*)*', '(C*BA*D)*', '(CBA*D*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*BAD)* 3
+      children:{'(CBAD)*', '(BAD)*'}
+      parents:{'(C*BAD*)*', '(C*B*AD)*', '(C*BA*D)*'}
+(C*BAD*)* 2
+      children:{'(C*BAD)*', '(BAD*)*', '(CBAD*)*', '(C*BA)*'}
+      parents:{'(C*B*AD*)*', '(C*BA*D*)*'}
+(C*BD)* 3
+      children:{'(BD)*', '(CBD)*'}
+      parents:{'(C*BDA*)*', '(C*B*D)*', '(A*C*BD)*', '(C*BD*)*', '(C*A*BD)*', '(C*BA*D)*'}
+(C*BD*)* 2
+      children:{'(C*BD)*', '(BD*)*', '(C*B)*', '(CBD*)*'}
+      parents:{'(C*A*BD*)*', '(C*BD*A*)*', '(B*C*D*)*', '(A*C*BD*)*', '(C*BA*D*)*'}
+(C*BD*A)* 2
+      children:{'(BD*A)*', '(C*BDA)*', '(CBD*A)*', '(C*BA)*'}
+      parents:{'(C*B*D*A)*', '(C*BD*A*)*'}
+(C*BD*A*)* 1
+      children:{'(C*BA*)*', '(C*BDA*)*', '(C*BD*A)*', '(C*BD*)*', '(BD*A*)*', '(CBD*A*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*BDA)* 3
+      children:{'(BDA)*', '(CBDA)*'}
+      parents:{'(C*BD*A)*', '(C*BDA*)*', '(C*B*DA)*'}
+(C*BDA*)* 2
+      children:{'(BDA*)*', '(CBDA*)*', '(C*BD)*', '(C*BDA)*'}
+      parents:{'(C*BD*A*)*', '(C*B*DA*)*'}
+(C*D)* 3
+      children:{'(CD)*'}
+      parents:{'(A*C*D)*', '(C*B*D)*', '(C*D*)*', '(C*DA*)*', '(C*DB*)*', '(B*C*D)*', '(C*A*D)*'}
+(C*D*)* 2
+      children:{'(CD*)*', '(D*C)*', 'D*C*', '(C*D)*', '(DC*)*', 'C*D*'}
+      parents:{'(A*C*D*)*', '(B*C*D*)*'}
+(C*D*A)* 2
+      children:{'(D*A)*', '(C*A)*', '(C*DA)*', '(CD*A)*'}
+      parents:{'(A*C*D*)*', '(C*B*D*A)*', '(C*D*B*A)*', '(C*D*AB*)*', '(B*C*D*A)*'}
+(C*D*A*B)* 1
+      children:{'(D*A*B)*', '(CD*A*B)*', '(C*D*B)*', '(C*D*AB)*', '(C*A*B)*', '(C*DA*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*D*AB)* 2
+      children:{'(D*AB)*', '(CD*AB)*', '(C*DAB)*', '(C*AB)*'}
+      parents:{'(C*D*A*B)*', '(C*D*AB*)*'}
+(C*D*AB*)* 1
+      children:{'(C*DAB*)*', '(CD*AB*)*', '(C*D*A)*', '(C*D*AB)*', '(C*AB*)*', '(D*AB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*D*B)* 2
+      children:{'(C*DB)*', '(C*B)*', '(CD*B)*', '(D*B)*'}
+      parents:{'(C*D*A*B)*', '(C*D*BA*)*', '(B*C*D*)*', '(C*A*D*B)*', '(A*C*D*B)*'}
+(C*D*B*A)* 1
+      children:{'(C*B*A)*', '(C*D*A)*', '(C*DB*A)*', '(CD*B*A)*', '(D*B*A)*', '(C*D*BA)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*D*BA)* 2
+      children:{'(C*BA)*', '(C*DBA)*', '(CD*BA)*', '(D*BA)*'}
+      parents:{'(C*D*BA*)*', '(C*D*B*A)*'}
+(C*D*BA*)* 1
+      children:{'(C*BA*)*', '(C*D*B)*', '(D*BA*)*', '(CD*BA*)*', '(C*DBA*)*', '(C*D*BA)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*DA)* 3
+      children:{'(DA)*', '(CDA)*'}
+      parents:{'(C*DAB*)*', '(C*B*DA)*', '(C*D*A)*', '(C*DB*A)*', '(C*DA*)*', '(B*C*DA)*'}
+(C*DA*)* 2
+      children:{'(CDA*)*', '(DA*)*', '(C*D)*', '(C*DA)*'}
+      parents:{'(A*C*D*)*', '(B*C*DA*)*', '(C*B*DA*)*', '(C*DB*A*)*', '(C*DA*B*)*'}
+(C*DA*B)* 2
+      children:{'(C*DAB)*', '(DA*B)*', '(CDA*B)*', '(C*DB)*'}
+      parents:{'(C*D*A*B)*', '(C*DA*B*)*'}
+(C*DA*B*)* 1
+      children:{'(C*DAB*)*', '(C*DA*)*', '(CDA*B*)*', '(C*DB*)*', '(C*DA*B)*', '(DA*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*DAB)* 3
+      children:{'(CDAB)*', '(DAB)*'}
+      parents:{'(C*DAB*)*', '(C*D*AB)*', '(C*DA*B)*'}
+(C*DAB*)* 2
+      children:{'(C*DAB)*', '(DAB*)*', '(C*DA)*', '(CDAB*)*'}
+      parents:{'(C*D*AB*)*', '(C*DA*B*)*'}
+(C*DB)* 3
+      children:{'(DB)*', '(CDB)*'}
+      parents:{'(C*D*B)*', '(C*A*DB)*', '(C*DBA*)*', '(C*DB*)*', '(A*C*DB)*', '(C*DA*B)*'}
+(C*DB*)* 2
+      children:{'(C*D)*', '(DB*)*', '(C*DB)*', '(CDB*)*'}
+      parents:{'(C*A*DB*)*', '(A*C*DB*)*', '(B*C*D*)*', '(C*DB*A*)*', '(C*DA*B*)*'}
+(C*DB*A)* 2
+      children:{'(DB*A)*', '(C*DBA)*', '(C*DA)*', '(CDB*A)*'}
+      parents:{'(C*D*B*A)*', '(C*DB*A*)*'}
+(C*DB*A*)* 1
+      children:{'(DB*A*)*', '(C*DB*A)*', '(CDB*A*)*', '(C*DA*)*', '(C*DBA*)*', '(C*DB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(C*DBA)* 3
+      children:{'(CDBA)*', '(DBA)*'}
+      parents:{'(C*DB*A)*', '(C*DBA*)*', '(C*D*BA)*'}
+(C*DBA*)* 2
+      children:{'(C*DBA)*', '(C*DB)*', '(CDBA*)*', '(DBA*)*'}
+      parents:{'(C*D*BA*)*', '(C*DB*A*)*'}
+(CA)* 4
+      children:{'CA'}
+      parents:{'(CAB*)*', '(B*CA)*', '(C*A)*', '(CAD*)*', '(CA*)*', '(CB*A)*', '(D*CA)*', '(CD*A)*'}
+(CA*)* 3
+      children:{'(CA)*'}
+      parents:{'(CD*A*)*', '(D*CA*)*', '(CA*B*)*', '(A*C*)*', '(CB*A*)*', '(CA*D*)*', '(B*CA*)*'}
+(CA*B)* 3
+      children:{'(CB)*', '(CAB)*'}
+      parents:{'(CD*A*B)*', '(CA*B*)*', '(CA*D*B)*', '(C*A*B)*', '(CA*BD*)*', '(D*CA*B)*'}
+(CA*B*)* 2
+      children:{'(CB*)*', '(CAB*)*', '(CA*B)*', '(CA*)*'}
+      parents:{'(CA*B*D*)*', '(CD*A*B*)*', '(A*B*C*)*', '(CA*D*B*)*', '(D*CA*B*)*'}
+(CA*B*D)* 2
+      children:{'(CB*D)*', '(CAB*D)*', '(CA*BD)*', '(CA*D)*'}
+      parents:{'(C*A*B*D)*', '(CA*B*D*)*'}
+(CA*B*D*)* 1
+      children:{'(CB*D*)*', '(CA*B*)*', '(CA*B*D)*', '(CAB*D*)*', '(CA*D*)*', '(CA*BD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CA*BD)* 3
+      children:{'(CABD)*', '(CBD)*'}
+      parents:{'(C*A*BD)*', '(CA*BD*)*', '(CA*B*D)*'}
+(CA*BD*)* 2
+      children:{'(CA*BD)*', '(CBD*)*', '(CA*B)*', '(CABD*)*'}
+      parents:{'(C*A*BD*)*', '(CA*B*D*)*'}
+(CA*D)* 3
+      children:{'(CAD)*', '(CD)*'}
+      parents:{'(B*CA*D)*', '(CA*DB*)*', '(CB*A*D)*', '(CA*B*D)*', '(CA*D*)*', '(C*A*D)*'}
+(CA*D*)* 2
+      children:{'(CAD*)*', '(CD*)*', '(CA*D)*', '(CA*)*'}
+      parents:{'(A*C*D*)*', '(B*CA*D*)*', '(CA*D*B*)*', '(CB*A*D*)*', '(CA*B*D*)*'}
+(CA*D*B)* 2
+      children:{'(CA*DB)*', '(CAD*B)*', '(CD*B)*', '(CA*B)*'}
+      parents:{'(CA*D*B*)*', '(C*A*D*B)*'}
+(CA*D*B*)* 1
+      children:{'(CA*DB*)*', '(CA*B*)*', '(CAD*B*)*', '(CA*D*B)*', '(CA*D*)*', '(CD*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CA*DB)* 3
+      children:{'(CDB)*', '(CADB)*'}
+      parents:{'(CA*D*B)*', '(C*A*DB)*', '(CA*DB*)*'}
+(CA*DB*)* 2
+      children:{'(CA*DB)*', '(CADB*)*', '(CA*D)*', '(CDB*)*'}
+      parents:{'(C*A*DB*)*', '(CA*D*B*)*'}
+(CAB)* 4
+      children:{'CAB'}
+      parents:{'(D*CAB)*', '(CD*AB)*', '(CAB*)*', '(C*AB)*', '(CABD*)*', '(CAD*B)*', '(CA*B)*'}
+(CAB*)* 3
+      children:{'(CAB)*', '(CA)*'}
+      parents:{'(CD*AB*)*', '(CA*B*)*', '(CAD*B*)*', '(CAB*D*)*', '(C*AB*)*', '(D*CAB*)*'}
+(CAB*D)* 3
+      children:{'(CABD)*', '(CAD)*'}
+      parents:{'(C*AB*D)*', '(CAB*D*)*', '(CA*B*D)*'}
+(CAB*D*)* 2
+      children:{'(CAB*)*', '(CAB*D)*', '(CAD*)*', '(CABD*)*'}
+      parents:{'(CA*B*D*)*', '(C*AB*D*)*'}
+(CABD)* 4
+      children:{'CABD'}
+      parents:{'(CAB*D)*', '(CA*BD)*', '(C*ABD)*', '(CABD*)*'}
+(CABD*)* 3
+      children:{'(CABD)*', '(CAB)*'}
+      parents:{'(CAB*D*)*', '(C*ABD*)*', '(CA*BD*)*'}
+(CAD)* 4
+      children:{'CAD'}
+      parents:{'(CB*AD)*', '(CAD*)*', '(CA*D)*', '(CAB*D)*', '(B*CAD)*', '(C*AD)*', '(CADB*)*'}
+(CAD*)* 3
+      children:{'(CAD)*', '(CA)*'}
+      parents:{'(B*CAD*)*', '(CAD*B*)*', '(CAB*D*)*', '(CA*D*)*', '(C*AD*)*', '(CB*AD*)*'}
+(CAD*B)* 3
+      children:{'(CAB)*', '(CADB)*'}
+      parents:{'(CAD*B*)*', '(CA*D*B)*', '(C*AD*B)*'}
+(CAD*B*)* 2
+      children:{'(CADB*)*', '(CAB*)*', '(CAD*)*', '(CAD*B)*'}
+      parents:{'(C*AD*B*)*', '(CA*D*B*)*'}
+(CADB)* 4
+      children:{'CADB'}
+      parents:{'(CA*DB)*', '(C*ADB)*', '(CADB*)*', '(CAD*B)*'}
+(CADB*)* 3
+      children:{'(CAD)*', '(CADB)*'}
+      parents:{'(C*ADB*)*', '(CAD*B*)*', '(CA*DB*)*'}
+(CB)* 4
+      children:{'CB'}
+      parents:{'(C*B)*', '(CBD*)*', '(CBA*)*', '(D*CB)*', '(A*CB)*', '(CB*)*', '(CD*B)*', '(CA*B)*'}
+(CB*)* 3
+      children:{'(CB)*'}
+      parents:{'(A*CB*)*', '(CB*D*)*', '(CA*B*)*', '(B*C*)*', '(CB*A*)*', '(D*CB*)*', '(CD*B*)*'}
+(CB*A)* 3
+      children:{'(CBA)*', '(CA)*'}
+      parents:{'(C*B*A)*', '(CB*D*A)*', '(D*CB*A)*', '(CD*B*A)*', '(CB*A*)*', '(CB*AD*)*'}
+(CB*A*)* 2
+      children:{'(CB*)*', '(CB*A)*', '(CBA*)*', '(CA*)*'}
+      parents:{'(CD*B*A*)*', '(CB*D*A*)*', '(A*B*C*)*', '(CB*A*D*)*', '(D*CB*A*)*'}
+(CB*A*D)* 2
+      children:{'(CB*D)*', '(CB*AD)*', '(CBA*D)*', '(CA*D)*'}
+      parents:{'(C*B*A*D)*', '(CB*A*D*)*'}
+(CB*A*D*)* 1
+      children:{'(CB*A*D)*', '(CB*D*)*', '(CB*A*)*', '(CA*D*)*', '(CBA*D*)*', '(CB*AD*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CB*AD)* 3
+      children:{'(CAD)*', '(CBAD)*'}
+      parents:{'(CB*A*D)*', '(CB*AD*)*', '(C*B*AD)*'}
+(CB*AD*)* 2
+      children:{'(CBAD*)*', '(CB*A)*', '(CB*AD)*', '(CAD*)*'}
+      parents:{'(CB*A*D*)*', '(C*B*AD*)*'}
+(CB*D)* 3
+      children:{'(CBD)*', '(CD)*'}
+      parents:{'(A*CB*D)*', '(C*B*D)*', '(CB*A*D)*', '(CB*D*)*', '(CA*B*D)*', '(CB*DA*)*'}
+(CB*D*)* 2
+      children:{'(CB*D)*', '(CD*)*', '(CB*)*', '(CBD*)*'}
+      parents:{'(A*CB*D*)*', '(CB*D*A*)*', '(B*C*D*)*', '(CB*A*D*)*', '(CA*B*D*)*'}
+(CB*D*A)* 2
+      children:{'(CB*A)*', '(CB*DA)*', '(CBD*A)*', '(CD*A)*'}
+      parents:{'(C*B*D*A)*', '(CB*D*A*)*'}
+(CB*D*A*)* 1
+      children:{'(CB*D*A)*', '(CD*A*)*', '(CB*D*)*', '(CB*A*)*', '(CBD*A*)*', '(CB*DA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CB*DA)* 3
+      children:{'(CDA)*', '(CBDA)*'}
+      parents:{'(CB*D*A)*', '(CB*DA*)*', '(C*B*DA)*'}
+(CB*DA*)* 2
+      children:{'(CDA*)*', '(CB*D)*', '(CBDA*)*', '(CB*DA)*'}
+      parents:{'(C*B*DA*)*', '(CB*D*A*)*'}
+(CBA)* 4
+      children:{'CBA'}
+      parents:{'(CBAD*)*', '(C*BA)*', '(CD*BA)*', '(CBA*)*', '(CB*A)*', '(CBD*A)*', '(D*CBA)*'}
+(CBA*)* 3
+      children:{'(CB)*', '(CBA)*'}
+      parents:{'(C*BA*)*', '(D*CBA*)*', '(CD*BA*)*', '(CB*A*)*', '(CBD*A*)*', '(CBA*D*)*'}
+(CBA*D)* 3
+      children:{'(CBD)*', '(CBAD)*'}
+      parents:{'(CB*A*D)*', '(CBA*D*)*', '(C*BA*D)*'}
+(CBA*D*)* 2
+      children:{'(CBAD*)*', '(CBA*D)*', '(CBD*)*', '(CBA*)*'}
+      parents:{'(CB*A*D*)*', '(C*BA*D*)*'}
+(CBAD)* 4
+      children:{'CBAD'}
+      parents:{'(C*BAD)*', '(CBAD*)*', '(CB*AD)*', '(CBA*D)*'}
+(CBAD*)* 3
+      children:{'(CBA)*', '(CBAD)*'}
+      parents:{'(C*BAD*)*', '(CBA*D*)*', '(CB*AD*)*'}
+(CBD)* 4
+      children:{'CBD'}
+      parents:{'(CBD*)*', '(CA*BD)*', '(A*CBD)*', '(CB*D)*', '(CBDA*)*', '(CBA*D)*', '(C*BD)*'}
+(CBD*)* 3
+      children:{'(CBD)*', '(CB)*'}
+      parents:{'(CB*D*)*', '(A*CBD*)*', '(C*BD*)*', '(CBD*A*)*', '(CBA*D*)*', '(CA*BD*)*'}
+(CBD*A)* 3
+      children:{'(CBDA)*', '(CBA)*'}
+      parents:{'(C*BD*A)*', '(CB*D*A)*', '(CBD*A*)*'}
+(CBD*A*)* 2
+      children:{'(CBDA*)*', '(CBD*)*', '(CBA*)*', '(CBD*A)*'}
+      parents:{'(C*BD*A*)*', '(CB*D*A*)*'}
+(CBDA)* 4
+      children:{'CBDA'}
+      parents:{'(C*BDA)*', '(CBDA*)*', '(CB*DA)*', '(CBD*A)*'}
+(CBDA*)* 3
+      children:{'(CBD)*', '(CBDA)*'}
+      parents:{'(CB*DA*)*', '(C*BDA*)*', '(CBD*A*)*'}
+(CD)* 4
+      children:{'CD'}
+      parents:{'(CD*)*', '(B*CD)*', '(CA*D)*', '(CDB*)*', '(C*D)*', '(A*CD)*', '(CDA*)*', '(CB*D)*'}
+(CD*)* 3
+      children:{'(CD)*'}
+      parents:{'(A*CD*)*', '(CD*A*)*', '(C*D*)*', '(CB*D*)*', '(B*CD*)*', '(CA*D*)*', '(CD*B*)*'}
+(CD*A)* 3
+      children:{'(CDA)*', '(CA)*'}
+      parents:{'(CB*D*A)*', '(B*CD*A)*', '(CD*AB*)*', '(C*D*A)*', '(CD*A*)*', '(CD*B*A)*'}
+(CD*A*)* 2
+      children:{'(CDA*)*', '(CD*)*', '(CD*A)*', '(CA*)*'}
+      parents:{'(B*CD*A*)*', '(A*C*D*)*', '(CD*B*A*)*', '(CB*D*A*)*', '(CD*A*B*)*'}
+(CD*A*B)* 2
+      children:{'(CD*AB)*', '(CDA*B)*', '(CD*B)*', '(CA*B)*'}
+      parents:{'(C*D*A*B)*', '(CD*A*B*)*'}
+(CD*A*B*)* 1
+      children:{'(CD*AB*)*', '(CD*A*)*', '(CD*A*B)*', '(CA*B*)*', '(CDA*B*)*', '(CD*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CD*AB)* 3
+      children:{'(CDAB)*', '(CAB)*'}
+      parents:{'(C*D*AB)*', '(CD*A*B)*', '(CD*AB*)*'}
+(CD*AB*)* 2
+      children:{'(CD*AB)*', '(CAB*)*', '(CDAB*)*', '(CD*A)*'}
+      parents:{'(C*D*AB*)*', '(CD*A*B*)*'}
+(CD*B)* 3
+      children:{'(CB)*', '(CDB)*'}
+      parents:{'(CD*A*B)*', '(C*D*B)*', '(A*CD*B)*', '(CA*D*B)*', '(CD*BA*)*', '(CD*B*)*'}
+(CD*B*)* 2
+      children:{'(CB*)*', '(CD*)*', '(CD*B)*', '(CDB*)*'}
+      parents:{'(CD*B*A*)*', '(B*C*D*)*', '(CA*D*B*)*', '(A*CD*B*)*', '(CD*A*B*)*'}
+(CD*B*A)* 2
+      children:{'(CB*A)*', '(CD*BA)*', '(CD*A)*', '(CDB*A)*'}
+      parents:{'(CD*B*A*)*', '(C*D*B*A)*'}
+(CD*B*A*)* 1
+      children:{'(CD*A*)*', '(CDB*A*)*', '(CD*B*A)*', '(CD*BA*)*', '(CB*A*)*', '(CD*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(CD*BA)* 3
+      children:{'(CDBA)*', '(CBA)*'}
+      parents:{'(CD*B*A)*', '(CD*BA*)*', '(C*D*BA)*'}
+(CD*BA*)* 2
+      children:{'(CD*BA)*', '(CDBA*)*', '(CD*B)*', '(CBA*)*'}
+      parents:{'(CD*B*A*)*', '(C*D*BA*)*'}
+(CDA)* 4
+      children:{'CDA'}
+      parents:{'(CDAB*)*', '(B*CDA)*', '(C*DA)*', '(CB*DA)*', '(CDA*)*', '(CD*A)*', '(CDB*A)*'}
+(CDA*)* 3
+      children:{'(CDA)*', '(CD)*'}
+      parents:{'(CD*A*)*', '(CDB*A*)*', '(C*DA*)*', '(CDA*B*)*', '(B*CDA*)*', '(CB*DA*)*'}
+(CDA*B)* 3
+      children:{'(CDAB)*', '(CDB)*'}
+      parents:{'(CD*A*B)*', '(C*DA*B)*', '(CDA*B*)*'}
+(CDA*B*)* 2
+      children:{'(CDA*)*', '(CDA*B)*', '(CDAB*)*', '(CDB*)*'}
+      parents:{'(C*DA*B*)*', '(CD*A*B*)*'}
+(CDAB)* 4
+      children:{'CDAB'}
+      parents:{'(C*DAB)*', '(CD*AB)*', '(CDA*B)*', '(CDAB*)*'}
+(CDAB*)* 3
+      children:{'(CDAB)*', '(CDA)*'}
+      parents:{'(C*DAB*)*', '(CDA*B*)*', '(CD*AB*)*'}
+(CDB)* 4
+      children:{'CDB'}
+      parents:{'(CA*DB)*', '(C*DB)*', '(A*CDB)*', '(CDA*B)*', '(CDBA*)*', '(CDB*)*', '(CD*B)*'}
+(CDB*)* 3
+      children:{'(CDB)*', '(CD)*'}
+      parents:{'(CA*DB*)*', '(CDB*A*)*', '(CDA*B*)*', '(C*DB*)*', '(A*CDB*)*', '(CD*B*)*'}
+(CDB*A)* 3
+      children:{'(CDA)*', '(CDBA)*'}
+      parents:{'(CDB*A*)*', '(C*DB*A)*', '(CD*B*A)*'}
+(CDB*A*)* 2
+      children:{'(CDA*)*', '(CDB*A)*', '(CDBA*)*', '(CDB*)*'}
+      parents:{'(CD*B*A*)*', '(C*DB*A*)*'}
+(CDBA)* 4
+      children:{'CDBA'}
+      parents:{'(C*DBA)*', '(CD*BA)*', '(CDBA*)*', '(CDB*A)*'}
+(CDBA*)* 3
+      children:{'(CDBA)*', '(CDB)*'}
+      parents:{'(CDB*A*)*', '(CD*BA*)*', '(C*DBA*)*'}
+(D*A)* 3
+      children:{'(DA)*'}
+      parents:{'(B*D*A)*', '(C*D*A)*', '(A*D*)*', '(D*AC*)*', '(D*C*A)*', '(D*B*A)*', '(D*AB*)*'}
+(D*A*B)* 2
+      children:{'(D*AB)*', '(DA*B)*', '(A*B)*', '(D*B)*'}
+      parents:{'(D*A*BC*)*', '(A*B*D*)*', '(C*D*A*B)*', '(D*C*A*B)*', '(D*A*C*B)*'}
+(D*A*B*C)* 1
+      children:{'(D*B*C)*', '(DA*B*C)*', '(A*B*C)*', '(D*AB*C)*', '(D*A*C)*', '(D*A*BC)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*A*BC)* 2
+      children:{'(DA*BC)*', '(D*BC)*', '(D*ABC)*', '(A*BC)*'}
+      parents:{'(D*A*B*C)*', '(D*A*BC*)*'}
+(D*A*BC*)* 1
+      children:{'(D*A*B)*', '(D*BC*)*', '(DA*BC*)*', '(A*BC*)*', '(D*ABC*)*', '(D*A*BC)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*A*C)* 2
+      children:{'(D*AC)*', '(A*C)*', '(D*C)*', '(DA*C)*'}
+      parents:{'(D*A*CB*)*', '(D*A*B*C)*', '(A*C*D*)*', '(D*B*A*C)*', '(B*D*A*C)*'}
+(D*A*C*B)* 1
+      children:{'(D*A*B)*', '(DA*C*B)*', '(D*A*CB)*', '(D*AC*B)*', '(D*C*B)*', '(A*C*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*A*CB)* 2
+      children:{'(D*CB)*', '(D*ACB)*', '(A*CB)*', '(DA*CB)*'}
+      parents:{'(D*A*CB*)*', '(D*A*C*B)*'}
+(D*A*CB*)* 1
+      children:{'(A*CB*)*', '(D*ACB*)*', '(D*A*CB)*', '(DA*CB*)*', '(D*A*C)*', '(D*CB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*AB)* 3
+      children:{'(DAB)*', '(AB)*'}
+      parents:{'(D*A*B)*', '(D*AC*B)*', '(D*ABC*)*', '(D*C*AB)*', '(C*D*AB)*', '(D*AB*)*'}
+(D*AB*)* 2
+      children:{'(D*A)*', '(D*AB)*', '(DAB*)*', '(AB*)*'}
+      parents:{'(D*AC*B*)*', '(D*AB*C*)*', '(D*C*AB*)*', '(A*B*D*)*', '(C*D*AB*)*'}
+(D*AB*C)* 2
+      children:{'(D*ABC)*', '(D*AC)*', '(DAB*C)*', '(AB*C)*'}
+      parents:{'(D*A*B*C)*', '(D*AB*C*)*'}
+(D*AB*C*)* 1
+      children:{'(DAB*C*)*', '(D*AC*)*', '(AB*C*)*', '(D*ABC*)*', '(D*AB*C)*', '(D*AB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*ABC)* 3
+      children:{'(ABC)*', '(DABC)*'}
+      parents:{'(D*ABC*)*', '(D*AB*C)*', '(D*A*BC)*'}
+(D*ABC*)* 2
+      children:{'(D*ABC)*', '(D*AB)*', '(DABC*)*', '(ABC*)*'}
+      parents:{'(D*A*BC*)*', '(D*AB*C*)*'}
+(D*AC)* 3
+      children:{'(AC)*', '(DAC)*'}
+      parents:{'(D*AC*)*', '(D*ACB*)*', '(B*D*AC)*', '(D*AB*C)*', '(D*A*C)*', '(D*B*AC)*'}
+(D*AC*)* 2
+      children:{'(D*A)*', '(D*AC)*', '(DAC*)*', '(AC*)*'}
+      parents:{'(A*C*D*)*', '(D*AC*B*)*', '(D*AB*C*)*', '(D*B*AC*)*', '(B*D*AC*)*'}
+(D*AC*B)* 2
+      children:{'(D*AB)*', '(AC*B)*', '(D*ACB)*', '(DAC*B)*'}
+      parents:{'(D*AC*B*)*', '(D*A*C*B)*'}
+(D*AC*B*)* 1
+      children:{'(D*AC*)*', '(D*ACB*)*', '(D*AC*B)*', '(DAC*B*)*', '(AC*B*)*', '(D*AB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*ACB)* 3
+      children:{'(ACB)*', '(DACB)*'}
+      parents:{'(D*A*CB)*', '(D*ACB*)*', '(D*AC*B)*'}
+(D*ACB*)* 2
+      children:{'(ACB*)*', '(DACB*)*', '(D*ACB)*', '(D*AC)*'}
+      parents:{'(D*A*CB*)*', '(D*AC*B*)*'}
+(D*B)* 3
+      children:{'(DB)*'}
+      parents:{'(D*A*B)*', '(C*D*B)*', '(D*BC*)*', '(A*D*B)*', '(D*BA*)*', '(D*C*B)*', '(B*D*)*'}
+(D*B*A)* 2
+      children:{'(D*A)*', '(B*A)*', '(DB*A)*', '(D*BA)*'}
+      parents:{'(D*C*B*A)*', '(A*B*D*)*', '(D*B*AC*)*', '(C*D*B*A)*', '(D*B*C*A)*'}
+(D*B*A*C)* 1
+      children:{'(D*B*C)*', '(DB*A*C)*', '(B*A*C)*', '(D*BA*C)*', '(D*A*C)*', '(D*B*AC)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*B*AC)* 2
+      children:{'(D*BAC)*', '(DB*AC)*', '(D*AC)*', '(B*AC)*'}
+      parents:{'(D*B*AC*)*', '(D*B*A*C)*'}
+(D*B*AC*)* 1
+      children:{'(D*AC*)*', '(DB*AC*)*', '(D*B*A)*', '(D*BAC*)*', '(B*AC*)*', '(D*B*AC)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*B*C)* 2
+      children:{'(D*BC)*', '(DB*C)*', '(D*C)*', '(B*C)*'}
+      parents:{'(D*A*B*C)*', '(D*B*CA*)*', '(A*D*B*C)*', '(D*B*A*C)*', '(B*C*D*)*'}
+(D*B*C*A)* 1
+      children:{'(D*BC*A)*', '(D*C*A)*', '(D*B*A)*', '(D*B*CA)*', '(DB*C*A)*', '(B*C*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*B*CA)* 2
+      children:{'(D*CA)*', '(B*CA)*', '(D*BCA)*', '(DB*CA)*'}
+      parents:{'(D*B*CA*)*', '(D*B*C*A)*'}
+(D*B*CA*)* 1
+      children:{'(DB*CA*)*', '(D*B*C)*', '(D*CA*)*', '(D*BCA*)*', '(D*B*CA)*', '(B*CA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*BA)* 3
+      children:{'(BA)*', '(DBA)*'}
+      parents:{'(D*C*BA)*', '(D*BC*A)*', '(D*B*A)*', '(D*BA*)*', '(D*BAC*)*', '(C*D*BA)*'}
+(D*BA*)* 2
+      children:{'(BA*)*', '(DBA*)*', '(D*B)*', '(D*BA)*'}
+      parents:{'(A*B*D*)*', '(C*D*BA*)*', '(D*C*BA*)*', '(D*BC*A*)*', '(D*BA*C*)*'}
+(D*BA*C)* 2
+      children:{'(D*BC)*', '(D*BAC)*', '(BA*C)*', '(DBA*C)*'}
+      parents:{'(D*B*A*C)*', '(D*BA*C*)*'}
+(D*BA*C*)* 1
+      children:{'(DBA*C*)*', '(D*BC*)*', '(D*BA*)*', '(D*BA*C)*', '(D*BAC*)*', '(BA*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*BAC)* 3
+      children:{'(DBAC)*', '(BAC)*'}
+      parents:{'(D*BAC*)*', '(D*BA*C)*', '(D*B*AC)*'}
+(D*BAC*)* 2
+      children:{'(BAC*)*', '(D*BAC)*', '(DBAC*)*', '(D*BA)*'}
+      parents:{'(D*B*AC*)*', '(D*BA*C*)*'}
+(D*BC)* 3
+      children:{'(BC)*', '(DBC)*'}
+      parents:{'(D*B*C)*', '(D*BCA*)*', '(D*BC*)*', '(D*BA*C)*', '(A*D*BC)*', '(D*A*BC)*'}
+(D*BC*)* 2
+      children:{'(DBC*)*', '(D*BC)*', '(D*B)*', '(BC*)*'}
+      parents:{'(D*A*BC*)*', '(A*D*BC*)*', '(B*C*D*)*', '(D*BC*A*)*', '(D*BA*C*)*'}
+(D*BC*A)* 2
+      children:{'(BC*A)*', '(D*BCA)*', '(DBC*A)*', '(D*BA)*'}
+      parents:{'(D*BC*A*)*', '(D*B*C*A)*'}
+(D*BC*A*)* 1
+      children:{'(DBC*A*)*', '(D*BC*A)*', '(D*BCA*)*', '(D*BC*)*', '(BC*A*)*', '(D*BA*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*BCA)* 3
+      children:{'(BCA)*', '(DBCA)*'}
+      parents:{'(D*BCA*)*', '(D*BC*A)*', '(D*B*CA)*'}
+(D*BCA*)* 2
+      children:{'(D*BC)*', '(BCA*)*', '(D*BCA)*', '(DBCA*)*'}
+      parents:{'(D*B*CA*)*', '(D*BC*A*)*'}
+(D*C)* 3
+      children:{'(DC)*'}
+      parents:{'(D*B*C)*', '(D*CA*)*', '(C*D*)*', '(B*D*C)*', '(D*A*C)*', '(A*D*C)*', '(D*CB*)*'}
+(D*C*A)* 2
+      children:{'(D*A)*', '(DC*A)*', '(D*CA)*', '(C*A)*'}
+      parents:{'(A*C*D*)*', '(D*C*B*A)*', '(B*D*C*A)*', '(D*C*AB*)*', '(D*B*C*A)*'}
+(D*C*A*B)* 1
+      children:{'(D*A*B)*', '(DC*A*B)*', '(D*C*B)*', '(D*C*AB)*', '(C*A*B)*', '(D*CA*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*C*AB)* 2
+      children:{'(D*CAB)*', '(D*AB)*', '(C*AB)*', '(DC*AB)*'}
+      parents:{'(D*C*A*B)*', '(D*C*AB*)*'}
+(D*C*AB*)* 1
+      children:{'(D*C*A)*', '(D*C*AB)*', '(DC*AB*)*', '(C*AB*)*', '(D*AB*)*', '(D*CAB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*C*B)* 2
+      children:{'(D*CB)*', '(C*B)*', '(DC*B)*', '(D*B)*'}
+      parents:{'(A*D*C*B)*', '(D*C*A*B)*', '(D*A*C*B)*', '(D*C*BA*)*', '(B*C*D*)*'}
+(D*C*B*A)* 1
+      children:{'(C*B*A)*', '(D*C*BA)*', '(D*CB*A)*', '(D*C*A)*', '(DC*B*A)*', '(D*B*A)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*C*BA)* 2
+      children:{'(DC*BA)*', '(C*BA)*', '(D*CBA)*', '(D*BA)*'}
+      parents:{'(D*C*B*A)*', '(D*C*BA*)*'}
+(D*C*BA*)* 1
+      children:{'(D*C*BA)*', '(C*BA*)*', '(D*BA*)*', '(DC*BA*)*', '(D*CBA*)*', '(D*C*B)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*CA)* 3
+      children:{'(DCA)*', '(CA)*'}
+      parents:{'(D*CA*)*', '(D*CB*A)*', '(D*C*A)*', '(D*B*CA)*', '(B*D*CA)*', '(D*CAB*)*'}
+(D*CA*)* 2
+      children:{'(D*CA)*', '(DCA*)*', '(D*C)*', '(CA*)*'}
+      parents:{'(A*C*D*)*', '(D*B*CA*)*', '(D*CB*A*)*', '(B*D*CA*)*', '(D*CA*B*)*'}
+(D*CA*B)* 2
+      children:{'(D*CAB)*', '(DCA*B)*', '(D*CB)*', '(CA*B)*'}
+      parents:{'(D*C*A*B)*', '(D*CA*B*)*'}
+(D*CA*B*)* 1
+      children:{'(D*CB*)*', '(D*CA*)*', '(CA*B*)*', '(D*CAB*)*', '(D*CA*B)*', '(DCA*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*CAB)* 3
+      children:{'(DCAB)*', '(CAB)*'}
+      parents:{'(D*CAB*)*', '(D*CA*B)*', '(D*C*AB)*'}
+(D*CAB*)* 2
+      children:{'(D*CAB)*', '(CAB*)*', '(D*CA)*', '(DCAB*)*'}
+      parents:{'(D*C*AB*)*', '(D*CA*B*)*'}
+(D*CB)* 3
+      children:{'(CB)*', '(DCB)*'}
+      parents:{'(D*A*CB)*', '(A*D*CB)*', '(D*CBA*)*', '(D*C*B)*', '(D*CB*)*', '(D*CA*B)*'}
+(D*CB*)* 2
+      children:{'(D*CB)*', '(CB*)*', '(D*C)*', '(DCB*)*'}
+      parents:{'(D*A*CB*)*', '(B*C*D*)*', '(A*D*CB*)*', '(D*CB*A*)*', '(D*CA*B*)*'}
+(D*CB*A)* 2
+      children:{'(CB*A)*', '(D*CA)*', '(DCB*A)*', '(D*CBA)*'}
+      parents:{'(D*C*B*A)*', '(D*CB*A*)*'}
+(D*CB*A*)* 1
+      children:{'(D*CA*)*', '(D*CB*A)*', '(D*CBA*)*', '(DCB*A*)*', '(CB*A*)*', '(D*CB*)*'}
+      parents:{'(A*B*C*D*)*'}
+(D*CBA)* 3
+      children:{'(DCBA)*', '(CBA)*'}
+      parents:{'(D*CBA*)*', '(D*C*BA)*', '(D*CB*A)*'}
+(D*CBA*)* 2
+      children:{'(D*CB)*', '(CBA*)*', '(DCBA*)*', '(D*CBA)*'}
+      parents:{'(D*CB*A*)*', '(D*C*BA*)*'}
+(DA)* 4
+      children:{'DA'}
+      parents:{'(DA*)*', '(DAC*)*', '(D*A)*', '(DAB*)*', '(C*DA)*', '(DC*A)*', '(DB*A)*', '(B*DA)*'}
+(DA*)* 3
+      children:{'(DA)*'}
+      parents:{'(DB*A*)*', '(DC*A*)*', '(A*D*)*', '(C*DA*)*', '(DA*C*)*', '(B*DA*)*', '(DA*B*)*'}
+(DA*B)* 3
+      children:{'(DB)*', '(DAB)*'}
+      parents:{'(D*A*B)*', '(DC*A*B)*', '(DA*C*B)*', '(DA*BC*)*', '(C*DA*B)*', '(DA*B*)*'}
+(DA*B*)* 2
+      children:{'(DA*)*', '(DB*)*', '(DA*B)*', '(DAB*)*'}
+      parents:{'(A*B*D*)*', '(DC*A*B*)*', '(DA*B*C*)*', '(DA*C*B*)*', '(C*DA*B*)*'}
+(DA*B*C)* 2
+      children:{'(DA*BC)*', '(DAB*C)*', '(DB*C)*', '(DA*C)*'}
+      parents:{'(D*A*B*C)*', '(DA*B*C*)*'}
+(DA*B*C*)* 1
+      children:{'(DAB*C*)*', '(DA*B*C)*', '(DA*BC*)*', '(DA*C*)*', '(DB*C*)*', '(DA*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DA*BC)* 3
+      children:{'(DBC)*', '(DABC)*'}
+      parents:{'(DA*B*C)*', '(D*A*BC)*', '(DA*BC*)*'}
+(DA*BC*)* 2
+      children:{'(DA*BC)*', '(DBC*)*', '(DA*B)*', '(DABC*)*'}
+      parents:{'(D*A*BC*)*', '(DA*B*C*)*'}
+(DA*C)* 3
+      children:{'(DAC)*', '(DC)*'}
+      parents:{'(DB*A*C)*', '(DA*B*C)*', '(B*DA*C)*', '(DA*C*)*', '(DA*CB*)*', '(D*A*C)*'}
+(DA*C*)* 2
+      children:{'(DA*)*', '(DAC*)*', '(DC*)*', '(DA*C)*'}
+      parents:{'(DB*A*C*)*', '(A*C*D*)*', '(DA*B*C*)*', '(B*DA*C*)*', '(DA*C*B*)*'}
+(DA*C*B)* 2
+      children:{'(DA*B)*', '(DAC*B)*', '(DC*B)*', '(DA*CB)*'}
+      parents:{'(D*A*C*B)*', '(DA*C*B*)*'}
+(DA*C*B*)* 1
+      children:{'(DA*C*B)*', '(DA*C*)*', '(DAC*B*)*', '(DA*CB*)*', '(DA*B*)*', '(DC*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DA*CB)* 3
+      children:{'(DACB)*', '(DCB)*'}
+      parents:{'(DA*C*B)*', '(D*A*CB)*', '(DA*CB*)*'}
+(DA*CB*)* 2
+      children:{'(DA*CB)*', '(DACB*)*', '(DCB*)*', '(DA*C)*'}
+      parents:{'(D*A*CB*)*', '(DA*C*B*)*'}
+(DAB)* 4
+      children:{'DAB'}
+      parents:{'(DABC*)*', '(DAB*)*', '(DAC*B)*', '(DC*AB)*', '(D*AB)*', '(C*DAB)*', '(DA*B)*'}
+(DAB*)* 3
+      children:{'(DA)*', '(DAB)*'}
+      parents:{'(C*DAB*)*', '(DAB*C*)*', '(DAC*B*)*', '(DC*AB*)*', '(D*AB*)*', '(DA*B*)*'}
+(DAB*C)* 3
+      children:{'(DAC)*', '(DABC)*'}
+      parents:{'(D*AB*C)*', '(DAB*C*)*', '(DA*B*C)*'}
+(DAB*C*)* 2
+      children:{'(DAC*)*', '(DAB*C)*', '(DAB*)*', '(DABC*)*'}
+      parents:{'(D*AB*C*)*', '(DA*B*C*)*'}
+(DABC)* 4
+      children:{'DABC'}
+      parents:{'(DA*BC)*', '(D*ABC)*', '(DAB*C)*', '(DABC*)*'}
+(DABC*)* 3
+      children:{'(DAB)*', '(DABC)*'}
+      parents:{'(D*ABC*)*', '(DAB*C*)*', '(DA*BC*)*'}
+(DAC)* 4
+      children:{'DAC'}
+      parents:{'(DB*AC)*', '(DAC*)*', '(DAB*C)*', '(D*AC)*', '(DACB*)*', '(B*DAC)*', '(DA*C)*'}
+(DAC*)* 3
+      children:{'(DA)*', '(DAC)*'}
+      parents:{'(DAB*C*)*', '(B*DAC*)*', '(D*AC*)*', '(DB*AC*)*', '(DA*C*)*', '(DAC*B*)*'}
+(DAC*B)* 3
+      children:{'(DACB)*', '(DAB)*'}
+      parents:{'(DAC*B*)*', '(DA*C*B)*', '(D*AC*B)*'}
+(DAC*B*)* 2
+      children:{'(DAC*)*', '(DACB*)*', '(DAC*B)*', '(DAB*)*'}
+      parents:{'(D*AC*B*)*', '(DA*C*B*)*'}
+(DACB)* 4
+      children:{'DACB'}
+      parents:{'(DACB*)*', '(D*ACB)*', '(DAC*B)*', '(DA*CB)*'}
+(DACB*)* 3
+      children:{'(DACB)*', '(DAC)*'}
+      parents:{'(DAC*B*)*', '(DA*CB*)*', '(D*ACB*)*'}
+(DB)* 4
+      children:{'DB'}
+      parents:{'(C*DB)*', '(DBC*)*', '(DB*)*', '(A*DB)*', '(DC*B)*', '(DA*B)*', '(D*B)*', '(DBA*)*'}
+(DB*)* 3
+      children:{'(DB)*'}
+      parents:{'(DC*B*)*', '(A*DB*)*', '(DB*A*)*', '(C*DB*)*', '(DB*C*)*', '(DA*B*)*', '(B*D*)*'}
+(DB*A)* 3
+      children:{'(DA)*', '(DBA)*'}
+      parents:{'(DB*A*)*', '(C*DB*A)*', '(DB*AC*)*', '(DC*B*A)*', '(D*B*A)*', '(DB*C*A)*'}
+(DB*A*)* 2
+      children:{'(DA*)*', '(DB*)*', '(DB*A)*', '(DBA*)*'}
+      parents:{'(DB*A*C*)*', '(A*B*D*)*', '(DC*B*A*)*', '(DB*C*A*)*', '(C*DB*A*)*'}
+(DB*A*C)* 2
+      children:{'(DBA*C)*', '(DB*AC)*', '(DB*C)*', '(DA*C)*'}
+      parents:{'(DB*A*C*)*', '(D*B*A*C)*'}
+(DB*A*C*)* 1
+      children:{'(DB*A*)*', '(DB*A*C)*', '(DBA*C*)*', '(DB*AC*)*', '(DA*C*)*', '(DB*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DB*AC)* 3
+      children:{'(DBAC)*', '(DAC)*'}
+      parents:{'(DB*AC*)*', '(DB*A*C)*', '(D*B*AC)*'}
+(DB*AC*)* 2
+      children:{'(DB*A)*', '(DAC*)*', '(DBAC*)*', '(DB*AC)*'}
+      parents:{'(DB*A*C*)*', '(D*B*AC*)*'}
+(DB*C)* 3
+      children:{'(DBC)*', '(DC)*'}
+      parents:{'(DB*CA*)*', '(D*B*C)*', '(A*DB*C)*', '(DB*A*C)*', '(DA*B*C)*', '(DB*C*)*'}
+(DB*C*)* 2
+      children:{'(DBC*)*', '(DC*)*', '(DB*)*', '(DB*C)*'}
+      parents:{'(DB*A*C*)*', '(B*C*D*)*', '(A*DB*C*)*', '(DB*C*A*)*', '(DA*B*C*)*'}
+(DB*C*A)* 2
+      children:{'(DC*A)*', '(DB*A)*', '(DBC*A)*', '(DB*CA)*'}
+      parents:{'(DB*C*A*)*', '(D*B*C*A)*'}
+(DB*C*A*)* 1
+      children:{'(DB*CA*)*', '(DB*A*)*', '(DC*A*)*', '(DBC*A*)*', '(DB*C*A)*', '(DB*C*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DB*CA)* 3
+      children:{'(DCA)*', '(DBCA)*'}
+      parents:{'(DB*CA*)*', '(DB*C*A)*', '(D*B*CA)*'}
+(DB*CA*)* 2
+      children:{'(DCA*)*', '(DB*C)*', '(DBCA*)*', '(DB*CA)*'}
+      parents:{'(D*B*CA*)*', '(DB*C*A*)*'}
+(DBA)* 4
+      children:{'DBA'}
+      parents:{'(DBAC*)*', '(DC*BA)*', '(DB*A)*', '(C*DBA)*', '(D*BA)*', '(DBC*A)*', '(DBA*)*'}
+(DBA*)* 3
+      children:{'(DB)*', '(DBA)*'}
+      parents:{'(DB*A*)*', '(DBA*C*)*', '(DBC*A*)*', '(D*BA*)*', '(DC*BA*)*', '(C*DBA*)*'}
+(DBA*C)* 3
+      children:{'(DBAC)*', '(DBC)*'}
+      parents:{'(D*BA*C)*', '(DB*A*C)*', '(DBA*C*)*'}
+(DBA*C*)* 2
+      children:{'(DBC*)*', '(DBA*)*', '(DBAC*)*', '(DBA*C)*'}
+      parents:{'(DB*A*C*)*', '(D*BA*C*)*'}
+(DBAC)* 4
+      children:{'DBAC'}
+      parents:{'(D*BAC)*', '(DB*AC)*', '(DBAC*)*', '(DBA*C)*'}
+(DBAC*)* 3
+      children:{'(DBAC)*', '(DBA)*'}
+      parents:{'(D*BAC*)*', '(DB*AC*)*', '(DBA*C*)*'}
+(DBC)* 4
+      children:{'DBC'}
+      parents:{'(DA*BC)*', '(DBC*)*', '(D*BC)*', '(DB*C)*', '(DBCA*)*', '(DBA*C)*', '(A*DBC)*'}
+(DBC*)* 3
+      children:{'(DB)*', '(DBC)*'}
+      parents:{'(DBC*A*)*', '(DBA*C*)*', '(DA*BC*)*', '(D*BC*)*', '(DB*C*)*', '(A*DBC*)*'}
+(DBC*A)* 3
+      children:{'(DBCA)*', '(DBA)*'}
+      parents:{'(DB*C*A)*', '(DBC*A*)*', '(D*BC*A)*'}
+(DBC*A*)* 2
+      children:{'(DBC*)*', '(DBC*A)*', '(DBCA*)*', '(DBA*)*'}
+      parents:{'(DB*C*A*)*', '(D*BC*A*)*'}
+(DBCA)* 4
+      children:{'DBCA'}
+      parents:{'(D*BCA)*', '(DBC*A)*', '(DBCA*)*', '(DB*CA)*'}
+(DBCA*)* 3
+      children:{'(DBC)*', '(DBCA)*'}
+      parents:{'(DB*CA*)*', '(D*BCA*)*', '(DBC*A*)*'}
+(DC)* 4
+      children:{'DC'}
+      parents:{'(D*C)*', '(DCB*)*', '(DCA*)*', '(DB*C)*', '(DC*)*', '(A*DC)*', '(B*DC)*', '(DA*C)*'}
+(DC*)* 3
+      children:{'(DC)*'}
+      parents:{'(DC*B*)*', '(DC*A*)*', '(C*D*)*', '(DA*C*)*', '(DB*C*)*', '(B*DC*)*', '(A*DC*)*'}
+(DC*A)* 3
+      children:{'(DA)*', '(DCA)*'}
+      parents:{'(DC*A*)*', '(B*DC*A)*', '(D*C*A)*', '(DC*B*A)*', '(DB*C*A)*', '(DC*AB*)*'}
+(DC*A*)* 2
+      children:{'(DC*A)*', '(DA*)*', '(DC*)*', '(DCA*)*'}
+      parents:{'(A*C*D*)*', '(DC*A*B*)*', '(DC*B*A*)*', '(DB*C*A*)*', '(B*DC*A*)*'}
+(DC*A*B)* 2
+      children:{'(DCA*B)*', '(DA*B)*', '(DC*B)*', '(DC*AB)*'}
+      parents:{'(DC*A*B*)*', '(D*C*A*B)*'}
+(DC*A*B*)* 1
+      children:{'(DC*A*)*', '(DC*A*B)*', '(DC*AB*)*', '(DA*B*)*', '(DCA*B*)*', '(DC*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DC*AB)* 3
+      children:{'(DCAB)*', '(DAB)*'}
+      parents:{'(DC*A*B)*', '(D*C*AB)*', '(DC*AB*)*'}
+(DC*AB*)* 2
+      children:{'(DC*A)*', '(DCAB*)*', '(DAB*)*', '(DC*AB)*'}
+      parents:{'(DC*A*B*)*', '(D*C*AB*)*'}
+(DC*B)* 3
+      children:{'(DB)*', '(DCB)*'}
+      parents:{'(A*DC*B)*', '(DC*A*B)*', '(DA*C*B)*', '(DC*BA*)*', '(D*C*B)*', '(DC*B*)*'}
+(DC*B*)* 2
+      children:{'(DC*)*', '(DB*)*', '(DC*B)*', '(DCB*)*'}
+      parents:{'(DC*A*B*)*', '(DC*B*A*)*', '(B*C*D*)*', '(A*DC*B*)*', '(DA*C*B*)*'}
+(DC*B*A)* 2
+      children:{'(DC*A)*', '(DB*A)*', '(DCB*A)*', '(DC*BA)*'}
+      parents:{'(D*C*B*A)*', '(DC*B*A*)*'}
+(DC*B*A*)* 1
+      children:{'(DB*A*)*', '(DC*A*)*', '(DC*B*A)*', '(DC*BA*)*', '(DCB*A*)*', '(DC*B*)*'}
+      parents:{'(A*B*C*D*)*'}
+(DC*BA)* 3
+      children:{'(DCBA)*', '(DBA)*'}
+      parents:{'(DC*BA*)*', '(D*C*BA)*', '(DC*B*A)*'}
+(DC*BA*)* 2
+      children:{'(DBA*)*', '(DC*B)*', '(DCBA*)*', '(DC*BA)*'}
+      parents:{'(DC*B*A*)*', '(D*C*BA*)*'}
+(DCA)* 4
+      children:{'DCA'}
+      parents:{'(DCB*A)*', '(DCAB*)*', '(DB*CA)*', '(DCA*)*', '(B*DCA)*', '(DC*A)*', '(D*CA)*'}
+(DCA*)* 3
+      children:{'(DCA)*', '(DC)*'}
+      parents:{'(DB*CA*)*', '(DC*A*)*', '(D*CA*)*', '(B*DCA*)*', '(DCB*A*)*', '(DCA*B*)*'}
+(DCA*B)* 3
+      children:{'(DCAB)*', '(DCB)*'}
+      parents:{'(DC*A*B)*', '(DCA*B*)*', '(D*CA*B)*'}
+(DCA*B*)* 2
+      children:{'(DCA*B)*', '(DCAB*)*', '(DCA*)*', '(DCB*)*'}
+      parents:{'(DC*A*B*)*', '(D*CA*B*)*'}
+(DCAB)* 4
+      children:{'DCAB'}
+      parents:{'(D*CAB)*', '(DCA*B)*', '(DCAB*)*', '(DC*AB)*'}
+(DCAB*)* 3
+      children:{'(DCAB)*', '(DCA)*'}
+      parents:{'(D*CAB*)*', '(DCA*B*)*', '(DC*AB*)*'}
+(DCB)* 4
+      children:{'DCB'}
+      parents:{'(DCA*B)*', '(DCB*)*', '(A*DCB)*', '(D*CB)*', '(DC*B)*', '(DCBA*)*', '(DA*CB)*'}
+(DCB*)* 3
+      children:{'(DCB)*', '(DC)*'}
+      parents:{'(A*DCB*)*', '(DCB*A*)*', '(DA*CB*)*', '(D*CB*)*', '(DCA*B*)*', '(DC*B*)*'}
+(DCB*A)* 3
+      children:{'(DCBA)*', '(DCA)*'}
+      parents:{'(DCB*A*)*', '(D*CB*A)*', '(DC*B*A)*'}
+(DCB*A*)* 2
+      children:{'(DCB*A)*', '(DCA*)*', '(DCB*)*', '(DCBA*)*'}
+      parents:{'(DC*B*A*)*', '(D*CB*A*)*'}
+(DCBA)* 4
+      children:{'DCBA'}
+      parents:{'(D*CBA)*', '(DCB*A)*', '(DCBA*)*', '(DC*BA)*'}
+(DCBA*)* 3
+      children:{'(DCBA)*', '(DCB)*'}
+      parents:{'(DC*BA*)*', '(D*CBA*)*', '(DCB*A*)*'}
+A 5
+      parents:{'A*', 'D*A', 'AD*', 'AB*', 'C*A', 'B*A', 'AC*'}
+A* 4
+      children:{'A'}
+      parents:{'A*C*', 'D*A*', 'C*A*', 'B*A*', 'A*B*', 'A*D*'}
+A*B 4
+      children:{'B', 'AB'}
+      parents:{'A*C*B', 'A*D*B', 'D*A*B', 'A*BD*', 'C*A*B', 'A*B*', 'A*BC*'}
+A*B* 3
+      children:{'B*', 'A*B', 'A*', 'AB*'}
+      parents:{'A*B*C*', 'A*C*B*', 'C*A*B*', '(A*B*)*', 'A*B*D*', 'A*D*B*', 'D*A*B*'}
+A*B*C 3
+      children:{'AB*C', 'A*BC', 'A*C', 'B*C'}
+      parents:{'A*B*D*C', 'A*B*C*', 'A*B*CD*', 'D*A*B*C', 'A*D*B*C'}
+A*B*C* 2
+      children:{'AB*C*', 'A*C*', 'A*B*C', 'B*C*', 'A*B*', 'A*BC*'}
+      parents:{'A*D*B*C*', 'A*B*C*D*', '(A*B*C*)*', 'D*A*B*C*', 'A*B*D*C*'}
+A*B*C*D 2
+      children:{'A*B*D', 'A*BC*D', 'AB*C*D', 'B*C*D', 'A*B*CD', 'A*C*D'}
+      parents:{'A*B*C*D*'}
+A*B*C*D* 1
+      children:{'A*B*C*D', 'A*B*C*', 'AB*C*D*', 'A*B*D*', 'A*B*CD*', 'A*C*D*', 'A*BC*D*', 'B*C*D*'}
+      parents:{'(A*B*C*D*)*'}
+A*B*CD 3
+      children:{'B*CD', 'AB*CD', 'A*CD', 'A*BCD'}
+      parents:{'A*B*C*D', 'A*B*CD*'}
+A*B*CD* 2
+      children:{'AB*CD*', 'A*B*C', 'A*B*CD', 'A*BCD*', 'A*CD*', 'B*CD*'}
+      parents:{'A*B*C*D*'}
+A*B*D 3
+      children:{'A*D', 'B*D', 'AB*D', 'A*BD'}
+      parents:{'A*C*B*D', 'A*B*C*D', 'A*B*DC*', 'A*B*D*', 'C*A*B*D'}
+A*B*D* 2
+      children:{'A*B*D', 'B*D*', 'AB*D*', 'A*BD*', 'A*B*', 'A*D*'}
+      parents:{'A*B*C*D*', '(A*B*D*)*', 'C*A*B*D*', 'A*C*B*D*', 'A*B*D*C*'}
+A*B*D*C 2
+      children:{'A*D*C', 'A*BD*C', 'A*B*C', 'A*B*DC', 'AB*D*C', 'B*D*C'}
+      parents:{'A*B*D*C*'}
+A*B*D*C* 1
+      children:{'A*B*C*', 'AB*D*C*', 'A*BD*C*', 'A*B*DC*', 'A*B*D*', 'A*B*D*C', 'A*D*C*', 'B*D*C*'}
+      parents:{'(A*B*C*D*)*'}
+A*B*DC 3
+      children:{'A*BDC', 'AB*DC', 'A*DC', 'B*DC'}
+      parents:{'A*B*D*C', 'A*B*DC*'}
+A*B*DC* 2
+      children:{'A*BDC*', 'A*B*D', 'AB*DC*', 'A*DC*', 'A*B*DC', 'B*DC*'}
+      parents:{'A*B*D*C*'}
+A*BC 4
+      children:{'ABC', 'BC'}
+      parents:{'A*BD*C', 'A*B*C', 'A*D*BC', 'A*BCD*', 'A*BC*', 'D*A*BC'}
+A*BC* 3
+      children:{'A*BC', 'ABC*', 'A*B', 'BC*'}
+      parents:{'A*B*C*', 'D*A*BC*', 'A*D*BC*', 'A*BD*C*', 'A*BC*D*'}
+A*BC*D 3
+      children:{'BC*D', 'ABC*D', 'A*BD', 'A*BCD'}
+      parents:{'A*B*C*D', 'A*BC*D*'}
+A*BC*D* 2
+      children:{'BC*D*', 'A*BC*D', 'A*BCD*', 'A*BD*', 'ABC*D*', 'A*BC*'}
+      parents:{'A*B*C*D*'}
+A*BCD 4
+      children:{'BCD', 'ABCD'}
+      parents:{'A*B*CD', 'A*BCD*', 'A*BC*D'}
+A*BCD* 3
+      children:{'A*BC', 'BCD*', 'ABCD*', 'A*BCD'}
+      parents:{'A*B*CD*', 'A*BC*D*'}
+A*BD 4
+      children:{'ABD', 'BD'}
+      parents:{'A*BDC*', 'A*B*D', 'A*BC*D', 'A*BD*', 'C*A*BD', 'A*C*BD'}
+A*BD* 3
+      children:{'A*B', 'ABD*', 'A*BD', 'BD*'}
+      parents:{'A*C*BD*', 'C*A*BD*', 'A*B*D*', 'A*BC*D*', 'A*BD*C*'}
+A*BD*C 3
+      children:{'A*BC', 'A*BDC', 'ABD*C', 'BD*C'}
+      parents:{'A*B*D*C', 'A*BD*C*'}
+A*BD*C* 2
+      children:{'A*BDC*', 'A*BD*C', 'ABD*C*', 'A*BD*', 'A*BC*', 'BD*C*'}
+      parents:{'A*B*D*C*'}
+A*BDC 4
+      children:{'ABDC', 'BDC'}
+      parents:{'A*BDC*', 'A*BD*C', 'A*B*DC'}
+A*BDC* 3
+      children:{'ABDC*', 'A*BDC', 'BDC*', 'A*BD'}
+      parents:{'A*B*DC*', 'A*BD*C*'}
+A*C 4
+      children:{'AC', 'C'}
+      parents:{'A*D*C', 'B*A*C', 'A*C*', 'A*B*C', 'D*A*C', 'A*CD*', 'A*CB*'}
+A*C* 3
+      children:{'C*', 'AC*', 'A*', 'A*C'}
+      parents:{'A*B*C*', 'A*C*B*', 'B*A*C*', '(A*C*)*', 'D*A*C*', 'A*C*D*', 'A*D*C*'}
+A*C*B 3
+      children:{'AC*B', 'C*B', 'A*B', 'A*CB'}
+      parents:{'D*A*C*B', 'A*D*C*B', 'A*C*D*B', 'A*C*BD*', 'A*C*B*'}
+A*C*B* 2
+      children:{'C*B*', 'A*C*B', 'A*C*', 'AC*B*', 'A*B*', 'A*CB*'}
+      parents:{'(A*B*C*)*', 'A*C*D*B*', 'D*A*C*B*', 'A*C*B*D*', 'A*D*C*B*'}
+A*C*B*D 2
+      children:{'A*CB*D', 'A*B*D', 'C*B*D', 'AC*B*D', 'A*C*D', 'A*C*BD'}
+      parents:{'A*C*B*D*'}
+A*C*B*D* 1
+      children:{'A*CB*D*', 'C*B*D*', 'A*C*B*', 'AC*B*D*', 'A*B*D*', 'A*C*BD*', 'A*C*B*D', 'A*C*D*'}
+      parents:{'(A*B*C*D*)*'}
+A*C*BD 3
+      children:{'C*BD', 'AC*BD', 'A*BD', 'A*CBD'}
+      parents:{'A*C*B*D', 'A*C*BD*'}
+A*C*BD* 2
+      children:{'A*C*B', 'AC*BD*', 'C*BD*', 'A*BD*', 'A*CBD*', 'A*C*BD'}
+      parents:{'A*C*B*D*'}
+A*C*D 3
+      children:{'A*D', 'C*D', 'AC*D', 'A*CD'}
+      parents:{'A*C*DB*', 'A*C*B*D', 'A*B*C*D', 'A*C*D*', 'B*A*C*D'}
+A*C*D* 2
+      children:{'A*C*', 'A*CD*', 'A*C*D', 'A*D*', 'C*D*', 'AC*D*'}
+      parents:{'B*A*C*D*', 'A*B*C*D*', '(A*C*D*)*', 'A*C*D*B*', 'A*C*B*D*'}
+A*C*D*B 2
+      children:{'A*C*B', 'A*D*B', 'A*CD*B', 'C*D*B', 'AC*D*B', 'A*C*DB'}
+      parents:{'A*C*D*B*'}
+A*C*D*B* 1
+      children:{'A*C*B*', 'AC*D*B*', 'A*D*B*', 'A*C*DB*', 'C*D*B*', 'A*C*D*', 'A*C*D*B', 'A*CD*B*'}
+      parents:{'(A*B*C*D*)*'}
+A*C*DB 3
+      children:{'C*DB', 'A*DB', 'A*CDB', 'AC*DB'}
+      parents:{'A*C*DB*', 'A*C*D*B'}
+A*C*DB* 2
+      children:{'AC*DB*', 'A*DB*', 'C*DB*', 'A*C*D', 'A*CDB*', 'A*C*DB'}
+      parents:{'A*C*D*B*'}
+A*CB 4
+      children:{'CB', 'ACB'}
+      parents:{'A*C*B', 'D*A*CB', 'A*CD*B', 'A*CBD*', 'A*D*CB', 'A*CB*'}
+A*CB* 3
+      children:{'CB*', 'ACB*', 'A*CB', 'A*C'}
+      parents:{'D*A*CB*', 'A*CB*D*', 'A*C*B*', 'A*D*CB*', 'A*CD*B*'}
+A*CB*D 3
+      children:{'ACB*D', 'CB*D', 'A*CD', 'A*CBD'}
+      parents:{'A*C*B*D', 'A*CB*D*'}
+A*CB*D* 2
+      children:{'A*CB*D', 'CB*D*', 'ACB*D*', 'A*CBD*', 'A*CD*', 'A*CB*'}
+      parents:{'A*C*B*D*'}
+A*CBD 4
+      children:{'CBD', 'ACBD'}
+      parents:{'A*CB*D', 'A*CBD*', 'A*C*BD'}
+A*CBD* 3
+      children:{'CBD*', 'ACBD*', 'A*CB', 'A*CBD'}
+      parents:{'A*CB*D*', 'A*C*BD*'}
+A*CD 4
+      children:{'ACD', 'CD'}
+      parents:{'A*CB*D', 'A*B*CD', 'A*CD*', 'A*C*D', 'A*CDB*', 'B*A*CD'}
+A*CD* 3
+      children:{'ACD*', 'CD*', 'A*CD', 'A*C'}
+      parents:{'B*A*CD*', 'A*C*D*', 'A*CB*D*', 'A*B*CD*', 'A*CD*B*'}
+A*CD*B 3
+      children:{'A*CDB', 'A*CB', 'ACD*B', 'CD*B'}
+      parents:{'A*C*D*B', 'A*CD*B*'}
+A*CD*B* 2
+      children:{'CD*B*', 'ACD*B*', 'A*CD*B', 'A*CD*', 'A*CDB*', 'A*CB*'}
+      parents:{'A*C*D*B*'}
+A*CDB 4
+      children:{'CDB', 'ACDB'}
+      parents:{'A*CDB*', 'A*CD*B', 'A*C*DB'}
+A*CDB* 3
+      children:{'A*CDB', 'CDB*', 'A*CD', 'ACDB*'}
+      parents:{'A*C*DB*', 'A*CD*B*'}
+A*D 4
+      children:{'D', 'AD'}
+      parents:{'A*B*D', 'A*DC*', 'A*DB*', 'A*D*', 'A*C*D', 'C*A*D', 'B*A*D'}
+A*D* 3
+      children:{'A*D', 'D*', 'AD*', 'A*'}
+      parents:{'B*A*D*', '(A*D*)*', 'A*B*D*', 'A*D*B*', 'C*A*D*', 'A*C*D*', 'A*D*C*'}
+A*D*B 3
+      children:{'A*DB', 'A*B', 'D*B', 'AD*B'}
+      parents:{'A*D*C*B', 'C*A*D*B', 'A*C*D*B', 'A*D*BC*', 'A*D*B*'}
+A*D*B* 2
+      children:{'A*D*B', 'D*B*', 'A*DB*', 'A*B*', 'A*D*', 'AD*B*'}
+      parents:{'A*D*B*C*', '(A*B*D*)*', 'A*C*D*B*', 'A*D*C*B*', 'C*A*D*B*'}
+A*D*B*C 2
+      children:{'A*D*C', 'A*B*C', 'A*D*BC', 'AD*B*C', 'D*B*C', 'A*DB*C'}
+      parents:{'A*D*B*C*'}
+A*D*B*C* 1
+      children:{'A*B*C*', 'AD*B*C*', 'D*B*C*', 'A*D*B*', 'A*DB*C*', 'A*D*B*C', 'A*D*C*', 'A*D*BC*'}
+      parents:{'(A*B*C*D*)*'}
+A*D*BC 3
+      children:{'A*DBC', 'A*BC', 'D*BC', 'AD*BC'}
+      parents:{'A*D*BC*', 'A*D*B*C'}
+A*D*BC* 2
+      children:{'A*D*B', 'A*D*BC', 'A*DBC*', 'AD*BC*', 'D*BC*', 'A*BC*'}
+      parents:{'A*D*B*C*'}
+A*D*C 3
+      children:{'D*C', 'AD*C', 'A*DC', 'A*C'}
+      parents:{'A*B*D*C', 'B*A*D*C', 'A*D*C*', 'A*D*CB*', 'A*D*B*C'}
+A*D*C* 2
+      children:{'A*D*C', 'A*C*', 'A*DC*', 'D*C*', 'AD*C*', 'A*D*'}
+      parents:{'A*B*D*C*', '(A*C*D*)*', 'A*D*B*C*', 'A*D*C*B*', 'B*A*D*C*'}
+A*D*C*B 2
+      children:{'A*C*B', 'A*D*B', 'A*DC*B', 'A*D*CB', 'AD*C*B', 'D*C*B'}
+      parents:{'A*D*C*B*'}
+A*D*C*B* 1
+      children:{'A*C*B*', 'A*DC*B*', 'D*C*B*', 'A*D*B*', 'A*D*CB*', 'A*D*C*B', 'AD*C*B*', 'A*D*C*'}
+      parents:{'(A*B*C*D*)*'}
+A*D*CB 3
+      children:{'AD*CB', 'A*DCB', 'A*CB', 'D*CB'}
+      parents:{'A*D*C*B', 'A*D*CB*'}
+A*D*CB* 2
+      children:{'A*D*C', 'A*D*CB', 'D*CB*', 'A*CB*', 'AD*CB*', 'A*DCB*'}
+      parents:{'A*D*C*B*'}
+A*DB 4
+      children:{'ADB', 'DB'}
+      parents:{'A*D*B', 'C*A*DB', 'A*DC*B', 'A*DBC*', 'A*DB*', 'A*C*DB'}
+A*DB* 3
+      children:{'A*D', 'A*DB', 'ADB*', 'DB*'}
+      parents:{'A*C*DB*', 'A*DC*B*', 'A*D*B*', 'A*DB*C*', 'C*A*DB*'}
+A*DB*C 3
+      children:{'A*DBC', 'A*DC', 'DB*C', 'ADB*C'}
+      parents:{'A*DB*C*', 'A*D*B*C'}
+A*DB*C* 2
+      children:{'A*DBC*', 'DB*C*', 'A*DC*', 'ADB*C*', 'A*DB*', 'A*DB*C'}
+      parents:{'A*D*B*C*'}
+A*DBC 4
+      children:{'DBC', 'ADBC'}
+      parents:{'A*DBC*', 'A*DB*C', 'A*D*BC'}
+A*DBC* 3
+      children:{'A*DBC', 'A*DB', 'ADBC*', 'DBC*'}
+      parents:{'A*D*BC*', 'A*DB*C*'}
+A*DC 4
+      children:{'DC', 'ADC'}
+      parents:{'A*D*C', 'A*DC*', 'A*B*DC', 'A*DB*C', 'B*A*DC', 'A*DCB*'}
+A*DC* 3
+      children:{'A*D', 'A*DC', 'DC*', 'ADC*'}
+      parents:{'B*A*DC*', 'A*DC*B*', 'A*D*C*', 'A*B*DC*', 'A*DB*C*'}
+A*DC*B 3
+      children:{'A*DB', 'ADC*B', 'A*DCB', 'DC*B'}
+      parents:{'A*DC*B*', 'A*D*C*B'}
+A*DC*B* 2
+      children:{'ADC*B*', 'A*DC*B', 'A*DC*', 'A*DB*', 'DC*B*', 'A*DCB*'}
+      parents:{'A*D*C*B*'}
+A*DCB 4
+      children:{'DCB', 'ADCB'}
+      parents:{'A*DC*B', 'A*DCB*', 'A*D*CB'}
+A*DCB* 3
+      children:{'ADCB*', 'DCB*', 'A*DCB', 'A*DC'}
+      parents:{'A*DC*B*', 'A*D*CB*'}
+AB 5
+      parents:{'D*AB', 'ABC*', 'AB*', 'ABD*', 'AC*B', 'C*AB', 'A*B', 'AD*B', '(AB)*'}
+AB* 4
+      children:{'A', 'AB'}
+      parents:{'AB*C*', 'AB*D*', 'AC*B*', 'A*B*', 'C*AB*', 'AD*B*', 'D*AB*'}
+AB*C 4
+      children:{'ABC', 'AC'}
+      parents:{'AB*C*', 'AB*CD*', 'A*B*C', 'AD*B*C', 'AB*D*C', 'D*AB*C'}
+AB*C* 3
+      children:{'AB*C', 'ABC*', 'AC*', 'AB*'}
+      parents:{'D*AB*C*', 'A*B*C*', 'AB*C*D*', 'AB*D*C*', 'AD*B*C*'}
+AB*C*D 3
+      children:{'AB*D', 'AB*CD', 'AC*D', 'ABC*D'}
+      parents:{'A*B*C*D', 'AB*C*D*'}
+AB*C*D* 2
+      children:{'AB*C*', 'AB*CD*', 'AB*C*D', 'AB*D*', 'ABC*D*', 'AC*D*'}
+      parents:{'A*B*C*D*'}
+AB*CD 4
+      children:{'ACD', 'ABCD'}
+      parents:{'AB*CD*', 'A*B*CD', 'AB*C*D'}
+AB*CD* 3
+      children:{'AB*C', 'AB*CD', 'ABCD*', 'ACD*'}
+      parents:{'AB*C*D*', 'A*B*CD*'}
+AB*D 4
+      children:{'ABD', 'AD'}
+      parents:{'A*B*D', 'AB*C*D', 'AB*DC*', 'AB*D*', 'AC*B*D', 'C*AB*D'}
+AB*D* 3
+      children:{'AB*D', 'AD*', 'AB*', 'ABD*'}
+      parents:{'AB*C*D*', 'AB*D*C*', 'A*B*D*', 'C*AB*D*', 'AC*B*D*'}
+AB*D*C 3
+      children:{'AB*C', 'AD*C', 'AB*DC', 'ABD*C'}
+      parents:{'A*B*D*C', 'AB*D*C*'}
+AB*D*C* 2
+      children:{'AB*C*', 'AB*DC*', 'ABD*C*', 'AB*D*', 'AD*C*', 'AB*D*C'}
+      parents:{'A*B*D*C*'}
+AB*DC 4
+      children:{'ADC', 'ABDC'}
+      parents:{'AB*DC*', 'AB*D*C', 'A*B*DC'}
+AB*DC* 3
+      children:{'AB*D', 'ABDC*', 'AB*DC', 'ADC*'}
+      parents:{'AB*D*C*', 'A*B*DC*'}
+ABC 5
+      parents:{'ABC*', 'ABD*C', 'A*BC', 'ABCD*', '(ABC)*', 'D*ABC', 'AD*BC', 'AB*C'}
+ABC* 4
+      children:{'ABC', 'AB'}
+      parents:{'AB*C*', 'ABD*C*', 'AD*BC*', 'ABC*D*', 'A*BC*', 'D*ABC*'}
+ABC*D 4
+      children:{'ABD', 'ABCD'}
+      parents:{'ABC*D*', 'A*BC*D', 'AB*C*D'}
+ABC*D* 3
+      children:{'ABC*', 'ABCD*', 'ABD*', 'ABC*D'}
+      parents:{'AB*C*D*', 'A*BC*D*'}
+ABCD 5
+      parents:{'ABC*D', '(ABCD)*', 'AB*CD', 'ABCD*', 'A*BCD'}
+ABCD* 4
+      children:{'ABC', 'ABCD'}
+      parents:{'ABC*D*', 'AB*CD*', 'A*BCD*'}
+ABD 5
+      parents:{'AB*D', 'ABD*', 'A*BD', 'ABC*D', 'ABDC*', 'C*ABD', 'AC*BD', '(ABD)*'}
+ABD* 4
+      children:{'ABD', 'AB'}
+      parents:{'C*ABD*', 'AC*BD*', 'ABD*C*', 'AB*D*', 'A*BD*', 'ABC*D*'}
+ABD*C 4
+      children:{'ABC', 'ABDC'}
+      parents:{'A*BD*C', 'AB*D*C', 'ABD*C*'}
+ABD*C* 3
+      children:{'ABC*', 'ABDC*', 'ABD*C', 'ABD*'}
+      parents:{'AB*D*C*', 'A*BD*C*'}
+ABDC 5
+      parents:{'ABDC*', 'A*BDC', 'AB*DC', 'ABD*C', '(ABDC)*'}
+ABDC* 4
+      children:{'ABD', 'ABDC'}
+      parents:{'A*BDC*', 'ABD*C*', 'AB*DC*'}
+AC 5
+      parents:{'AD*C', '(AC)*', 'D*AC', 'ACB*', 'ACD*', 'B*AC', 'AB*C', 'AC*', 'A*C'}
+AC* 4
+      children:{'AC', 'A'}
+      parents:{'AB*C*', 'D*AC*', 'A*C*', 'AC*B*', 'AD*C*', 'B*AC*', 'AC*D*'}
+AC*B 4
+      children:{'AB', 'ACB'}
+      parents:{'A*C*B', 'AC*BD*', 'AC*B*', 'AD*C*B', 'AC*D*B', 'D*AC*B'}
+AC*B* 3
+      children:{'AC*B', 'AC*', 'ACB*', 'AB*'}
+      parents:{'D*AC*B*', 'AC*D*B*', 'A*C*B*', 'AC*B*D*', 'AD*C*B*'}
+AC*B*D 3
+      children:{'ACB*D', 'AC*BD', 'AB*D', 'AC*D'}
+      parents:{'A*C*B*D', 'AC*B*D*'}
+AC*B*D* 2
+      children:{'AC*BD*', 'ACB*D*', 'AB*D*', 'AC*B*', 'AC*B*D', 'AC*D*'}
+      parents:{'A*C*B*D*'}
+AC*BD 4
+      children:{'ABD', 'ACBD'}
+      parents:{'AC*BD*', 'AC*B*D', 'A*C*BD'}
+AC*BD* 3
+      children:{'AC*B', 'AC*BD', 'ACBD*', 'ABD*'}
+      parents:{'A*C*BD*', 'AC*B*D*'}
+AC*D 4
+      children:{'ACD', 'AD'}
+      parents:{'AC*DB*', 'AB*C*D', 'B*AC*D', 'AC*B*D', 'A*C*D', 'AC*D*'}
+AC*D* 3
+      children:{'AC*', 'AC*D', 'AD*', 'ACD*'}
+      parents:{'B*AC*D*', 'AC*D*B*', 'AB*C*D*', 'A*C*D*', 'AC*B*D*'}
+AC*D*B 3
+      children:{'AC*B', 'AD*B', 'AC*DB', 'ACD*B'}
+      parents:{'AC*D*B*', 'A*C*D*B'}
+AC*D*B* 2
+      children:{'AC*DB*', 'AC*B*', 'ACD*B*', 'AC*D*B', 'AD*B*', 'AC*D*'}
+      parents:{'A*C*D*B*'}
+AC*DB 4
+      children:{'ACDB', 'ADB'}
+      parents:{'AC*DB*', 'AC*D*B', 'A*C*DB'}
+AC*DB* 3
+      children:{'AC*D', 'ADB*', 'AC*DB', 'ACDB*'}
+      parents:{'A*C*DB*', 'AC*D*B*'}
+ACB 5
+      parents:{'D*ACB', 'AD*CB', 'ACB*', 'ACD*B', '(ACB)*', 'AC*B', 'ACBD*', 'A*CB'}
+ACB* 4
+      children:{'AC', 'ACB'}
+      parents:{'ACB*D*', 'AC*B*', 'D*ACB*', 'ACD*B*', 'A*CB*', 'AD*CB*'}
+ACB*D 4
+      children:{'ACD', 'ACBD'}
+      parents:{'A*CB*D', 'AC*B*D', 'ACB*D*'}
+ACB*D* 3
+      children:{'ACB*D', 'ACBD*', 'ACB*', 'ACD*'}
+      parents:{'A*CB*D*', 'AC*B*D*'}
+ACBD 5
+      parents:{'ACB*D', 'AC*BD', 'ACBD*', '(ACBD)*', 'A*CBD'}
+ACBD* 4
+      children:{'ACBD', 'ACB'}
+      parents:{'AC*BD*', 'A*CBD*', 'ACB*D*'}
+ACD 5
+      parents:{'ACB*D', '(ACD)*', 'ACDB*', 'AC*D', 'ACD*', 'B*ACD', 'AB*CD', 'A*CD'}
+ACD* 4
+      children:{'ACD', 'AC'}
+      parents:{'AB*CD*', 'ACB*D*', 'ACD*B*', 'B*ACD*', 'A*CD*', 'AC*D*'}
+ACD*B 4
+      children:{'ACDB', 'ACB'}
+      parents:{'AC*D*B', 'ACD*B*', 'A*CD*B'}
+ACD*B* 3
+      children:{'ACB*', 'ACD*B', 'ACD*', 'ACDB*'}
+      parents:{'AC*D*B*', 'A*CD*B*'}
+ACDB 5
+      parents:{'(ACDB)*', 'A*CDB', 'ACD*B', 'AC*DB', 'ACDB*'}
+ACDB* 4
+      children:{'ACD', 'ACDB'}
+      parents:{'A*CDB*', 'AC*DB*', 'ACD*B*'}
+AD 5
+      parents:{'A*D', 'AB*D', 'ADC*', 'ADB*', '(AD)*', 'AC*D', 'AD*', 'C*AD', 'B*AD'}
+AD* 4
+      children:{'AD', 'A'}
+      parents:{'AB*D*', 'C*AD*', 'AD*C*', 'B*AD*', 'A*D*', 'AD*B*', 'AC*D*'}
+AD*B 4
+      children:{'AB', 'ADB'}
+      parents:{'A*D*B', 'AD*BC*', 'AD*C*B', 'AC*D*B', 'AD*B*', 'C*AD*B'}
+AD*B* 3
+      children:{'AD*', 'AB*', 'AD*B', 'ADB*'}
+      parents:{'AD*B*C*', 'C*AD*B*', 'AC*D*B*', 'A*D*B*', 'AD*C*B*'}
+AD*B*C 3
+      children:{'AB*C', 'AD*C', 'ADB*C', 'AD*BC'}
+      parents:{'AD*B*C*', 'A*D*B*C'}
+AD*B*C* 2
+      children:{'AB*C*', 'AD*BC*', 'AD*C*', 'AD*B*C', 'ADB*C*', 'AD*B*'}
+      parents:{'A*D*B*C*'}
+AD*BC 4
+      children:{'ABC', 'ADBC'}
+      parents:{'AD*B*C', 'AD*BC*', 'A*D*BC'}
+AD*BC* 3
+      children:{'ABC*', 'AD*B', 'ADBC*', 'AD*BC'}
+      parents:{'A*D*BC*', 'AD*B*C*'}
+AD*C 4
+      children:{'ADC', 'AC'}
+      parents:{'A*D*C', 'AD*C*', 'AD*B*C', 'AB*D*C', 'B*AD*C', 'AD*CB*'}
+AD*C* 3
+      children:{'AD*C', 'AC*', 'AD*', 'ADC*'}
+      parents:{'AD*B*C*', 'A*D*C*', 'AB*D*C*', 'B*AD*C*', 'AD*C*B*'}
+AD*C*B 3
+      children:{'AC*B', 'AD*CB', 'ADC*B', 'AD*B'}
+      parents:{'A*D*C*B', 'AD*C*B*'}
+AD*C*B* 2
+      children:{'ADC*B*', 'AC*B*', 'AD*C*', 'AD*C*B', 'AD*B*', 'AD*CB*'}
+      parents:{'A*D*C*B*'}
+AD*CB 4
+      children:{'ACB', 'ADCB'}
+      parents:{'AD*C*B', 'AD*CB*', 'A*D*CB'}
+AD*CB* 3
+      children:{'AD*C', 'AD*CB', 'ACB*', 'ADCB*'}
+      parents:{'A*D*CB*', 'AD*C*B*'}
+ADB 5
+      parents:{'A*DB', 'ADB*', 'AC*DB', 'C*ADB', 'ADC*B', 'ADBC*', 'AD*B', '(ADB)*'}
+ADB* 4
+      children:{'AD', 'ADB'}
+      parents:{'AC*DB*', 'ADC*B*', 'ADB*C*', 'A*DB*', 'AD*B*', 'C*ADB*'}
+ADB*C 4
+      children:{'ADC', 'ADBC'}
+      parents:{'ADB*C*', 'AD*B*C', 'A*DB*C'}
+ADB*C* 3
+      children:{'ADB*', 'ADC*', 'ADB*C', 'ADBC*'}
+      parents:{'A*DB*C*', 'AD*B*C*'}
+ADBC 5
+      parents:{'A*DBC', 'ADBC*', '(ADBC)*', 'ADB*C', 'AD*BC'}
+ADBC* 4
+      children:{'ADB', 'ADBC'}
+      parents:{'ADB*C*', 'A*DBC*', 'AD*BC*'}
+ADC 5
+      parents:{'AD*C', 'ADC*', 'ADB*C', 'AB*DC', 'ADCB*', 'B*ADC', '(ADC)*', 'A*DC'}
+ADC* 4
+      children:{'ADC', 'AD'}
+      parents:{'ADC*B*', 'AB*DC*', 'A*DC*', 'B*ADC*', 'AD*C*', 'ADB*C*'}
+ADC*B 4
+      children:{'ADB', 'ADCB'}
+      parents:{'AD*C*B', 'ADC*B*', 'A*DC*B'}
+ADC*B* 3
+      children:{'ADCB*', 'ADC*B', 'ADC*', 'ADB*'}
+      parents:{'A*DC*B*', 'AD*C*B*'}
+ADCB 5
+      parents:{'AD*CB', 'ADCB*', '(ADCB)*', 'ADC*B', 'A*DCB'}
+ADCB* 4
+      children:{'ADC', 'ADCB'}
+      parents:{'ADC*B*', 'AD*CB*', 'A*DCB*'}
+B 5
+      parents:{'C*B', 'D*B', 'BA*', 'BD*', 'B*', 'BC*', 'A*B'}
+B* 4
+      children:{'B'}
+      parents:{'C*B*', 'D*B*', 'B*D*', 'B*A*', 'B*C*', 'A*B*'}
+B*A 4
+      children:{'A', 'BA'}
+      parents:{'B*D*A', 'B*C*A', 'B*A*', 'D*B*A', 'B*AD*', 'C*B*A', 'B*AC*'}
+B*A* 3
+      children:{'B*A', 'BA*', 'B*', 'A*'}
+      parents:{'B*A*D*', 'B*C*A*', '(A*B*)*', 'B*A*C*', 'D*B*A*', 'C*B*A*', 'B*D*A*'}
+B*A*C 3
+      children:{'BA*C', 'B*C', 'B*AC', 'A*C'}
+      parents:{'B*A*CD*', 'B*A*D*C', 'B*A*C*', 'D*B*A*C', 'B*D*A*C'}
+B*A*C* 2
+      children:{'B*A*C', 'A*C*', 'B*A*', 'B*C*', 'BA*C*', 'B*AC*'}
+      parents:{'D*B*A*C*', 'B*D*A*C*', '(A*B*C*)*', 'B*A*C*D*', 'B*A*D*C*'}
+B*A*C*D 2
+      children:{'BA*C*D', 'B*C*D', 'B*AC*D', 'A*C*D', 'B*A*CD', 'B*A*D'}
+      parents:{'B*A*C*D*'}
+B*A*C*D* 1
+      children:{'B*A*D*', 'B*A*CD*', 'B*A*C*', 'B*AC*D*', 'B*A*C*D', 'BA*C*D*', 'A*C*D*', 'B*C*D*'}
+      parents:{'(A*B*C*D*)*'}
+B*A*CD 3
+      children:{'B*ACD', 'B*CD', 'BA*CD', 'A*CD'}
+      parents:{'B*A*CD*', 'B*A*C*D'}
+B*A*CD* 2
+      children:{'B*A*C', 'BA*CD*', 'B*ACD*', 'A*CD*', 'B*CD*', 'B*A*CD'}
+      parents:{'B*A*C*D*'}
+B*A*D 3
+      children:{'BA*D', 'B*D', 'A*D', 'B*AD'}
+      parents:{'B*A*D*', 'B*A*DC*', 'C*B*A*D', 'B*A*C*D', 'B*C*A*D'}
+B*A*D* 2
+      children:{'BA*D*', 'B*D*', 'B*A*', 'B*AD*', 'A*D*', 'B*A*D'}
+      parents:{'B*A*C*D*', '(A*B*D*)*', 'C*B*A*D*', 'B*C*A*D*', 'B*A*D*C*'}
+B*A*D*C 2
+      children:{'A*D*C', 'B*A*C', 'BA*D*C', 'B*A*DC', 'B*D*C', 'B*AD*C'}
+      parents:{'B*A*D*C*'}
+B*A*D*C* 1
+      children:{'B*A*D*', 'B*A*DC*', 'BA*D*C*', 'B*A*D*C', 'B*A*C*', 'B*AD*C*', 'A*D*C*', 'B*D*C*'}
+      parents:{'(A*B*C*D*)*'}
+B*A*DC 3
+      children:{'B*ADC', 'BA*DC', 'A*DC', 'B*DC'}
+      parents:{'B*A*D*C', 'B*A*DC*'}
+B*A*DC* 2
+      children:{'A*DC*', 'B*ADC*', 'B*DC*', 'BA*DC*', 'B*A*DC', 'B*A*D'}
+      parents:{'B*A*D*C*'}
+B*AC 4
+      children:{'AC', 'BAC'}
+      parents:{'D*B*AC', 'B*A*C', 'B*D*AC', 'B*ACD*', 'B*AC*', 'B*AD*C'}
+B*AC* 3
+      children:{'B*A', 'AC*', 'BAC*', 'B*AC'}
+      parents:{'B*AC*D*', 'B*A*C*', 'B*AD*C*', 'D*B*AC*', 'B*D*AC*'}
+B*AC*D 3
+      children:{'B*ACD', 'BAC*D', 'AC*D', 'B*AD'}
+      parents:{'B*AC*D*', 'B*A*C*D'}
+B*AC*D* 2
+      children:{'BAC*D*', 'B*ACD*', 'B*AC*D', 'B*AD*', 'B*AC*', 'AC*D*'}
+      parents:{'B*A*C*D*'}
+B*ACD 4
+      children:{'ACD', 'BACD'}
+      parents:{'B*ACD*', 'B*A*CD', 'B*AC*D'}
+B*ACD* 3
+      children:{'BACD*', 'B*ACD', 'B*AC', 'ACD*'}
+      parents:{'B*A*CD*', 'B*AC*D*'}
+B*AD 4
+      children:{'BAD', 'AD'}
+      parents:{'B*ADC*', 'B*AC*D', 'B*C*AD', 'B*AD*', 'C*B*AD', 'B*A*D'}
+B*AD* 3
+      children:{'B*A', 'AD*', 'B*AD', 'BAD*'}
+      parents:{'B*A*D*', 'B*AC*D*', 'C*B*AD*', 'B*AD*C*', 'B*C*AD*'}
+B*AD*C 3
+      children:{'B*ADC', 'BAD*C', 'AD*C', 'B*AC'}
+      parents:{'B*A*D*C', 'B*AD*C*'}
+B*AD*C* 2
+      children:{'BAD*C*', 'B*ADC*', 'AD*C*', 'B*AD*', 'B*AC*', 'B*AD*C'}
+      parents:{'B*A*D*C*'}
+B*ADC 4
+      children:{'ADC', 'BADC'}
+      parents:{'B*A*DC', 'B*AD*C', 'B*ADC*'}
+B*ADC* 3
+      children:{'B*ADC', 'BADC*', 'ADC*', 'B*AD'}
+      parents:{'B*A*DC*', 'B*AD*C*'}
+B*C 4
+      children:{'BC', 'C'}
+      parents:{'B*A*C', 'A*B*C', 'B*CA*', 'D*B*C', 'B*C*', 'B*CD*', 'B*D*C'}
+B*C* 3
+      children:{'B*', 'C*', 'BC*', 'B*C'}
+      parents:{'A*B*C*', 'D*B*C*', 'B*C*A*', 'B*A*C*', '(B*C*)*', 'B*D*C*', 'B*C*D*'}
+B*C*A 3
+      children:{'B*A', 'B*CA', 'BC*A', 'C*A'}
+      parents:{'D*B*C*A', 'B*C*A*', 'B*C*AD*', 'B*C*D*A', 'B*D*C*A'}
+B*C*A* 2
+      children:{'BC*A*', 'C*A*', 'B*CA*', 'B*C*A', 'B*A*', 'B*C*'}
+      parents:{'D*B*C*A*', '(A*B*C*)*', 'B*C*A*D*', 'B*D*C*A*', 'B*C*D*A*'}
+B*C*A*D 2
+      children:{'B*C*D', 'B*C*AD', 'BC*A*D', 'C*A*D', 'B*CA*D', 'B*A*D'}
+      parents:{'B*C*A*D*'}
+B*C*A*D* 1
+      children:{'B*A*D*', 'B*C*A*', 'B*CA*D*', 'BC*A*D*', 'C*A*D*', 'B*C*A*D', 'B*C*D*', 'B*C*AD*'}
+      parents:{'(A*B*C*D*)*'}
+B*C*AD 3
+      children:{'C*AD', 'BC*AD', 'B*AD', 'B*CAD'}
+      parents:{'B*C*AD*', 'B*C*A*D'}
+B*C*AD* 2
+      children:{'B*C*A', 'C*AD*', 'BC*AD*', 'B*C*AD', 'B*CAD*', 'B*AD*'}
+      parents:{'B*C*A*D*'}
+B*C*D 3
+      children:{'C*D', 'B*CD', 'B*D', 'BC*D'}
+      parents:{'B*C*A*D', 'A*B*C*D', 'B*A*C*D', 'B*C*DA*', 'B*C*D*'}
+B*C*D* 2
+      children:{'BC*D*', 'B*D*', 'B*C*D', 'B*C*', 'B*CD*', 'C*D*'}
+      parents:{'B*A*C*D*', 'A*B*C*D*', '(B*C*D*)*', 'B*C*A*D*', 'B*C*D*A*'}
+B*C*D*A 2
+      children:{'BC*D*A', 'B*D*A', 'B*C*A', 'B*CD*A', 'C*D*A', 'B*C*DA'}
+      parents:{'B*C*D*A*'}
+B*C*D*A* 1
+      children:{'C*D*A*', 'B*C*A*', 'B*C*DA*', 'B*CD*A*', 'B*D*A*', 'BC*D*A*', 'B*C*D*A', 'B*C*D*'}
+      parents:{'(A*B*C*D*)*'}
+B*C*DA 3
+      children:{'C*DA', 'BC*DA', 'B*DA', 'B*CDA'}
+      parents:{'B*C*D*A', 'B*C*DA*'}
+B*C*DA* 2
+      children:{'B*CDA*', 'C*DA*', 'B*C*D', 'B*C*DA', 'B*DA*', 'BC*DA*'}
+      parents:{'B*C*D*A*'}
+B*CA 4
+      children:{'BCA', 'CA'}
+      parents:{'B*CA*', 'B*C*A', 'B*CD*A', 'B*D*CA', 'B*CAD*', 'D*B*CA'}
+B*CA* 3
+      children:{'BCA*', 'B*CA', 'CA*', 'B*C'}
+      parents:{'B*CA*D*', 'B*CD*A*', 'B*D*CA*', 'B*C*A*', 'D*B*CA*'}
+B*CA*D 3
+      children:{'CA*D', 'B*CD', 'BCA*D', 'B*CAD'}
+      parents:{'B*CA*D*', 'B*C*A*D'}
+B*CA*D* 2
+      children:{'B*CA*', 'B*CAD*', 'B*CD*', 'BCA*D*', 'CA*D*', 'B*CA*D'}
+      parents:{'B*C*A*D*'}
+B*CAD 4
+      children:{'BCAD', 'CAD'}
+      parents:{'B*C*AD', 'B*CAD*', 'B*CA*D'}
+B*CAD* 3
+      children:{'BCAD*', 'B*CA', 'CAD*', 'B*CAD'}
+      parents:{'B*CA*D*', 'B*C*AD*'}
+B*CD 4
+      children:{'BCD', 'CD'}
+      parents:{'B*CDA*', 'B*C*D', 'A*B*CD', 'B*CD*', 'B*A*CD', 'B*CA*D'}
+B*CD* 3
+      children:{'BCD*', 'B*CD', 'CD*', 'B*C'}
+      parents:{'B*CA*D*', 'B*CD*A*', 'B*A*CD*', 'A*B*CD*', 'B*C*D*'}
+B*CD*A 3
+      children:{'B*CA', 'CD*A', 'BCD*A', 'B*CDA'}
+      parents:{'B*CD*A*', 'B*C*D*A'}
+B*CD*A* 2
+      children:{'B*CDA*', 'CD*A*', 'B*CA*', 'B*CD*A', 'BCD*A*', 'B*CD*'}
+      parents:{'B*C*D*A*'}
+B*CDA 4
+      children:{'CDA', 'BCDA'}
+      parents:{'B*C*DA', 'B*CDA*', 'B*CD*A'}
+B*CDA* 3
+      children:{'CDA*', 'BCDA*', 'B*CD', 'B*CDA'}
+      parents:{'B*CD*A*', 'B*C*DA*'}
+B*D 4
+      children:{'D', 'BD'}
+      parents:{'A*B*D', 'B*D*', 'B*C*D', 'B*DC*', 'C*B*D', 'B*DA*', 'B*A*D'}
+B*D* 3
+      children:{'B*', 'D*', 'B*D', 'BD*'}
+      parents:{'B*A*D*', 'C*B*D*', 'A*B*D*', 'B*D*A*', 'B*D*C*', 'B*C*D*', '(B*D*)*'}
+B*D*A 3
+      children:{'BD*A', 'D*A', 'B*DA', 'B*A'}
+      parents:{'B*D*C*A', 'C*B*D*A', 'B*D*AC*', 'B*C*D*A', 'B*D*A*'}
+B*D*A* 2
+      children:{'D*A*', 'B*D*A', 'B*D*', 'BD*A*', 'B*A*', 'B*DA*'}
+      parents:{'B*D*A*C*', 'C*B*D*A*', 'B*D*C*A*', '(A*B*D*)*', 'B*C*D*A*'}
+B*D*A*C 2
+      children:{'B*A*C', 'D*A*C', 'B*DA*C', 'B*D*AC', 'B*D*C', 'BD*A*C'}
+      parents:{'B*D*A*C*'}
+B*D*A*C* 1
+      children:{'B*D*AC*', 'BD*A*C*', 'B*DA*C*', 'B*A*C*', 'B*D*A*C', 'B*D*A*', 'D*A*C*', 'B*D*C*'}
+      parents:{'(A*B*C*D*)*'}
+B*D*AC 3
+      children:{'B*DAC', 'D*AC', 'BD*AC', 'B*AC'}
+      parents:{'B*D*A*C', 'B*D*AC*'}
+B*D*AC* 2
+      children:{'D*AC*', 'BD*AC*', 'B*D*A', 'B*D*AC', 'B*DAC*', 'B*AC*'}
+      parents:{'B*D*A*C*'}
+B*D*C 3
+      children:{'D*C', 'B*DC', 'BD*C', 'B*C'}
+      parents:{'A*B*D*C', 'B*A*D*C', 'B*D*CA*', 'B*D*C*', 'B*D*A*C'}
+B*D*C* 2
+      children:{'B*D*', 'D*C*', 'B*DC*', 'B*C*', 'B*D*C', 'BD*C*'}
+      parents:{'A*B*D*C*', 'B*D*A*C*', 'B*D*C*A*', '(B*C*D*)*', 'B*A*D*C*'}
+B*D*C*A 2
+      children:{'B*D*A', 'B*C*A', 'B*D*CA', 'D*C*A', 'B*DC*A', 'BD*C*A'}
+      parents:{'B*D*C*A*'}
+B*D*C*A* 1
+      children:{'B*DC*A*', 'B*D*C*A', 'B*C*A*', 'B*D*CA*', 'BD*C*A*', 'B*D*A*', 'D*C*A*', 'B*D*C*'}
+      parents:{'(A*B*C*D*)*'}
+B*D*CA 3
+      children:{'B*DCA', 'B*CA', 'D*CA', 'BD*CA'}
+      parents:{'B*D*CA*', 'B*D*C*A'}
+B*D*CA* 2
+      children:{'B*DCA*', 'BD*CA*', 'B*CA*', 'D*CA*', 'B*D*CA', 'B*D*C'}
+      parents:{'B*D*C*A*'}
+B*DA 4
+      children:{'DA', 'BDA'}
+      parents:{'C*B*DA', 'B*D*A', 'B*DAC*', 'B*C*DA', 'B*DC*A', 'B*DA*'}
+B*DA* 3
+      children:{'B*D', 'B*DA', 'DA*', 'BDA*'}
+      parents:{'C*B*DA*', 'B*DA*C*', 'B*DC*A*', 'B*C*DA*', 'B*D*A*'}
+B*DA*C 3
+      children:{'DA*C', 'B*DAC', 'B*DC', 'BDA*C'}
+      parents:{'B*DA*C*', 'B*D*A*C'}
+B*DA*C* 2
+      children:{'BDA*C*', 'B*DA*C', 'B*DAC*', 'B*DC*', 'B*DA*', 'DA*C*'}
+      parents:{'B*D*A*C*'}
+B*DAC 4
+      children:{'BDAC', 'DAC'}
+      parents:{'B*DAC*', 'B*DA*C', 'B*D*AC'}
+B*DAC* 3
+      children:{'BDAC*', 'B*DAC', 'B*DA', 'DAC*'}
+      parents:{'B*DA*C*', 'B*D*AC*'}
+B*DC 4
+      children:{'DC', 'BDC'}
+      parents:{'B*DCA*', 'A*B*DC', 'B*DA*C', 'B*DC*', 'B*A*DC', 'B*D*C'}
+B*DC* 3
+      children:{'B*D', 'DC*', 'B*DC', 'BDC*'}
+      parents:{'B*A*DC*', 'B*DA*C*', 'B*D*C*', 'A*B*DC*', 'B*DC*A*'}
+B*DC*A 3
+      children:{'B*DCA', 'DC*A', 'B*DA', 'BDC*A'}
+      parents:{'B*DC*A*', 'B*D*C*A'}
+B*DC*A* 2
+      children:{'DC*A*', 'BDC*A*', 'B*DCA*', 'B*DC*', 'B*DC*A', 'B*DA*'}
+      parents:{'B*D*C*A*'}
+B*DCA 4
+      children:{'BDCA', 'DCA'}
+      parents:{'B*D*CA', 'B*DC*A', 'B*DCA*'}
+B*DCA* 3
+      children:{'B*DCA', 'B*DC', 'DCA*', 'BDCA*'}
+      parents:{'B*D*CA*', 'B*DC*A*'}
+BA 5
+      parents:{'D*BA', 'BA*', 'BAC*', 'BAD*', 'C*BA', 'BD*A', 'B*A', '(BA)*', 'BC*A'}
+BA* 4
+      children:{'B', 'BA'}
+      parents:{'BC*A*', 'BA*D*', 'BD*A*', 'C*BA*', 'B*A*', 'BA*C*', 'D*BA*'}
+BA*C 4
+      children:{'BAC', 'BC'}
+      parents:{'B*A*C', 'BA*CD*', 'BA*C*', 'BA*D*C', 'BD*A*C', 'D*BA*C'}
+BA*C* 3
+      children:{'BA*C', 'BA*', 'BAC*', 'BC*'}
+      parents:{'D*BA*C*', 'BA*C*D*', 'B*A*C*', 'BD*A*C*', 'BA*D*C*'}
+BA*C*D 3
+      children:{'BA*D', 'BAC*D', 'BA*CD', 'BC*D'}
+      parents:{'BA*C*D*', 'B*A*C*D'}
+BA*C*D* 2
+      children:{'BC*D*', 'BA*C*D', 'BA*D*', 'BA*CD*', 'BAC*D*', 'BA*C*'}
+      parents:{'B*A*C*D*'}
+BA*CD 4
+      children:{'BCD', 'BACD'}
+      parents:{'BA*CD*', 'B*A*CD', 'BA*C*D'}
+BA*CD* 3
+      children:{'BA*C', 'BACD*', 'BCD*', 'BA*CD'}
+      parents:{'B*A*CD*', 'BA*C*D*'}
+BA*D 4
+      children:{'BAD', 'BD'}
+      parents:{'BA*C*D', 'BA*D*', 'C*BA*D', 'BA*DC*', 'BC*A*D', 'B*A*D'}
+BA*D* 3
+      children:{'BA*D', 'BA*', 'BAD*', 'BD*'}
+      parents:{'B*A*D*', 'C*BA*D*', 'BC*A*D*', 'BA*C*D*', 'BA*D*C*'}
+BA*D*C 3
+      children:{'BA*C', 'BAD*C', 'BA*DC', 'BD*C'}
+      parents:{'B*A*D*C', 'BA*D*C*'}
+BA*D*C* 2
+      children:{'BAD*C*', 'BA*D*', 'BA*C*', 'BA*DC*', 'BA*D*C', 'BD*C*'}
+      parents:{'B*A*D*C*'}
+BA*DC 4
+      children:{'BDC', 'BADC'}
+      parents:{'B*A*DC', 'BA*D*C', 'BA*DC*'}
+BA*DC* 3
+      children:{'BA*D', 'BA*DC', 'BADC*', 'BDC*'}
+      parents:{'B*A*DC*', 'BA*D*C*'}
+BAC 5
+      parents:{'D*BAC', 'BD*AC', 'BA*C', 'B*AC', 'BAC*', 'BAD*C', 'BACD*', '(BAC)*'}
+BAC* 4
+      children:{'BAC', 'BA'}
+      parents:{'BAD*C*', 'BD*AC*', 'BAC*D*', 'BA*C*', 'D*BAC*', 'B*AC*'}
+BAC*D 4
+      children:{'BAD', 'BACD'}
+      parents:{'BA*C*D', 'BAC*D*', 'B*AC*D'}
+BAC*D* 3
+      children:{'BACD*', 'BAC*D', 'BAC*', 'BAD*'}
+      parents:{'BA*C*D*', 'B*AC*D*'}
+BACD 5
+      parents:{'(BACD)*', 'BACD*', 'B*ACD', 'BAC*D', 'BA*CD'}
+BACD* 4
+      children:{'BAC', 'BACD'}
+      parents:{'BA*CD*', 'B*ACD*', 'BAC*D*'}
+BAD 5
+      parents:{'BAC*D', 'BADC*', 'C*BAD', 'BC*AD', 'BAD*', 'B*AD', 'BA*D', '(BAD)*'}
+BAD* 4
+      children:{'BAD', 'BA'}
+      parents:{'BAD*C*', 'BA*D*', 'BAC*D*', 'C*BAD*', 'BC*AD*', 'B*AD*'}
+BAD*C 4
+      children:{'BAC', 'BADC'}
+      parents:{'BA*D*C', 'BAD*C*', 'B*AD*C'}
+BAD*C* 3
+      children:{'BAD*C', 'BAC*', 'BADC*', 'BAD*'}
+      parents:{'B*AD*C*', 'BA*D*C*'}
+BADC 5
+      parents:{'B*ADC', 'BAD*C', 'BA*DC', 'BADC*', '(BADC)*'}
+BADC* 4
+      children:{'BAD', 'BADC'}
+      parents:{'BAD*C*', 'BA*DC*', 'B*ADC*'}
+BC 5
+      parents:{'BCA*', '(BC)*', 'B*C', 'BA*C', 'A*BC', 'BC*', 'D*BC', 'BCD*', 'BD*C'}
+BC* 4
+      children:{'B', 'BC'}
+      parents:{'BC*A*', 'BC*D*', 'B*C*', 'BA*C*', 'D*BC*', 'A*BC*', 'BD*C*'}
+BC*A 4
+      children:{'BCA', 'BA'}
+      parents:{'BC*A*', 'BC*D*A', 'B*C*A', 'BC*AD*', 'D*BC*A', 'BD*C*A'}
+BC*A* 3
+      children:{'BA*', 'BCA*', 'BC*', 'BC*A'}
+      parents:{'B*C*A*', 'D*BC*A*', 'BC*A*D*', 'BD*C*A*', 'BC*D*A*'}
+BC*A*D 3
+      children:{'BA*D', 'BC*AD', 'BCA*D', 'BC*D'}
+      parents:{'BC*A*D*', 'B*C*A*D'}
+BC*A*D* 2
+      children:{'BC*A*', 'BC*D*', 'BA*D*', 'BC*AD*', 'BCA*D*', 'BC*A*D'}
+      parents:{'B*C*A*D*'}
+BC*AD 4
+      children:{'BCAD', 'BAD'}
+      parents:{'BC*A*D', 'B*C*AD', 'BC*AD*'}
+BC*AD* 3
+      children:{'BC*AD', 'BAD*', 'BC*A', 'BCAD*'}
+      parents:{'BC*A*D*', 'B*C*AD*'}
+BC*D 4
+      children:{'BCD', 'BD'}
+      parents:{'BC*D*', 'BA*C*D', 'A*BC*D', 'B*C*D', 'BC*A*D', 'BC*DA*'}
+BC*D* 3
+      children:{'BCD*', 'BC*', 'BC*D', 'BD*'}
+      parents:{'BA*C*D*', 'BC*A*D*', 'A*BC*D*', 'B*C*D*', 'BC*D*A*'}
+BC*D*A 3
+      children:{'BD*A', 'BC*DA', 'BCD*A', 'BC*A'}
+      parents:{'B*C*D*A', 'BC*D*A*'}
+BC*D*A* 2
+      children:{'BC*A*', 'BC*D*', 'BC*D*A', 'BD*A*', 'BCD*A*', 'BC*DA*'}
+      parents:{'B*C*D*A*'}
+BC*DA 4
+      children:{'BCDA', 'BDA'}
+      parents:{'B*C*DA', 'BC*D*A', 'BC*DA*'}
+BC*DA* 3
+      children:{'BCDA*', 'BC*DA', 'BC*D', 'BDA*'}
+      parents:{'B*C*DA*', 'BC*D*A*'}
+BCA 5
+      parents:{'BCA*', 'BCD*A', 'BCAD*', 'B*CA', 'BD*CA', 'D*BCA', '(BCA)*', 'BC*A'}
+BCA* 4
+      children:{'BCA', 'BC'}
+      parents:{'BC*A*', 'BD*CA*', 'B*CA*', 'D*BCA*', 'BCD*A*', 'BCA*D*'}
+BCA*D 4
+      children:{'BCD', 'BCAD'}
+      parents:{'BCA*D*', 'BC*A*D', 'B*CA*D'}
+BCA*D* 3
+      children:{'BCD*', 'BCA*', 'BCA*D', 'BCAD*'}
+      parents:{'B*CA*D*', 'BC*A*D*'}
+BCAD 5
+      parents:{'(BCAD)*', 'BC*AD', 'BCA*D', 'B*CAD', 'BCAD*'}
+BCAD* 4
+      children:{'BCAD', 'BCA'}
+      parents:{'BCA*D*', 'B*CAD*', 'BC*AD*'}
+BCD 5
+      parents:{'B*CD', 'BA*CD', '(BCD)*', 'A*BCD', 'BCDA*', 'BCA*D', 'BC*D', 'BCD*'}
+BCD* 4
+      children:{'BCD', 'BC'}
+      parents:{'BC*D*', 'BA*CD*', 'A*BCD*', 'BCD*A*', 'B*CD*', 'BCA*D*'}
+BCD*A 4
+      children:{'BCA', 'BCDA'}
+      parents:{'BC*D*A', 'BCD*A*', 'B*CD*A'}
+BCD*A* 3
+      children:{'BCD*', 'BCA*', 'BCDA*', 'BCD*A'}
+      parents:{'B*CD*A*', 'BC*D*A*'}
+BCDA 5
+      parents:{'(BCDA)*', 'BCDA*', 'BC*DA', 'B*CDA', 'BCD*A'}
+BCDA* 4
+      children:{'BCD', 'BCDA'}
+      parents:{'B*CDA*', 'BCD*A*', 'BC*DA*'}
+BD 5
+      parents:{'B*D', 'BDC*', 'BDA*', 'C*BD', 'A*BD', 'BD*', '(BD)*', 'BC*D', 'BA*D'}
+BD* 4
+      children:{'B', 'BD'}
+      parents:{'BC*D*', 'BA*D*', 'C*BD*', 'BD*A*', 'B*D*', 'A*BD*', 'BD*C*'}
+BD*A 4
+      children:{'BDA', 'BA'}
+      parents:{'BC*D*A', 'BD*AC*', 'C*BD*A', 'B*D*A', 'BD*A*', 'BD*C*A'}
+BD*A* 3
+      children:{'BD*', 'BA*', 'BD*A', 'BDA*'}
+      parents:{'BC*D*A*', 'C*BD*A*', 'BD*C*A*', 'BD*A*C*', 'B*D*A*'}
+BD*A*C 3
+      children:{'BA*C', 'BD*AC', 'BD*C', 'BDA*C'}
+      parents:{'B*D*A*C', 'BD*A*C*'}
+BD*A*C* 2
+      children:{'BDA*C*', 'BD*AC*', 'BD*A*', 'BA*C*', 'BD*A*C', 'BD*C*'}
+      parents:{'B*D*A*C*'}
+BD*AC 4
+      children:{'BDAC', 'BAC'}
+      parents:{'BD*AC*', 'BD*A*C', 'B*D*AC'}
+BD*AC* 3
+      children:{'BDAC*', 'BD*A', 'BAC*', 'BD*AC'}
+      parents:{'B*D*AC*', 'BD*A*C*'}
+BD*C 4
+      children:{'BC', 'BDC'}
+      parents:{'A*BD*C', 'BD*CA*', 'BA*D*C', 'B*D*C', 'BD*A*C', 'BD*C*'}
+BD*C* 3
+      children:{'BD*', 'BDC*', 'BD*C', 'BC*'}
+      parents:{'BD*A*C*', 'BD*C*A*', 'B*D*C*', 'A*BD*C*', 'BA*D*C*'}
+BD*C*A 3
+      children:{'BD*A', 'BDC*A', 'BC*A', 'BD*CA'}
+      parents:{'BD*C*A*', 'B*D*C*A'}
+BD*C*A* 2
+      children:{'BC*A*', 'BDC*A*', 'BD*A*', 'BD*CA*', 'BD*C*A', 'BD*C*'}
+      parents:{'B*D*C*A*'}
+BD*CA 4
+      children:{'BCA', 'BDCA'}
+      parents:{'B*D*CA', 'BD*CA*', 'BD*C*A'}
+BD*CA* 3
+      children:{'BCA*', 'BD*C', 'BD*CA', 'BDCA*'}
+      parents:{'B*D*CA*', 'BD*C*A*'}
+BDA 5
+      parents:{'(BDA)*', 'BDA*', 'BDC*A', 'BDAC*', 'BC*DA', 'B*DA', 'BD*A', 'C*BDA'}
+BDA* 4
+      children:{'BD', 'BDA'}
+      parents:{'BDA*C*', 'BDC*A*', 'BD*A*', 'B*DA*', 'BC*DA*', 'C*BDA*'}
+BDA*C 4
+      children:{'BDAC', 'BDC'}
+      parents:{'BDA*C*', 'BD*A*C', 'B*DA*C'}
+BDA*C* 3
+      children:{'BDAC*', 'BDC*', 'BDA*C', 'BDA*'}
+      parents:{'B*DA*C*', 'BD*A*C*'}
+BDAC 5
+      parents:{'BDAC*', 'B*DAC', 'BD*AC', 'BDA*C', '(BDAC)*'}
+BDAC* 4
+      children:{'BDAC', 'BDA'}
+      parents:{'B*DAC*', 'BDA*C*', 'BD*AC*'}
+BDC 5
+      parents:{'BDC*', 'BDCA*', 'BA*DC', 'BDA*C', 'A*BDC', 'B*DC', 'BD*C', '(BDC)*'}
+BDC* 4
+      children:{'BDC', 'BD'}
+      parents:{'A*BDC*', 'BDA*C*', 'BDC*A*', 'B*DC*', 'BA*DC*', 'BD*C*'}
+BDC*A 4
+      children:{'BDCA', 'BDA'}
+      parents:{'BD*C*A', 'B*DC*A', 'BDC*A*'}
+BDC*A* 3
+      children:{'BDCA*', 'BDC*', 'BDC*A', 'BDA*'}
+      parents:{'BD*C*A*', 'B*DC*A*'}
+BDCA 5
+      parents:{'B*DCA', '(BDCA)*', 'BDC*A', 'BD*CA', 'BDCA*'}
+BDCA* 4
+      children:{'BDC', 'BDCA'}
+      parents:{'BD*CA*', 'BDC*A*', 'B*DCA*'}
+C 5
+      parents:{'D*C', 'C*', 'B*C', 'CB*', 'CA*', 'CD*', 'A*C'}
+C* 4
+      children:{'C'}
+      parents:{'C*B*', 'A*C*', 'C*A*', 'D*C*', 'B*C*', 'C*D*'}
+C*A 4
+      children:{'A', 'CA'}
+      parents:{'C*A*', 'B*C*A', 'C*AD*', 'C*D*A', 'D*C*A', 'C*AB*', 'C*B*A'}
+C*A* 3
+      children:{'C*', 'CA*', 'A*', 'C*A'}
+      parents:{'C*D*A*', 'B*C*A*', 'C*A*B*', '(A*C*)*', 'C*A*D*', 'C*B*A*', 'D*C*A*'}
+C*A*B 3
+      children:{'CA*B', 'C*AB', 'C*B', 'A*B'}
+      parents:{'C*D*A*B', 'C*A*B*', 'C*A*BD*', 'C*A*D*B', 'D*C*A*B'}
+C*A*B* 2
+      children:{'C*B*', 'CA*B*', 'C*A*', 'C*A*B', 'A*B*', 'C*AB*'}
+      parents:{'D*C*A*B*', '(A*B*C*)*', 'C*A*B*D*', 'C*D*A*B*', 'C*A*D*B*'}
+C*A*B*D 2
+      children:{'A*B*D', 'C*B*D', 'C*AB*D', 'CA*B*D', 'C*A*BD', 'C*A*D'}
+      parents:{'C*A*B*D*'}
+C*A*B*D* 1
+      children:{'C*B*D*', 'C*A*B*D', 'C*A*B*', 'A*B*D*', 'C*A*BD*', 'CA*B*D*', 'C*AB*D*', 'C*A*D*'}
+      parents:{'(A*B*C*D*)*'}
+C*A*BD 3
+      children:{'C*BD', 'C*ABD', 'CA*BD', 'A*BD'}
+      parents:{'C*A*BD*', 'C*A*B*D'}
+C*A*BD* 2
+      children:{'C*ABD*', 'C*BD*', 'A*BD*', 'CA*BD*', 'C*A*B', 'C*A*BD'}
+      parents:{'C*A*B*D*'}
+C*A*D 3
+      children:{'C*AD', 'C*D', 'CA*D', 'A*D'}
+      parents:{'B*C*A*D', 'C*A*DB*', 'C*B*A*D', 'C*A*D*', 'C*A*B*D'}
+C*A*D* 2
+      children:{'C*A*', 'C*AD*', 'A*D*', 'CA*D*', 'C*D*', 'C*A*D'}
+      parents:{'(A*C*D*)*', 'C*B*A*D*', 'B*C*A*D*', 'C*A*B*D*', 'C*A*D*B*'}
+C*A*D*B 2
+      children:{'A*D*B', 'C*A*DB', 'CA*D*B', 'C*D*B', 'C*A*B', 'C*AD*B'}
+      parents:{'C*A*D*B*'}
+C*A*D*B* 1
+      children:{'CA*D*B*', 'C*A*DB*', 'C*A*B*', 'A*D*B*', 'C*AD*B*', 'C*A*D*', 'C*A*D*B', 'C*D*B*'}
+      parents:{'(A*B*C*D*)*'}
+C*A*DB 3
+      children:{'C*DB', 'C*ADB', 'A*DB', 'CA*DB'}
+      parents:{'C*A*D*B', 'C*A*DB*'}
+C*A*DB* 2
+      children:{'C*A*DB', 'CA*DB*', 'A*DB*', 'C*DB*', 'C*A*D', 'C*ADB*'}
+      parents:{'C*A*D*B*'}
+C*AB 4
+      children:{'CAB', 'AB'}
+      parents:{'C*ABD*', 'C*D*AB', 'C*A*B', 'C*AB*', 'D*C*AB', 'C*AD*B'}
+C*AB* 3
+      children:{'C*A', 'C*AB', 'AB*', 'CAB*'}
+      parents:{'D*C*AB*', 'C*A*B*', 'C*AD*B*', 'C*D*AB*', 'C*AB*D*'}
+C*AB*D 3
+      children:{'C*AD', 'C*ABD', 'AB*D', 'CAB*D'}
+      parents:{'C*AB*D*', 'C*A*B*D'}
+C*AB*D* 2
+      children:{'C*ABD*', 'AB*D*', 'C*AD*', 'CAB*D*', 'C*AB*', 'C*AB*D'}
+      parents:{'C*A*B*D*'}
+C*ABD 4
+      children:{'CABD', 'ABD'}
+      parents:{'C*A*BD', 'C*ABD*', 'C*AB*D'}
+C*ABD* 3
+      children:{'C*ABD', 'C*AB', 'ABD*', 'CABD*'}
+      parents:{'C*A*BD*', 'C*AB*D*'}
+C*AD 4
+      children:{'AD', 'CAD'}
+      parents:{'C*AD*', 'B*C*AD', 'C*AB*D', 'C*A*D', 'C*B*AD', 'C*ADB*'}
+C*AD* 3
+      children:{'C*AD', 'AD*', 'CAD*', 'C*A'}
+      parents:{'C*AD*B*', 'C*B*AD*', 'C*AB*D*', 'C*A*D*', 'B*C*AD*'}
+C*AD*B 3
+      children:{'C*ADB', 'CAD*B', 'C*AB', 'AD*B'}
+      parents:{'C*AD*B*', 'C*A*D*B'}
+C*AD*B* 2
+      children:{'C*AD*', 'C*AB*', 'CAD*B*', 'AD*B*', 'C*AD*B', 'C*ADB*'}
+      parents:{'C*A*D*B*'}
+C*ADB 4
+      children:{'CADB', 'ADB'}
+      parents:{'C*A*DB', 'C*ADB*', 'C*AD*B'}
+C*ADB* 3
+      children:{'C*AD', 'C*ADB', 'ADB*', 'CADB*'}
+      parents:{'C*AD*B*', 'C*A*DB*'}
+C*B 4
+      children:{'CB', 'B'}
+      parents:{'C*B*', 'A*C*B', 'C*BD*', 'C*BA*', 'C*D*B', 'C*A*B', 'D*C*B'}
+C*B* 3
+      children:{'CB*', 'B*', 'C*', 'C*B'}
+      parents:{'C*B*D*', 'A*C*B*', 'C*A*B*', 'D*C*B*', '(B*C*)*', 'C*B*A*', 'C*D*B*'}
+C*B*A 3
+      children:{'B*A', 'CB*A', 'C*BA', 'C*A'}
+      parents:{'C*D*B*A', 'C*B*D*A', 'D*C*B*A', 'C*B*A*', 'C*B*AD*'}
+C*B*A* 2
+      children:{'C*B*', 'C*A*', 'C*BA*', 'B*A*', 'C*B*A', 'CB*A*'}
+      parents:{'C*B*A*D*', '(A*B*C*)*', 'C*B*D*A*', 'D*C*B*A*', 'C*D*B*A*'}
+C*B*A*D 2
+      children:{'C*BA*D', 'C*B*D', 'CB*A*D', 'C*A*D', 'C*B*AD', 'B*A*D'}
+      parents:{'C*B*A*D*'}
+C*B*A*D* 1
+      children:{'B*A*D*', 'C*B*AD*', 'C*B*D*', 'C*B*A*D', 'CB*A*D*', 'C*A*D*', 'C*B*A*', 'C*BA*D*'}
+      parents:{'(A*B*C*D*)*'}
+C*B*AD 3
+      children:{'C*AD', 'CB*AD', 'C*BAD', 'B*AD'}
+      parents:{'C*B*A*D', 'C*B*AD*'}
+C*B*AD* 2
+      children:{'C*AD*', 'C*BAD*', 'B*AD*', 'C*B*A', 'CB*AD*', 'C*B*AD'}
+      parents:{'C*B*A*D*'}
+C*B*D 3
+      children:{'C*BD', 'C*D', 'B*D', 'CB*D'}
+      parents:{'A*C*B*D', 'C*B*A*D', 'C*B*DA*', 'C*B*D*', 'C*A*B*D'}
+C*B*D* 2
+      children:{'C*B*', 'CB*D*', 'C*BD*', 'B*D*', 'C*B*D', 'C*D*'}
+      parents:{'C*B*A*D*', 'C*B*D*A*', '(B*C*D*)*', 'C*A*B*D*', 'A*C*B*D*'}
+C*B*D*A 2
+      children:{'C*B*DA', 'C*BD*A', 'B*D*A', 'CB*D*A', 'C*D*A', 'C*B*A'}
+      parents:{'C*B*D*A*'}
+C*B*D*A* 1
+      children:{'CB*D*A*', 'C*D*A*', 'C*B*D*', 'C*B*DA*', 'C*B*D*A', 'C*B*A*', 'B*D*A*', 'C*BD*A*'}
+      parents:{'(A*B*C*D*)*'}
+C*B*DA 3
+      children:{'C*DA', 'C*BDA', 'CB*DA', 'B*DA'}
+      parents:{'C*B*DA*', 'C*B*D*A'}
+C*B*DA* 2
+      children:{'C*B*DA', 'C*DA*', 'C*B*D', 'CB*DA*', 'B*DA*', 'C*BDA*'}
+      parents:{'C*B*D*A*'}
+C*BA 4
+      children:{'CBA', 'BA'}
+      parents:{'D*C*BA', 'C*BD*A', 'C*BA*', 'C*BAD*', 'C*B*A', 'C*D*BA'}
+C*BA* 3
+      children:{'BA*', 'CBA*', 'C*B', 'C*BA'}
+      parents:{'C*BD*A*', 'D*C*BA*', 'C*D*BA*', 'C*B*A*', 'C*BA*D*'}
+C*BA*D 3
+      children:{'BA*D', 'C*BD', 'C*BAD', 'CBA*D'}
+      parents:{'C*B*A*D', 'C*BA*D*'}
+C*BA*D* 2
+      children:{'C*BD*', 'BA*D*', 'C*BA*', 'C*BAD*', 'C*BA*D', 'CBA*D*'}
+      parents:{'C*B*A*D*'}
+C*BAD 4
+      children:{'CBAD', 'BAD'}
+      parents:{'C*B*AD', 'C*BA*D', 'C*BAD*'}
+C*BAD* 3
+      children:{'CBAD*', 'C*BAD', 'BAD*', 'C*BA'}
+      parents:{'C*B*AD*', 'C*BA*D*'}
+C*BD 4
+      children:{'CBD', 'BD'}
+      parents:{'C*BD*', 'C*BA*D', 'C*B*D', 'C*A*BD', 'C*BDA*', 'A*C*BD'}
+C*BD* 3
+      children:{'C*BD', 'CBD*', 'C*B', 'BD*'}
+      parents:{'C*BD*A*', 'C*A*BD*', 'C*B*D*', 'A*C*BD*', 'C*BA*D*'}
+C*BD*A 3
+      children:{'BD*A', 'C*BDA', 'CBD*A', 'C*BA'}
+      parents:{'C*B*D*A', 'C*BD*A*'}
+C*BD*A* 2
+      children:{'C*BD*', 'BD*A*', 'C*BD*A', 'C*BA*', 'CBD*A*', 'C*BDA*'}
+      parents:{'C*B*D*A*'}
+C*BDA 4
+      children:{'CBDA', 'BDA'}
+      parents:{'C*BD*A', 'C*B*DA', 'C*BDA*'}
+C*BDA* 3
+      children:{'C*BD', 'C*BDA', 'CBDA*', 'BDA*'}
+      parents:{'C*B*DA*', 'C*BD*A*'}
+C*D 4
+      children:{'D', 'CD'}
+      parents:{'C*DA*', 'B*C*D', 'C*B*D', 'C*DB*', 'A*C*D', 'C*D*', 'C*A*D'}
+C*D* 3
+      children:{'C*D', 'D*', 'C*', 'CD*'}
+      parents:{'C*D*A*', 'C*B*D*', '(C*D*)*', 'C*A*D*', 'C*D*B*', 'A*C*D*', 'B*C*D*'}
+C*D*A 3
+      children:{'C*DA', 'D*A', 'CD*A', 'C*A'}
+      parents:{'C*D*AB*', 'C*D*B*A', 'C*D*A*', 'C*B*D*A', 'B*C*D*A'}
+C*D*A* 2
+      children:{'CD*A*', 'D*A*', 'C*DA*', 'C*A*', 'C*D*A', 'C*D*'}
+      parents:{'(A*C*D*)*', 'C*B*D*A*', 'C*D*A*B*', 'B*C*D*A*', 'C*D*B*A*'}
+C*D*A*B 2
+      children:{'D*A*B', 'C*D*B', 'C*DA*B', 'C*D*AB', 'C*A*B', 'CD*A*B'}
+      parents:{'C*D*A*B*'}
+C*D*A*B* 1
+      children:{'C*D*A*B', 'C*D*A*', 'C*A*B*', 'C*D*AB*', 'C*D*B*', 'C*DA*B*', 'D*A*B*', 'CD*A*B*'}
+      parents:{'(A*B*C*D*)*'}
+C*D*AB 3
+      children:{'D*AB', 'CD*AB', 'C*DAB', 'C*AB'}
+      parents:{'C*D*A*B', 'C*D*AB*'}
+C*D*AB* 2
+      children:{'CD*AB*', 'C*D*A', 'C*DAB*', 'C*D*AB', 'C*AB*', 'D*AB*'}
+      parents:{'C*D*A*B*'}
+C*D*B 3
+      children:{'C*DB', 'C*B', 'D*B', 'CD*B'}
+      parents:{'C*D*A*B', 'C*D*B*', 'C*D*BA*', 'C*A*D*B', 'A*C*D*B'}
+C*D*B* 2
+      children:{'C*B*', 'CD*B*', 'D*B*', 'C*D*B', 'C*DB*', 'C*D*'}
+      parents:{'(B*C*D*)*', 'C*D*A*B*', 'A*C*D*B*', 'C*A*D*B*', 'C*D*B*A*'}
+C*D*B*A 2
+      children:{'CD*B*A', 'C*DB*A', 'C*D*A', 'D*B*A', 'C*B*A', 'C*D*BA'}
+      parents:{'C*D*B*A*'}
+C*D*B*A* 1
+      children:{'C*D*B*A', 'C*D*A*', 'C*DB*A*', 'C*D*BA*', 'CD*B*A*', 'D*B*A*', 'C*B*A*', 'C*D*B*'}
+      parents:{'(A*B*C*D*)*'}
+C*D*BA 3
+      children:{'C*DBA', 'D*BA', 'C*BA', 'CD*BA'}
+      parents:{'C*D*BA*', 'C*D*B*A'}
+C*D*BA* 2
+      children:{'C*BA*', 'C*D*B', 'C*D*BA', 'CD*BA*', 'D*BA*', 'C*DBA*'}
+      parents:{'C*D*B*A*'}
+C*DA 4
+      children:{'DA', 'CDA'}
+      parents:{'C*B*DA', 'C*DA*', 'C*DB*A', 'C*D*A', 'C*DAB*', 'B*C*DA'}
+C*DA* 3
+      children:{'C*DA', 'C*D', 'CDA*', 'DA*'}
+      parents:{'C*DA*B*', 'C*B*DA*', 'C*D*A*', 'C*DB*A*', 'B*C*DA*'}
+C*DA*B 3
+      children:{'C*DB', 'CDA*B', 'C*DAB', 'DA*B'}
+      parents:{'C*D*A*B', 'C*DA*B*'}
+C*DA*B* 2
+      children:{'C*DA*', 'DA*B*', 'CDA*B*', 'C*DAB*', 'C*DA*B', 'C*DB*'}
+      parents:{'C*D*A*B*'}
+C*DAB 4
+      children:{'DAB', 'CDAB'}
+      parents:{'C*DA*B', 'C*D*AB', 'C*DAB*'}
+C*DAB* 3
+      children:{'C*DA', 'DAB*', 'C*DAB', 'CDAB*'}
+      parents:{'C*DA*B*', 'C*D*AB*'}
+C*DB 4
+      children:{'CDB', 'DB'}
+      parents:{'C*A*DB', 'C*D*B', 'C*DA*B', 'C*DB*', 'A*C*DB', 'C*DBA*'}
+C*DB* 3
+      children:{'C*DB', 'C*D', 'CDB*', 'DB*'}
+      parents:{'A*C*DB*', 'C*D*B*', 'C*DA*B*', 'C*DB*A*', 'C*A*DB*'}
+C*DB*A 3
+      children:{'C*DA', 'C*DBA', 'CDB*A', 'DB*A'}
+      parents:{'C*D*B*A', 'C*DB*A*'}
+C*DB*A* 2
+      children:{'CDB*A*', 'C*DA*', 'C*DB*A', 'C*DB*', 'DB*A*', 'C*DBA*'}
+      parents:{'C*D*B*A*'}
+C*DBA 4
+      children:{'DBA', 'CDBA'}
+      parents:{'C*D*BA', 'C*DB*A', 'C*DBA*'}
+C*DBA* 3
+      children:{'CDBA*', 'C*DBA', 'C*DB', 'DBA*'}
+      parents:{'C*D*BA*', 'C*DB*A*'}
+CA 5
+      parents:{'CD*A', 'CAD*', '(CA)*', 'B*CA', 'C*A', 'CB*A', 'CAB*', 'D*CA', 'CA*'}
+CA* 4
+      children:{'CA', 'C'}
+      parents:{'CA*B*', 'CD*A*', 'C*A*', 'B*CA*', 'D*CA*', 'CB*A*', 'CA*D*'}
+CA*B 4
+      children:{'CB', 'CAB'}
+      parents:{'CA*B*', 'CA*D*B', 'D*CA*B', 'CA*BD*', 'C*A*B', 'CD*A*B'}
+CA*B* 3
+      children:{'CA*B', 'CB*', 'CA*', 'CAB*'}
+      parents:{'C*A*B*', 'CA*D*B*', 'CA*B*D*', 'D*CA*B*', 'CD*A*B*'}
+CA*B*D 3
+      children:{'CA*D', 'CB*D', 'CAB*D', 'CA*BD'}
+      parents:{'CA*B*D*', 'C*A*B*D'}
+CA*B*D* 2
+      children:{'CA*B*', 'CB*D*', 'CAB*D*', 'CA*BD*', 'CA*B*D', 'CA*D*'}
+      parents:{'C*A*B*D*'}
+CA*BD 4
+      children:{'CABD', 'CBD'}
+      parents:{'CA*B*D', 'C*A*BD', 'CA*BD*'}
+CA*BD* 3
+      children:{'CBD*', 'CA*B', 'CA*BD', 'CABD*'}
+      parents:{'C*A*BD*', 'CA*B*D*'}
+CA*D 4
+      children:{'CD', 'CAD'}
+      parents:{'CA*DB*', 'CB*A*D', 'CA*B*D', 'CA*D*', 'C*A*D', 'B*CA*D'}
+CA*D* 3
+      children:{'CA*D', 'CA*', 'CD*', 'CAD*'}
+      parents:{'B*CA*D*', 'CB*A*D*', 'CA*D*B*', 'C*A*D*', 'CA*B*D*'}
+CA*D*B 3
+      children:{'CA*B', 'CAD*B', 'CA*DB', 'CD*B'}
+      parents:{'CA*D*B*', 'C*A*D*B'}
+CA*D*B* 2
+      children:{'CA*B*', 'CD*B*', 'CA*D*B', 'CA*DB*', 'CAD*B*', 'CA*D*'}
+      parents:{'C*A*D*B*'}
+CA*DB 4
+      children:{'CDB', 'CADB'}
+      parents:{'C*A*DB', 'CA*D*B', 'CA*DB*'}
+CA*DB* 3
+      children:{'CA*D', 'CA*DB', 'CDB*', 'CADB*'}
+      parents:{'CA*D*B*', 'C*A*DB*'}
+CAB 5
+      parents:{'CAD*B', 'CD*AB', '(CAB)*', 'CAB*', 'CA*B', 'C*AB', 'D*CAB', 'CABD*'}
+CAB* 4
+      children:{'CAB', 'CA'}
+      parents:{'CA*B*', 'CD*AB*', 'CAB*D*', 'C*AB*', 'CAD*B*', 'D*CAB*'}
+CAB*D 4
+      children:{'CABD', 'CAD'}
+      parents:{'CA*B*D', 'CAB*D*', 'C*AB*D'}
+CAB*D* 3
+      children:{'CABD*', 'CAB*D', 'CAD*', 'CAB*'}
+      parents:{'CA*B*D*', 'C*AB*D*'}
+CABD 5
+      parents:{'C*ABD', '(CABD)*', 'CAB*D', 'CA*BD', 'CABD*'}
+CABD* 4
+      children:{'CABD', 'CAB'}
+      parents:{'C*ABD*', 'CA*BD*', 'CAB*D*'}
+CAD 5
+      parents:{'CB*AD', 'CAD*', 'B*CAD', '(CAD)*', 'C*AD', 'CA*D', 'CAB*D', 'CADB*'}
+CAD* 4
+      children:{'CA', 'CAD'}
+      parents:{'CAB*D*', 'C*AD*', 'B*CAD*', 'CAD*B*', 'CB*AD*', 'CA*D*'}
+CAD*B 4
+      children:{'CADB', 'CAB'}
+      parents:{'CA*D*B', 'C*AD*B', 'CAD*B*'}
+CAD*B* 3
+      children:{'CAD*', 'CAD*B', 'CADB*', 'CAB*'}
+      parents:{'C*AD*B*', 'CA*D*B*'}
+CADB 5
+      parents:{'C*ADB', 'CAD*B', 'CA*DB', 'CADB*', '(CADB)*'}
+CADB* 4
+      children:{'CADB', 'CAD'}
+      parents:{'C*ADB*', 'CAD*B*', 'CA*DB*'}
+CB 5
+      parents:{'CBD*', 'CBA*', 'C*B', 'CB*', '(CB)*', 'D*CB', 'CA*B', 'A*CB', 'CD*B'}
+CB* 4
+      children:{'CB', 'C'}
+      parents:{'C*B*', 'CA*B*', 'CB*D*', 'CD*B*', 'D*CB*', 'A*CB*', 'CB*A*'}
+CB*A 4
+      children:{'CBA', 'CA'}
+      parents:{'CD*B*A', 'CB*D*A', 'D*CB*A', 'C*B*A', 'CB*A*', 'CB*AD*'}
+CB*A* 3
+      children:{'CBA*', 'CB*', 'CA*', 'CB*A'}
+      parents:{'D*CB*A*', 'CB*A*D*', 'CB*D*A*', 'CD*B*A*', 'C*B*A*'}
+CB*A*D 3
+      children:{'CB*AD', 'CA*D', 'CB*D', 'CBA*D'}
+      parents:{'CB*A*D*', 'C*B*A*D'}
+CB*A*D* 2
+      children:{'CB*D*', 'CB*A*D', 'CBA*D*', 'CB*A*', 'CB*AD*', 'CA*D*'}
+      parents:{'C*B*A*D*'}
+CB*AD 4
+      children:{'CBAD', 'CAD'}
+      parents:{'CB*AD*', 'CB*A*D', 'C*B*AD'}
+CB*AD* 3
+      children:{'CBAD*', 'CB*AD', 'CB*A', 'CAD*'}
+      parents:{'CB*A*D*', 'C*B*AD*'}
+CB*D 4
+      children:{'CBD', 'CD'}
+      parents:{'A*CB*D', 'CB*D*', 'C*B*D', 'CB*A*D', 'CB*DA*', 'CA*B*D'}
+CB*D* 3
+      children:{'CBD*', 'CB*', 'CB*D', 'CD*'}
+      parents:{'CB*A*D*', 'CB*D*A*', 'A*CB*D*', 'C*B*D*', 'CA*B*D*'}
+CB*D*A 3
+      children:{'CB*DA', 'CD*A', 'CBD*A', 'CB*A'}
+      parents:{'CB*D*A*', 'C*B*D*A'}
+CB*D*A* 2
+      children:{'CD*A*', 'CB*D*', 'CB*D*A', 'CB*DA*', 'CBD*A*', 'CB*A*'}
+      parents:{'C*B*D*A*'}
+CB*DA 4
+      children:{'CBDA', 'CDA'}
+      parents:{'CB*D*A', 'C*B*DA', 'CB*DA*'}
+CB*DA* 3
+      children:{'CDA*', 'CBDA*', 'CB*DA', 'CB*D'}
+      parents:{'CB*D*A*', 'C*B*DA*'}
+CBA 5
+      parents:{'CBA*', 'CD*BA', 'CBD*A', 'CB*A', '(CBA)*', 'C*BA', 'CBAD*', 'D*CBA'}
+CBA* 4
+      children:{'CB', 'CBA'}
+      parents:{'D*CBA*', 'C*BA*', 'CBA*D*', 'CBD*A*', 'CB*A*', 'CD*BA*'}
+CBA*D 4
+      children:{'CBAD', 'CBD'}
+      parents:{'CB*A*D', 'CBA*D*', 'C*BA*D'}
+CBA*D* 3
+      children:{'CBAD*', 'CBA*', 'CBD*', 'CBA*D'}
+      parents:{'CB*A*D*', 'C*BA*D*'}
+CBAD 5
+      parents:{'CBAD*', 'CB*AD', 'C*BAD', 'CBA*D', '(CBAD)*'}
+CBAD* 4
+      children:{'CBAD', 'CBA'}
+      parents:{'CB*AD*', 'CBA*D*', 'C*BAD*'}
+CBD 5
+      parents:{'CBD*', '(CBD)*', 'C*BD', 'CA*BD', 'A*CBD', 'CBA*D', 'CBDA*', 'CB*D'}
+CBD* 4
+      children:{'CBD', 'CB'}
+      parents:{'CB*D*', 'C*BD*', 'A*CBD*', 'CA*BD*', 'CBA*D*', 'CBD*A*'}
+CBD*A 4
+      children:{'CBDA', 'CBA'}
+      parents:{'CB*D*A', 'C*BD*A', 'CBD*A*'}
+CBD*A* 3
+      children:{'CBD*', 'CBA*', 'CBDA*', 'CBD*A'}
+      parents:{'CB*D*A*', 'C*BD*A*'}
+CBDA 5
+      parents:{'C*BDA', 'CBDA*', 'CB*DA', '(CBDA)*', 'CBD*A'}
+CBDA* 4
+      children:{'CBDA', 'CBD'}
+      parents:{'CBD*A*', 'C*BDA*', 'CB*DA*'}
+CD 5
+      parents:{'B*CD', 'C*D', 'CA*D', 'CDB*', '(CD)*', 'CDA*', 'CB*D', 'CD*', 'A*CD'}
+CD* 4
+      children:{'CD', 'C'}
+      parents:{'CD*A*', 'CB*D*', 'CD*B*', 'A*CD*', 'B*CD*', 'CA*D*', 'C*D*'}
+CD*A 4
+      children:{'CA', 'CDA'}
+      parents:{'CD*A*', 'CD*B*A', 'CD*AB*', 'CB*D*A', 'B*CD*A', 'C*D*A'}
+CD*A* 3
+      children:{'CDA*', 'CA*', 'CD*A', 'CD*'}
+      parents:{'B*CD*A*', 'CB*D*A*', 'C*D*A*', 'CD*B*A*', 'CD*A*B*'}
+CD*A*B 3
+      children:{'CA*B', 'CD*AB', 'CDA*B', 'CD*B'}
+      parents:{'C*D*A*B', 'CD*A*B*'}
+CD*A*B* 2
+      children:{'CA*B*', 'CD*A*', 'CD*B*', 'CD*AB*', 'CDA*B*', 'CD*A*B'}
+      parents:{'C*D*A*B*'}
+CD*AB 4
+      children:{'CAB', 'CDAB'}
+      parents:{'CD*AB*', 'C*D*AB', 'CD*A*B'}
+CD*AB* 3
+      children:{'CD*AB', 'CD*A', 'CDAB*', 'CAB*'}
+      parents:{'C*D*AB*', 'CD*A*B*'}
+CD*B 4
+      children:{'CDB', 'CB'}
+      parents:{'CD*B*', 'A*CD*B', 'CA*D*B', 'C*D*B', 'CD*A*B', 'CD*BA*'}
+CD*B* 3
+      children:{'CB*', 'CDB*', 'CD*', 'CD*B'}
+      parents:{'A*CD*B*', 'C*D*B*', 'CA*D*B*', 'CD*B*A*', 'CD*A*B*'}
+CD*B*A 3
+      children:{'CDB*A', 'CD*A', 'CB*A', 'CD*BA'}
+      parents:{'C*D*B*A', 'CD*B*A*'}
+CD*B*A* 2
+      children:{'CD*A*', 'CDB*A*', 'CD*B*', 'CD*B*A', 'CB*A*', 'CD*BA*'}
+      parents:{'C*D*B*A*'}
+CD*BA 4
+      children:{'CBA', 'CDBA'}
+      parents:{'C*D*BA', 'CD*BA*', 'CD*B*A'}
+CD*BA* 3
+      children:{'CDBA*', 'CBA*', 'CD*BA', 'CD*B'}
+      parents:{'C*D*BA*', 'CD*B*A*'}
+CDA 5
+      parents:{'CB*DA', 'CD*A', '(CDA)*', 'B*CDA', 'CDAB*', 'C*DA', 'CDB*A', 'CDA*'}
+CDA* 4
+      children:{'CD', 'CDA'}
+      parents:{'B*CDA*', 'CDB*A*', 'CD*A*', 'C*DA*', 'CDA*B*', 'CB*DA*'}
+CDA*B 4
+      children:{'CDB', 'CDAB'}
+      parents:{'CDA*B*', 'C*DA*B', 'CD*A*B'}
+CDA*B* 3
+      children:{'CDA*B', 'CDA*', 'CDB*', 'CDAB*'}
+      parents:{'C*DA*B*', 'CD*A*B*'}
+CDAB 5
+      parents:{'(CDAB)*', 'CD*AB', 'CDA*B', 'C*DAB', 'CDAB*'}
+CDAB* 4
+      children:{'CDA', 'CDAB'}
+      parents:{'CD*AB*', 'CDA*B*', 'C*DAB*'}
+CDB 5
+      parents:{'CDA*B', 'CDBA*', 'CA*DB', '(CDB)*', 'CDB*', 'C*DB', 'A*CDB', 'CD*B'}
+CDB* 4
+      children:{'CDB', 'CD'}
+      parents:{'CDB*A*', 'CD*B*', 'CA*DB*', 'CDA*B*', 'C*DB*', 'A*CDB*'}
+CDB*A 4
+      children:{'CDA', 'CDBA'}
+      parents:{'C*DB*A', 'CDB*A*', 'CD*B*A'}
+CDB*A* 3
+      children:{'CDBA*', 'CDB*A', 'CDA*', 'CDB*'}
+      parents:{'C*DB*A*', 'CD*B*A*'}
+CDBA 5
+      parents:{'CDBA*', 'C*DBA', 'CDB*A', '(CDBA)*', 'CD*BA'}
+CDBA* 4
+      children:{'CDB', 'CDBA'}
+      parents:{'CDB*A*', 'CD*BA*', 'C*DBA*'}
+D 5
+      parents:{'A*D', 'B*D', 'DA*', 'C*D', 'D*', 'DC*', 'DB*'}
+D* 4
+      children:{'D'}
+      parents:{'D*B*', 'D*A*', 'B*D*', 'D*C*', 'A*D*', 'C*D*'}
+D*A 4
+      children:{'DA', 'A'}
+      parents:{'D*AC*', 'D*A*', 'B*D*A', 'C*D*A', 'D*B*A', 'D*C*A', 'D*AB*'}
+D*A* 3
+      children:{'D*A', 'D*', 'DA*', 'A*'}
+      parents:{'C*D*A*', '(A*D*)*', 'D*B*A*', 'D*A*C*', 'B*D*A*', 'D*C*A*', 'D*A*B*'}
+D*A*B 3
+      children:{'D*AB', 'D*B', 'A*B', 'DA*B'}
+      parents:{'C*D*A*B', 'D*C*A*B', 'D*A*C*B', 'D*A*B*', 'D*A*BC*'}
+D*A*B* 2
+      children:{'D*B*', 'D*A*', 'DA*B*', 'D*A*B', 'A*B*', 'D*AB*'}
+      parents:{'D*C*A*B*', '(A*B*D*)*', 'C*D*A*B*', 'D*A*B*C*', 'D*A*C*B*'}
+D*A*B*C 2
+      children:{'DA*B*C', 'A*B*C', 'D*A*C', 'D*B*C', 'D*AB*C', 'D*A*BC'}
+      parents:{'D*A*B*C*'}
+D*A*B*C* 1
+      children:{'A*B*C*', 'D*B*C*', 'D*A*B*C', 'DA*B*C*', 'D*A*C*', 'D*AB*C*', 'D*A*BC*', 'D*A*B*'}
+      parents:{'(A*B*C*D*)*'}
+D*A*BC 3
+      children:{'A*BC', 'D*ABC', 'D*BC', 'DA*BC'}
+      parents:{'D*A*BC*', 'D*A*B*C'}
+D*A*BC* 2
+      children:{'D*A*B', 'DA*BC*', 'D*BC*', 'A*BC*', 'D*A*BC', 'D*ABC*'}
+      parents:{'D*A*B*C*'}
+D*A*C 3
+      children:{'DA*C', 'D*C', 'D*AC', 'A*C'}
+      parents:{'D*A*CB*', 'D*B*A*C', 'B*D*A*C', 'D*A*B*C', 'D*A*C*'}
+D*A*C* 2
+      children:{'D*AC*', 'A*C*', 'D*A*', 'D*A*C', 'D*C*', 'DA*C*'}
+      parents:{'(A*C*D*)*', 'B*D*A*C*', 'D*A*B*C*', 'D*A*C*B*', 'D*B*A*C*'}
+D*A*C*B 2
+      children:{'A*C*B', 'D*A*CB', 'D*A*B', 'DA*C*B', 'D*C*B', 'D*AC*B'}
+      parents:{'D*A*C*B*'}
+D*A*C*B* 1
+      children:{'D*AC*B*', 'A*C*B*', 'D*A*CB*', 'DA*C*B*', 'D*C*B*', 'D*A*C*B', 'D*A*C*', 'D*A*B*'}
+      parents:{'(A*B*C*D*)*'}
+D*A*CB 3
+      children:{'D*ACB', 'DA*CB', 'A*CB', 'D*CB'}
+      parents:{'D*A*CB*', 'D*A*C*B'}
+D*A*CB* 2
+      children:{'D*A*CB', 'D*A*C', 'D*ACB*', 'D*CB*', 'DA*CB*', 'A*CB*'}
+      parents:{'D*A*C*B*'}
+D*AB 4
+      children:{'DAB', 'AB'}
+      parents:{'D*A*B', 'C*D*AB', 'D*C*AB', 'D*AB*', 'D*ABC*', 'D*AC*B'}
+D*AB* 3
+      children:{'D*A', 'D*AB', 'DAB*', 'AB*'}
+      parents:{'D*AB*C*', 'D*AC*B*', 'C*D*AB*', 'D*C*AB*', 'D*A*B*'}
+D*AB*C 3
+      children:{'AB*C', 'DAB*C', 'D*AC', 'D*ABC'}
+      parents:{'D*AB*C*', 'D*A*B*C'}
+D*AB*C* 2
+      children:{'AB*C*', 'D*AC*', 'D*AB*C', 'DAB*C*', 'D*AB*', 'D*ABC*'}
+      parents:{'D*A*B*C*'}
+D*ABC 4
+      children:{'ABC', 'DABC'}
+      parents:{'D*AB*C', 'D*A*BC', 'D*ABC*'}
+D*ABC* 3
+      children:{'D*AB', 'ABC*', 'D*ABC', 'DABC*'}
+      parents:{'D*AB*C*', 'D*A*BC*'}
+D*AC 4
+      children:{'AC', 'DAC'}
+      parents:{'D*B*AC', 'D*AC*', 'D*A*C', 'D*ACB*', 'B*D*AC', 'D*AB*C'}
+D*AC* 3
+      children:{'D*A', 'AC*', 'D*AC', 'DAC*'}
+      parents:{'D*AB*C*', 'D*AC*B*', 'D*B*AC*', 'B*D*AC*', 'D*A*C*'}
+D*AC*B 3
+      children:{'DAC*B', 'D*AB', 'AC*B', 'D*ACB'}
+      parents:{'D*AC*B*', 'D*A*C*B'}
+D*AC*B* 2
+      children:{'D*AC*', 'AC*B*', 'D*ACB*', 'DAC*B*', 'D*AB*', 'D*AC*B'}
+      parents:{'D*A*C*B*'}
+D*ACB 4
+      children:{'DACB', 'ACB'}
+      parents:{'D*ACB*', 'D*A*CB', 'D*AC*B'}
+D*ACB* 3
+      children:{'D*ACB', 'DACB*', 'ACB*', 'D*AC'}
+      parents:{'D*AC*B*', 'D*A*CB*'}
+D*B 4
+      children:{'B', 'DB'}
+      parents:{'A*D*B', 'D*B*', 'D*A*B', 'C*D*B', 'D*BC*', 'D*C*B', 'D*BA*'}
+D*B* 3
+      children:{'B*', 'D*', 'D*B', 'DB*'}
+      parents:{'D*B*C*', 'D*C*B*', 'A*D*B*', 'D*B*A*', 'C*D*B*', 'D*A*B*', '(B*D*)*'}
+D*B*A 3
+      children:{'D*BA', 'D*A', 'B*A', 'DB*A'}
+      parents:{'C*D*B*A', 'D*B*AC*', 'D*B*A*', 'D*B*C*A', 'D*C*B*A'}
+D*B*A* 2
+      children:{'D*B*', 'D*A*', 'B*A*', 'D*B*A', 'DB*A*', 'D*BA*'}
+      parents:{'C*D*B*A*', 'D*B*C*A*', 'D*C*B*A*', '(A*B*D*)*', 'D*B*A*C*'}
+D*B*A*C 2
+      children:{'D*B*AC', 'B*A*C', 'D*A*C', 'DB*A*C', 'D*B*C', 'D*BA*C'}
+      parents:{'D*B*A*C*'}
+D*B*A*C* 1
+      children:{'D*B*AC*', 'D*B*A*C', 'D*B*C*', 'B*A*C*', 'D*B*A*', 'D*A*C*', 'D*BA*C*', 'DB*A*C*'}
+      parents:{'(A*B*C*D*)*'}
+D*B*AC 3
+      children:{'D*BAC', 'D*AC', 'DB*AC', 'B*AC'}
+      parents:{'D*B*AC*', 'D*B*A*C'}
+D*B*AC* 2
+      children:{'DB*AC*', 'D*B*AC', 'D*AC*', 'D*B*A', 'D*BAC*', 'B*AC*'}
+      parents:{'D*B*A*C*'}
+D*B*C 3
+      children:{'D*C', 'D*BC', 'DB*C', 'B*C'}
+      parents:{'D*A*B*C', 'D*B*C*', 'D*B*A*C', 'D*B*CA*', 'A*D*B*C'}
+D*B*C* 2
+      children:{'D*B*', 'DB*C*', 'D*C*', 'D*B*C', 'B*C*', 'D*BC*'}
+      parents:{'A*D*B*C*', 'D*B*C*A*', '(B*C*D*)*', 'D*A*B*C*', 'D*B*A*C*'}
+D*B*C*A 2
+      children:{'B*C*A', 'D*BC*A', 'D*B*A', 'D*C*A', 'D*B*CA', 'DB*C*A'}
+      parents:{'D*B*C*A*'}
+D*B*C*A* 1
+      children:{'D*B*CA*', 'D*B*C*', 'B*C*A*', 'D*B*C*A', 'D*BC*A*', 'D*B*A*', 'DB*C*A*', 'D*C*A*'}
+      parents:{'(A*B*C*D*)*'}
+D*B*CA 3
+      children:{'DB*CA', 'B*CA', 'D*CA', 'D*BCA'}
+      parents:{'D*B*CA*', 'D*B*C*A'}
+D*B*CA* 2
+      children:{'B*CA*', 'DB*CA*', 'D*CA*', 'D*BCA*', 'D*B*C', 'D*B*CA'}
+      parents:{'D*B*C*A*'}
+D*BA 4
+      children:{'DBA', 'BA'}
+      parents:{'D*C*BA', 'D*BC*A', 'D*B*A', 'D*BAC*', 'C*D*BA', 'D*BA*'}
+D*BA* 3
+      children:{'D*BA', 'BA*', 'D*B', 'DBA*'}
+      parents:{'D*BA*C*', 'D*BC*A*', 'C*D*BA*', 'D*B*A*', 'D*C*BA*'}
+D*BA*C 3
+      children:{'BA*C', 'DBA*C', 'D*BAC', 'D*BC'}
+      parents:{'D*BA*C*', 'D*B*A*C'}
+D*BA*C* 2
+      children:{'DBA*C*', 'BA*C*', 'D*BAC*', 'D*BC*', 'D*BA*', 'D*BA*C'}
+      parents:{'D*B*A*C*'}
+D*BAC 4
+      children:{'DBAC', 'BAC'}
+      parents:{'D*B*AC', 'D*BAC*', 'D*BA*C'}
+D*BAC* 3
+      children:{'D*BA', 'D*BAC', 'BAC*', 'DBAC*'}
+      parents:{'D*BA*C*', 'D*B*AC*'}
+D*BC 4
+      children:{'DBC', 'BC'}
+      parents:{'A*D*BC', 'D*BCA*', 'D*B*C', 'D*BC*', 'D*A*BC', 'D*BA*C'}
+D*BC* 3
+      children:{'D*B', 'BC*', 'D*BC', 'DBC*'}
+      parents:{'D*BA*C*', 'D*BC*A*', 'D*B*C*', 'D*A*BC*', 'A*D*BC*'}
+D*BC*A 3
+      children:{'D*BA', 'DBC*A', 'BC*A', 'D*BCA'}
+      parents:{'D*BC*A*', 'D*B*C*A'}
+D*BC*A* 2
+      children:{'BC*A*', 'D*BCA*', 'D*BC*A', 'DBC*A*', 'D*BC*', 'D*BA*'}
+      parents:{'D*B*C*A*'}
+D*BCA 4
+      children:{'BCA', 'DBCA'}
+      parents:{'D*BC*A', 'D*B*CA', 'D*BCA*'}
+D*BCA* 3
+      children:{'BCA*', 'D*BC', 'DBCA*', 'D*BCA'}
+      parents:{'D*BC*A*', 'D*B*CA*'}
+D*C 4
+      children:{'DC', 'C'}
+      parents:{'A*D*C', 'D*A*C', 'D*CA*', 'D*C*', 'D*B*C', 'D*CB*', 'B*D*C'}
+D*C* 3
+      children:{'D*C', 'D*', 'C*', 'DC*'}
+      parents:{'D*B*C*', '(C*D*)*', 'D*C*B*', 'D*A*C*', 'D*C*A*', 'A*D*C*', 'B*D*C*'}
+D*C*A 3
+      children:{'D*A', 'DC*A', 'D*CA', 'C*A'}
+      parents:{'D*B*C*A', 'D*C*AB*', 'D*C*B*A', 'B*D*C*A', 'D*C*A*'}
+D*C*A* 2
+      children:{'DC*A*', 'D*A*', 'C*A*', 'D*CA*', 'D*C*', 'D*C*A'}
+      parents:{'(A*C*D*)*', 'D*C*A*B*', 'D*B*C*A*', 'D*C*B*A*', 'B*D*C*A*'}
+D*C*A*B 2
+      children:{'D*A*B', 'D*CA*B', 'C*A*B', 'D*C*AB', 'D*C*B', 'DC*A*B'}
+      parents:{'D*C*A*B*'}
+D*C*A*B* 1
+      children:{'C*A*B*', 'D*C*B*', 'D*C*AB*', 'D*C*A*B', 'D*C*A*', 'D*CA*B*', 'DC*A*B*', 'D*A*B*'}
+      parents:{'(A*B*C*D*)*'}
+D*C*AB 3
+      children:{'D*AB', 'C*AB', 'DC*AB', 'D*CAB'}
+      parents:{'D*C*AB*', 'D*C*A*B'}
+D*C*AB* 2
+      children:{'DC*AB*', 'D*C*A', 'C*AB*', 'D*C*AB', 'D*AB*', 'D*CAB*'}
+      parents:{'D*C*A*B*'}
+D*C*B 3
+      children:{'DC*B', 'C*B', 'D*B', 'D*CB'}
+      parents:{'A*D*C*B', 'D*C*B*', 'D*A*C*B', 'D*C*A*B', 'D*C*BA*'}
+D*C*B* 2
+      children:{'C*B*', 'D*B*', 'D*C*', 'D*CB*', 'DC*B*', 'D*C*B'}
+      parents:{'D*C*A*B*', 'D*C*B*A*', '(B*C*D*)*', 'D*A*C*B*', 'A*D*C*B*'}
+D*C*B*A 2
+      children:{'D*C*BA', 'DC*B*A', 'D*CB*A', 'D*B*A', 'D*C*A', 'C*B*A'}
+      parents:{'D*C*B*A*'}
+D*C*B*A* 1
+      children:{'DC*B*A*', 'D*C*BA*', 'D*C*B*', 'D*B*A*', 'C*B*A*', 'D*C*A*', 'D*CB*A*', 'D*C*B*A'}
+      parents:{'(A*B*C*D*)*'}
+D*C*BA 3
+      children:{'D*BA', 'DC*BA', 'D*CBA', 'C*BA'}
+      parents:{'D*C*B*A', 'D*C*BA*'}
+D*C*BA* 2
+      children:{'D*C*BA', 'DC*BA*', 'D*CBA*', 'C*BA*', 'D*C*B', 'D*BA*'}
+      parents:{'D*C*B*A*'}
+D*CA 4
+      children:{'CA', 'DCA'}
+      parents:{'D*CA*', 'B*D*CA', 'D*CB*A', 'D*C*A', 'D*B*CA', 'D*CAB*'}
+D*CA* 3
+      children:{'D*CA', 'D*C', 'CA*', 'DCA*'}
+      parents:{'D*CB*A*', 'B*D*CA*', 'D*CA*B*', 'D*B*CA*', 'D*C*A*'}
+D*CA*B 3
+      children:{'CA*B', 'D*CAB', 'DCA*B', 'D*CB'}
+      parents:{'D*C*A*B', 'D*CA*B*'}
+D*CA*B* 2
+      children:{'CA*B*', 'D*CA*', 'D*CA*B', 'D*CB*', 'DCA*B*', 'D*CAB*'}
+      parents:{'D*C*A*B*'}
+D*CAB 4
+      children:{'DCAB', 'CAB'}
+      parents:{'D*CA*B', 'D*CAB*', 'D*C*AB'}
+D*CAB* 3
+      children:{'D*CA', 'DCAB*', 'D*CAB', 'CAB*'}
+      parents:{'D*C*AB*', 'D*CA*B*'}
+D*CB 4
+      children:{'CB', 'DCB'}
+      parents:{'D*A*CB', 'D*CBA*', 'A*D*CB', 'D*CA*B', 'D*CB*', 'D*C*B'}
+D*CB* 3
+      children:{'D*C', 'DCB*', 'CB*', 'D*CB'}
+      parents:{'D*CB*A*', 'D*A*CB*', 'D*C*B*', 'D*CA*B*', 'A*D*CB*'}
+D*CB*A 3
+      children:{'D*CA', 'D*CBA', 'DCB*A', 'CB*A'}
+      parents:{'D*CB*A*', 'D*C*B*A'}
+D*CB*A* 2
+      children:{'D*CA*', 'D*CBA*', 'DCB*A*', 'D*CB*A', 'D*CB*', 'CB*A*'}
+      parents:{'D*C*B*A*'}
+D*CBA 4
+      children:{'DCBA', 'CBA'}
+      parents:{'D*CB*A', 'D*C*BA', 'D*CBA*'}
+D*CBA* 3
+      children:{'DCBA*', 'CBA*', 'D*CBA', 'D*CB'}
+      parents:{'D*CB*A*', 'D*C*BA*'}
+DA 5
+      parents:{'DA*', 'D*A', 'DC*A', 'C*DA', 'B*DA', 'DAC*', 'DAB*', '(DA)*', 'DB*A'}
+DA* 4
+      children:{'DA', 'D'}
+      parents:{'DC*A*', 'D*A*', 'C*DA*', 'DA*B*', 'B*DA*', 'DA*C*', 'DB*A*'}
+DA*B 4
+      children:{'DAB', 'DB'}
+      parents:{'DA*B*', 'D*A*B', 'DA*BC*', 'C*DA*B', 'DA*C*B', 'DC*A*B'}
+DA*B* 3
+      children:{'DAB*', 'DA*', 'DA*B', 'DB*'}
+      parents:{'DA*B*C*', 'C*DA*B*', 'DA*C*B*', 'DC*A*B*', 'D*A*B*'}
+DA*B*C 3
+      children:{'DA*C', 'DAB*C', 'DB*C', 'DA*BC'}
+      parents:{'DA*B*C*', 'D*A*B*C'}
+DA*B*C* 2
+      children:{'DA*B*C', 'DB*C*', 'DA*B*', 'DA*BC*', 'DAB*C*', 'DA*C*'}
+      parents:{'D*A*B*C*'}
+DA*BC 4
+      children:{'DBC', 'DABC'}
+      parents:{'DA*B*C', 'D*A*BC', 'DA*BC*'}
+DA*BC* 3
+      children:{'DA*BC', 'DA*B', 'DABC*', 'DBC*'}
+      parents:{'DA*B*C*', 'D*A*BC*'}
+DA*C 4
+      children:{'DC', 'DAC'}
+      parents:{'DA*B*C', 'D*A*C', 'B*DA*C', 'DB*A*C', 'DA*CB*', 'DA*C*'}
+DA*C* 3
+      children:{'DA*C', 'DA*', 'DC*', 'DAC*'}
+      parents:{'DB*A*C*', 'DA*B*C*', 'B*DA*C*', 'DA*C*B*', 'D*A*C*'}
+DA*C*B 3
+      children:{'DAC*B', 'DA*CB', 'DA*B', 'DC*B'}
+      parents:{'DA*C*B*', 'D*A*C*B'}
+DA*C*B* 2
+      children:{'DA*B*', 'DA*CB*', 'DA*C*B', 'DC*B*', 'DAC*B*', 'DA*C*'}
+      parents:{'D*A*C*B*'}
+DA*CB 4
+      children:{'DACB', 'DCB'}
+      parents:{'DA*C*B', 'D*A*CB', 'DA*CB*'}
+DA*CB* 3
+      children:{'DA*C', 'DACB*', 'DA*CB', 'DCB*'}
+      parents:{'D*A*CB*', 'DA*C*B*'}
+DAB 5
+      parents:{'D*AB', 'DC*AB', '(DAB)*', 'DAC*B', 'DA*B', 'DAB*', 'C*DAB', 'DABC*'}
+DAB* 4
+      children:{'DA', 'DAB'}
+      parents:{'DA*B*', 'DC*AB*', 'C*DAB*', 'DAB*C*', 'DAC*B*', 'D*AB*'}
+DAB*C 4
+      children:{'DAC', 'DABC'}
+      parents:{'D*AB*C', 'DA*B*C', 'DAB*C*'}
+DAB*C* 3
+      children:{'DAB*', 'DAB*C', 'DAC*', 'DABC*'}
+      parents:{'D*AB*C*', 'DA*B*C*'}
+DABC 5
+      parents:{'DA*BC', 'DAB*C', 'D*ABC', 'DABC*', '(DABC)*'}
+DABC* 4
+      children:{'DAB', 'DABC'}
+      parents:{'DAB*C*', 'D*ABC*', 'DA*BC*'}
+DAC 5
+      parents:{'B*DAC', 'DAB*C', 'D*AC', 'DB*AC', 'DA*C', 'DAC*', 'DACB*', '(DAC)*'}
+DAC* 4
+      children:{'DA', 'DAC'}
+      parents:{'DB*AC*', 'D*AC*', 'B*DAC*', 'DAB*C*', 'DAC*B*', 'DA*C*'}
+DAC*B 4
+      children:{'DAB', 'DACB'}
+      parents:{'DA*C*B', 'DAC*B*', 'D*AC*B'}
+DAC*B* 3
+      children:{'DAC*B', 'DACB*', 'DAB*', 'DAC*'}
+      parents:{'D*AC*B*', 'DA*C*B*'}
+DACB 5
+      parents:{'DAC*B', 'DACB*', 'D*ACB', 'DA*CB', '(DACB)*'}
+DACB* 4
+      children:{'DAC', 'DACB'}
+      parents:{'DAC*B*', 'D*ACB*', 'DA*CB*'}
+DB 5
+      parents:{'A*DB', 'D*B', 'DC*B', 'DBC*', '(DB)*', 'DA*B', 'C*DB', 'DBA*', 'DB*'}
+DB* 4
+      children:{'D', 'DB'}
+      parents:{'D*B*', 'DB*C*', 'DA*B*', 'A*DB*', 'C*DB*', 'DC*B*', 'DB*A*'}
+DB*A 4
+      children:{'DA', 'DBA'}
+      parents:{'DB*AC*', 'DC*B*A', 'C*DB*A', 'D*B*A', 'DB*C*A', 'DB*A*'}
+DB*A* 3
+      children:{'DA*', 'DBA*', 'DB*', 'DB*A'}
+      parents:{'DB*A*C*', 'DC*B*A*', 'C*DB*A*', 'D*B*A*', 'DB*C*A*'}
+DB*A*C 3
+      children:{'DA*C', 'DBA*C', 'DB*AC', 'DB*C'}
+      parents:{'DB*A*C*', 'D*B*A*C'}
+DB*A*C* 2
+      children:{'DB*AC*', 'DBA*C*', 'DB*C*', 'DB*A*C', 'DA*C*', 'DB*A*'}
+      parents:{'D*B*A*C*'}
+DB*AC 4
+      children:{'DBAC', 'DAC'}
+      parents:{'DB*AC*', 'D*B*AC', 'DB*A*C'}
+DB*AC* 3
+      children:{'DBAC*', 'DAC*', 'DB*AC', 'DB*A'}
+      parents:{'DB*A*C*', 'D*B*AC*'}
+DB*C 4
+      children:{'DC', 'DBC'}
+      parents:{'DA*B*C', 'DB*C*', 'DB*CA*', 'DB*A*C', 'D*B*C', 'A*DB*C'}
+DB*C* 3
+      children:{'DB*C', 'DC*', 'DB*', 'DBC*'}
+      parents:{'DB*A*C*', 'DA*B*C*', 'D*B*C*', 'A*DB*C*', 'DB*C*A*'}
+DB*C*A 3
+      children:{'DB*CA', 'DC*A', 'DBC*A', 'DB*A'}
+      parents:{'D*B*C*A', 'DB*C*A*'}
+DB*C*A* 2
+      children:{'DC*A*', 'DB*C*', 'DB*CA*', 'DBC*A*', 'DB*C*A', 'DB*A*'}
+      parents:{'D*B*C*A*'}
+DB*CA 4
+      children:{'DBCA', 'DCA'}
+      parents:{'DB*CA*', 'DB*C*A', 'D*B*CA'}
+DB*CA* 3
+      children:{'DB*CA', 'DCA*', 'DB*C', 'DBCA*'}
+      parents:{'D*B*CA*', 'DB*C*A*'}
+DBA 5
+      parents:{'DBAC*', 'D*BA', 'DC*BA', 'C*DBA', 'DBC*A', 'DBA*', '(DBA)*', 'DB*A'}
+DBA* 4
+      children:{'DBA', 'DB'}
+      parents:{'DBA*C*', 'DC*BA*', 'DBC*A*', 'DB*A*', 'C*DBA*', 'D*BA*'}
+DBA*C 4
+      children:{'DBC', 'DBAC'}
+      parents:{'DBA*C*', 'DB*A*C', 'D*BA*C'}
+DBA*C* 3
+      children:{'DBA*C', 'DBAC*', 'DBA*', 'DBC*'}
+      parents:{'D*BA*C*', 'DB*A*C*'}
+DBAC 5
+      parents:{'DBA*C', 'D*BAC', 'DBAC*', '(DBAC)*', 'DB*AC'}
+DBAC* 4
+      children:{'DBAC', 'DBA'}
+      parents:{'DB*AC*', 'DBA*C*', 'D*BAC*'}
+DBC 5
+      parents:{'DBA*C', 'DB*C', 'DBC*', 'A*DBC', 'D*BC', 'DBCA*', '(DBC)*', 'DA*BC'}
+DBC* 4
+      children:{'DBC', 'DB'}
+      parents:{'DBA*C*', 'A*DBC*', 'DB*C*', 'DA*BC*', 'DBC*A*', 'D*BC*'}
+DBC*A 4
+      children:{'DBA', 'DBCA'}
+      parents:{'D*BC*A', 'DB*C*A', 'DBC*A*'}
+DBC*A* 3
+      children:{'DBC*A', 'DBA*', 'DBCA*', 'DBC*'}
+      parents:{'D*BC*A*', 'DB*C*A*'}
+DBCA 5
+      parents:{'DB*CA', 'DBC*A', '(DBCA)*', 'DBCA*', 'D*BCA'}
+DBCA* 4
+      children:{'DBC', 'DBCA'}
+      parents:{'DB*CA*', 'DBC*A*', 'D*BCA*'}
+DC 5
+      parents:{'D*C', 'DCB*', 'DB*C', 'DA*C', 'DC*', 'DCA*', '(DC)*', 'B*DC', 'A*DC'}
+DC* 4
+      children:{'D', 'DC'}
+      parents:{'DC*A*', 'DB*C*', 'A*DC*', 'D*C*', 'B*DC*', 'DC*B*', 'DA*C*'}
+DC*A 4
+      children:{'DA', 'DCA'}
+      parents:{'DC*A*', 'DC*B*A', 'DC*AB*', 'D*C*A', 'B*DC*A', 'DB*C*A'}
+DC*A* 3
+      children:{'DC*A', 'DA*', 'DC*', 'DCA*'}
+      parents:{'DB*C*A*', 'DC*B*A*', 'B*DC*A*', 'DC*A*B*', 'D*C*A*'}
+DC*A*B 3
+      children:{'DC*AB', 'DA*B', 'DCA*B', 'DC*B'}
+      parents:{'D*C*A*B', 'DC*A*B*'}
+DC*A*B* 2
+      children:{'DC*A*', 'DA*B*', 'DC*AB*', 'DC*B*', 'DCA*B*', 'DC*A*B'}
+      parents:{'D*C*A*B*'}
+DC*AB 4
+      children:{'DAB', 'DCAB'}
+      parents:{'DC*AB*', 'DC*A*B', 'D*C*AB'}
+DC*AB* 3
+      children:{'DC*A', 'DAB*', 'DC*AB', 'DCAB*'}
+      parents:{'D*C*AB*', 'DC*A*B*'}
+DC*B 4
+      children:{'DCB', 'DB'}
+      parents:{'A*DC*B', 'DC*BA*', 'DA*C*B', 'DC*B*', 'D*C*B', 'DC*A*B'}
+DC*B* 3
+      children:{'DCB*', 'DC*', 'DB*', 'DC*B'}
+      parents:{'A*DC*B*', 'DC*B*A*', 'D*C*B*', 'DA*C*B*', 'DC*A*B*'}
+DC*B*A 3
+      children:{'DC*A', 'DC*BA', 'DCB*A', 'DB*A'}
+      parents:{'DC*B*A*', 'D*C*B*A'}
+DC*B*A* 2
+      children:{'DC*A*', 'DC*B*A', 'DC*BA*', 'DCB*A*', 'DC*B*', 'DB*A*'}
+      parents:{'D*C*B*A*'}
+DC*BA 4
+      children:{'DCBA', 'DBA'}
+      parents:{'DC*BA*', 'D*C*BA', 'DC*B*A'}
+DC*BA* 3
+      children:{'DCBA*', 'DC*BA', 'DBA*', 'DC*B'}
+      parents:{'DC*B*A*', 'D*C*BA*'}
+DCA 5
+      parents:{'(DCA)*', 'DB*CA', 'DC*A', 'B*DCA', 'DCA*', 'D*CA', 'DCAB*', 'DCB*A'}
+DCA* 4
+      children:{'DC', 'DCA'}
+      parents:{'DC*A*', 'B*DCA*', 'DB*CA*', 'D*CA*', 'DCB*A*', 'DCA*B*'}
+DCA*B 4
+      children:{'DCAB', 'DCB'}
+      parents:{'D*CA*B', 'DCA*B*', 'DC*A*B'}
+DCA*B* 3
+      children:{'DCAB*', 'DCB*', 'DCA*', 'DCA*B'}
+      parents:{'D*CA*B*', 'DC*A*B*'}
+DCAB 5
+      parents:{'DCAB*', 'DC*AB', '(DCAB)*', 'D*CAB', 'DCA*B'}
+DCAB* 4
+      children:{'DCAB', 'DCA'}
+      parents:{'DCA*B*', 'DC*AB*', 'D*CAB*'}
+DCB 5
+      parents:{'DCBA*', 'DC*B', 'DCB*', 'A*DCB', 'DA*CB', 'D*CB', '(DCB)*', 'DCA*B'}
+DCB* 4
+      children:{'DC', 'DCB'}
+      parents:{'DCB*A*', 'D*CB*', 'DA*CB*', 'DC*B*', 'DCA*B*', 'A*DCB*'}
+DCB*A 4
+      children:{'DCBA', 'DCA'}
+      parents:{'D*CB*A', 'DCB*A*', 'DC*B*A'}
+DCB*A* 3
+      children:{'DCB*', 'DCB*A', 'DCA*', 'DCBA*'}
+      parents:{'D*CB*A*', 'DC*B*A*'}
+DCBA 5
+      parents:{'DC*BA', 'D*CBA', 'DCB*A', '(DCBA)*', 'DCBA*'}
+DCBA* 4
+      children:{'DCBA', 'DCB'}
+      parents:{'DC*BA*', 'DCB*A*', 'D*CBA*'}
+1207 items in this graph

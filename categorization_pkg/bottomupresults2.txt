@@ -1,0 +1,53 @@
+(A*B)* 1
+      children:{'(AB)*'}
+      parents:{'(A*B*)*'}
+(A*B*)* 0
+      children:{'(AB*)*', 'A*B*', 'B*A*', '(BA*)*', '(A*B)*', '(B*A)*'}
+(AB)* 2
+      children:{'AB'}
+      parents:{'(A*B)*', '(AB*)*'}
+(AB*)* 1
+      children:{'(AB)*'}
+      parents:{'(A*B*)*'}
+(B*A)* 1
+      children:{'(BA)*'}
+      parents:{'(A*B*)*'}
+(BA)* 2
+      children:{'BA'}
+      parents:{'(BA*)*', '(B*A)*'}
+(BA*)* 1
+      children:{'(BA)*'}
+      parents:{'(A*B*)*'}
+A 3
+      parents:{'A*', 'AB*', 'B*A'}
+A* 2
+      children:{'A'}
+      parents:{'A*B*', 'B*A*'}
+A*B 2
+      children:{'B', 'AB'}
+      parents:{'A*B*'}
+A*B* 1
+      children:{'A*B', 'B*', 'A*', 'AB*'}
+      parents:{'(A*B*)*'}
+AB 3
+      parents:{'A*B', '(AB)*', 'AB*'}
+AB* 2
+      children:{'A', 'AB'}
+      parents:{'A*B*'}
+B 3
+      parents:{'BA*', 'A*B', 'B*'}
+B* 2
+      children:{'B'}
+      parents:{'A*B*', 'B*A*'}
+B*A 2
+      children:{'A', 'BA'}
+      parents:{'B*A*'}
+B*A* 1
+      children:{'BA*', 'A*', 'B*', 'B*A'}
+      parents:{'(A*B*)*'}
+BA 3
+      parents:{'BA*', '(BA)*', 'B*A'}
+BA* 2
+      children:{'B', 'BA'}
+      parents:{'B*A*'}
+19 items in this graph

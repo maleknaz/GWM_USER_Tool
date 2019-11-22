@@ -1,0 +1,3 @@
+'student', 'bus', 'Teacher', 'school' 5
+'bus', 'Bus', 'BUS', 'student', 'school', 'school','teacher' 5
+'teacher', 'Student','student', 'bus' 5

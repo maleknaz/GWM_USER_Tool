@@ -1,0 +1,6 @@
+A 5
+AA 5
+BBA 5
+AAB 5
+AABB 5
+ABB 5

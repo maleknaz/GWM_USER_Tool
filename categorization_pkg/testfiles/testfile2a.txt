@@ -1,0 +1,6 @@
+X 5
+XX 5
+YYX 5
+XXY 5
+XXYY 5
+XYY 5

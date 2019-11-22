@@ -1,0 +1,5 @@
+A* 0
+      children:{'A'}
+A 1
+      parents:{'A*'}
+2 items in this graph
